@@ -1,0 +1,10 @@
+---
+sidebar_position: 2
+---
+# 基础前端
+
+>这个目录将会存放一些基础前端开发的文档，如`HTML` `CSS` `JavaScript` 等等。
+
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />

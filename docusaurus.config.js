@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Xingshi Blog',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/custom/favicon_xingshi.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -27,8 +27,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'xingshi012', // Usually your GitHub org/user name.
+  projectName: 'xingshi012.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -47,10 +47,8 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // decide whether to enable breadcrumbs navigation
+          breadcrumbs: false,
         },
         blog: {
           showReadingTime: true,
@@ -58,10 +56,6 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -78,14 +72,22 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/custom/avatar-xingshi.jpg',
       colorMode: {
         respectPrefersColorScheme: true,
       },
+      docs: {
+        sidebar: {
+          // Show hidden sidebar button
+          hideable: true,
+          // collapse all sibling categories when expanding one category
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
-        title: 'My Site',
+        title: 'Xingshi Blog',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Xingshi Blog Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -93,11 +95,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/xingshi012',
             label: 'GitHub',
             position: 'right',
           },
@@ -110,43 +112,98 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Learn Documents Overview ',
                 to: '/docs/intro',
               },
+              {
+                label: 'Basic frontend',
+                to: '/docs/basic-frontend/',
+              },
+              {
+                label: 'Git',
+                to: '/docs/intro',
+              },
+              {
+                label: 'React',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Vue',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Golang',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Python',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Language',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Others',
+                to: '/docs/intro',
+              }
             ],
           },
           {
-            title: 'Community',
+            title: 'Life',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
+                label: '碎碎念',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: '思維思考',
+                to: '/blog',
+              },
+              {
+                label: '公眾號文章同步',
+                to: '/blog',
               },
             ],
           },
+          {
+            title: 'For me',
+            items: [
+              {
+                label: 'About me',
+                href: '/about',
+              },
+              {
+                label: 'mail',
+                href: 'mailto:xingshi_012@outlook.com',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/xingshi012',
+              },
+              {
+                label: 'Telegram',
+                href: 'https://t.me/Xingshi_012',
+              },
+              {
+                label: 'X',
+                href: 'https://x.com/Xingshi_012',
+              },
+              {
+                label: "Youtube",
+                href: 'https://www.youtube.com/@Xingshi12',
+              }
+            ],
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `
+        <span>Copyright © 2025 - ${new Date().getFullYear()} Xingshi Blog.</span><br>
+        <span style="display: flex; align-items: center; justify-content: center;">
+          Built with &nbsp; <a href="https://docusaurus.io/" target="_blank" style="display: flex; align-items: center;">Docusaurus
+          <img src="/img/logo.svg" alt="Docusaurus" title="Docusaurus" style="width: 20px; height: 20px;" />
+          </a>.
+        </span>
+        `,
       },
       prism: {
         theme: prismThemes.github,
