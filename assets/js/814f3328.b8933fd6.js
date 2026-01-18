@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkxingshi_blog=globalThis.webpackChunkxingshi_blog||[]).push([[7472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Test blog","permalink":"/blog/test-blog","unlisted":false,"date":"2026-01-18T00:00:00.000Z"}]}')}}]);

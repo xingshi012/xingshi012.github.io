@@ -8,15 +8,16 @@
     <subtitle>Xingshi Blog Blog</subtitle>
     <icon>https://xingshi.blog/img/custom/favicon_xingshi.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Test blog]]></title>
-        <id>https://xingshi.blog/blog/test-blog</id>
-        <link href="https://xingshi.blog/blog/test-blog"/>
+        <title type="html"><![CDATA[开始]]></title>
+        <id>https://xingshi.blog/blog/begin</id>
+        <link href="https://xingshi.blog/blog/begin"/>
         <updated>2026-01-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a test blog]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="this-is-a-test-blog">This is a test blog<a href="https://xingshi.blog/blog/test-blog#this-is-a-test-blog" class="hash-link" aria-label="Direct link to This is a test blog" title="Direct link to This is a test blog" translate="no">​</a></h2>
+        <summary type="html"><![CDATA[开始]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="开始">开始<a href="https://xingshi.blog/blog/begin#%E5%BC%80%E5%A7%8B" class="hash-link" aria-label="Direct link to 开始" title="Direct link to 开始" translate="no">​</a></h2>
 <blockquote>
-<p>This is a test blog.</p>
-</blockquote>]]></content>
+<p>一个树洞，倾听、记录自己的碎碎念</p>
+</blockquote>
+<p>碎碎念</p>]]></content>
         <author>
             <name>星矢</name>
             <uri>https://xingshi.blog</uri>
