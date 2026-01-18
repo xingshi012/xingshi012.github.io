@@ -2,11 +2,18 @@
 
 ## Install dependencies
 
-```bash
+```
 yarn install
 ```
 ## Start local services
 
-```bash
+```
 yarn start
+```
+## Other
+
+```
+$env:GIT_USER="xingshi012"
+
+yarn deploy  
 ```
