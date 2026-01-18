@@ -1,0 +1,103 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "basic-frontend/css",
+              "path": "/docs/basic-frontend/css",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "basic-frontend/html",
+              "path": "/docs/basic-frontend/html",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "basic-frontend/index",
+              "path": "/docs/basic-frontend/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "basic-frontend/javascript",
+              "path": "/docs/basic-frontend/javascript",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "others/docusaurus-default-doc/congratulations",
+              "path": "/docs/others/docusaurus-default-doc/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "others/docusaurus-default-doc/create-a-blog-post",
+              "path": "/docs/others/docusaurus-default-doc/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "others/docusaurus-default-doc/create-a-document",
+              "path": "/docs/others/docusaurus-default-doc/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "others/docusaurus-default-doc/create-a-page",
+              "path": "/docs/others/docusaurus-default-doc/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "others/docusaurus-default-doc/deploy-your-site",
+              "path": "/docs/others/docusaurus-default-doc/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "others/docusaurus-default-doc/index",
+              "path": "/docs/others/docusaurus-default-doc/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "others/docusaurus-default-doc/manage-docs-versions",
+              "path": "/docs/others/docusaurus-default-doc/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "others/docusaurus-default-doc/markdown-features",
+              "path": "/docs/others/docusaurus-default-doc/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "others/docusaurus-default-doc/translate-your-site",
+              "path": "/docs/others/docusaurus-default-doc/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "others/index",
+              "path": "/docs/others/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    }
+  }
+}

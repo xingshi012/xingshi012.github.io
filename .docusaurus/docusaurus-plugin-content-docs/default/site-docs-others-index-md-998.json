@@ -1,0 +1,26 @@
+{
+  "id": "others/index",
+  "title": "Other",
+  "description": "乱七八糟的其他文档",
+  "source": "@site/docs/others/index.md",
+  "sourceDirName": "others",
+  "slug": "/others/",
+  "permalink": "/docs/others/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 66,
+  "frontMatter": {
+    "sidebar_position": 66
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JavaScript",
+    "permalink": "/docs/basic-frontend/javascript"
+  },
+  "next": {
+    "title": "Docusaurus default document",
+    "permalink": "/docs/others/docusaurus-default-doc/"
+  }
+}

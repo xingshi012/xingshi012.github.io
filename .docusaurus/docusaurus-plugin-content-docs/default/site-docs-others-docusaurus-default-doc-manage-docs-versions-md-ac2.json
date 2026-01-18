@@ -1,0 +1,26 @@
+{
+  "id": "others/docusaurus-default-doc/manage-docs-versions",
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/others/docusaurus-default-doc/manage-docs-versions.md",
+  "sourceDirName": "others/docusaurus-default-doc",
+  "slug": "/others/docusaurus-default-doc/manage-docs-versions",
+  "permalink": "/docs/others/docusaurus-default-doc/manage-docs-versions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/others/docusaurus-default-doc/congratulations"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/docs/others/docusaurus-default-doc/translate-your-site"
+  }
+}
