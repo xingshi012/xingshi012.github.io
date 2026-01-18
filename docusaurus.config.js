@@ -266,7 +266,7 @@ const config = {
         copyright: `
         <span>Copyright © 2025 - ${new Date().getFullYear()} Xingshi Blog.</span><br>
         <span style="display: flex; align-items: center; justify-content: center;">
-          Built with &nbsp; <a href="https://docusaurus.io/" target="_blank" style="display: flex; align-items: center;">Docusaurus
+          Built with &nbsp; <a href="https://docusaurus.io/" target="_blank" class="footer-docusaurus__link">Docusaurus
           <img src="/img/logo.svg" alt="Docusaurus" title="Docusaurus" style="width: 20px; height: 20px;" />
           </a>.
         </span>

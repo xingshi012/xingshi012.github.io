@@ -33,3 +33,118 @@
   border-radius: 100px;
   overflow: hidden;
 }
+
+/* === Adjust color style === */
+
+::selection {
+  color: #ff87ab;
+  background-color: #fafafa;
+}
+
+/* footer B */
+
+[data-theme="light"] .theme-layout-footer {
+      --ifm-footer-background-color: #606c38;
+    --ifm-footer-color: #fff;
+    --ifm-footer-link-color: #fff;
+    --ifm-footer-title-color: #fff;
+    --ifm-footer-link-hover-color: #a5a58d;
+}
+
+[data-theme="dark"] .theme-layout-footer {
+      --ifm-footer-background-color: #034C3C;
+    --ifm-footer-color: #fff;
+    --ifm-footer-link-color: #fff;
+    --ifm-footer-title-color: #fff;
+}
+
+.footer-docusaurus__link {
+  color: var(--ifm-footer-link-color);
+  display: flex;
+  align-items: center;
+}
+
+/* footer E */
+
+/* 
+  * Article
+  * ssn
+  * Think
+  blog list template 
+  color style adjustment
+  *-BEGIN-*
+*/
+
+.blog-list-page,
+.blog-tags-post-list-page,
+.blog-authors-posts-page,
+.blog-post-page {
+  --ifm-link-color: #00a8e8;
+  --ifm-link-hover-color: #00a8e8;
+  --ifm-pagination-nav-color-hover: #00a8e8;
+}
+
+/* Heading */
+
+.blog-list-page h2,
+.blog-tags-post-list-page h2,
+.blog-authors-posts-page h2 { 
+  font-size: 1.8rem;
+  --ifm-link-color: #0c0f0a;
+  --ifm-link-hover-color: #7E6363;
+  border-left: 5px solid #7E6363;
+  border-bottom: 2px solid #7E6363;
+  padding: 0px 0 2px 8px;
+}
+
+.blog-list-page .avatar__name,
+.blog-tags-post-list-page .avatar__name,
+.blog-authors-posts-page .avatar__name,
+.blog-post-page .avatar__name {
+  --ifm-link-color: #0c0f0a;
+  --ifm-link-hover-color: #0c0f0a;
+}
+
+.blog-list-page .avatar small,
+.blog-tags-post-list-page .avatar small,
+.blog-authors-posts-page article .avatar small,
+.blog-authors-posts-page .theme-layout-main .avatar + a,
+.blog-post-page .avatar small {
+  display: none;
+}
+
+.blog-list-page h2:hover a,
+.blog-tags-post-list-page h2:hover a,
+.blog-authors-posts-page h2:hover a {
+  text-decoration: unset;
+}
+
+.blog-list-page article footer div:last-child a:hover,
+.blog-tags-post-list-page article footer div:last-child a:hover,
+.blog-authors-posts-page article footer div:last-child a:hover {
+  text-decoration: unset;
+  color: var(--ifm-link-hover-color);
+  background-color: transparent;
+  border: 1px solid var(--ifm-link-hover-color);
+}
+
+.blog-list-page article footer div:last-child a,
+.blog-tags-post-list-page article footer div:last-child a,
+.blog-authors-posts-page article footer div:last-child a {
+  color: #fff;
+  background: var(--ifm-link-color);
+  border-color: var(--ifm-link-color);
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+}
+
+/* 
+  * Article
+  * ssn
+  * Think
+  blog template 
+  color style adjustment
+  *-END-*
+*/
+
+/* === Adjust color style === */

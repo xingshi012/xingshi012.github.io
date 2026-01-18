@@ -7,5 +7,6 @@ xingshi:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/all-xingshi-articles'
   socials:
-    x: Xingshi012
     github: xingshi012
+    youtube: Xingshi12
+    telgram: https://t.me/Xingshi_012
