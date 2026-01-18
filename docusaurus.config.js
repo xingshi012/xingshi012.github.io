@@ -52,7 +52,7 @@ const config = {
           breadcrumbs: false,
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -66,6 +66,48 @@ const config = {
           customCss: './src/css/custom.css',
         },
       }),
+    ],
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'think',
+        showReadingTime: false,
+        feedOptions: {
+          type: ['rss', 'atom'],
+          xslt: true,
+        },
+        editUrl: undefined,
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'warn',
+        path: "./think",
+        routeBasePath: "/think",
+        blogSidebarCount: 'ALL',
+        blogSidebarTitle: '思维思考',
+        showLastUpdateTime: false
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'articles',
+        showReadingTime: false,
+        feedOptions: {
+          type: ['rss', 'atom'],
+          xslt: true,
+        },
+        editUrl: undefined,
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'warn',
+        path: "./articles",
+        routeBasePath: "/articles",
+        blogSidebarCount: 'ALL',
+        blogSidebarTitle: '文章',
+        showLastUpdateTime: false
+      },
     ],
   ],
 
@@ -89,7 +131,7 @@ const config = {
         title: 'Xingshi Blog',
         logo: {
           alt: 'Xingshi Blog Logo',
-          src: 'img/logo.svg',
+          src: 'img/custom/avatar-xingshi.jpg',
         },
         items: [
           {
@@ -98,7 +140,30 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'dropdown',
+            label: 'Life',
+            position: 'left',
+            items: [
+              {
+                label: '碎碎念',
+                to: '/blog',
+              },
+              {
+                label: '文章',
+                to: '/articles',
+              },
+              {
+                label: '思维思考',
+                to: '/think',
+              },
+            ],
+          },
+          {
+            href: 'https://www.google.com/search?q=site%3Axingshi.blog',
+            label: 'Search',
+            position: 'right',
+          },
           {
             href: 'https://github.com/xingshi012',
             label: 'GitHub',
@@ -122,7 +187,7 @@ const config = {
               },
               {
                 label: 'Git',
-                to: '/docs/intro',
+                to: '/docs/git',
               },
               {
                 label: 'React',
@@ -158,12 +223,12 @@ const config = {
                 to: '/blog',
               },
               {
-                label: '思維思考',
-                to: '/blog',
+                label: '文章',
+                to: '/articles',
               },
               {
-                label: '公眾號文章同步',
-                to: '/blog',
+                label: '思維思考',
+                to: '/think',
               },
             ],
           },
