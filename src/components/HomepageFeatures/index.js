@@ -4,48 +4,58 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Docs',
+    Svg: require('@site/static/img/custom/hp-feat-docs.svg').default,
+    url: '/docs/intro',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        存放自己学过的、想学的、正在学习的一些技术，以及总结出来的文档笔记
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'ssn',
+    url: '/blog',
+    Svg: require('@site/static/img/custom/hp-feat-ssn.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        记录自己某时的突发奇想，碎碎念
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Articles',
+    url: '/articles',
+    Svg: require('@site/static/img/custom/hp-feat-article.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        一些之前写过的文章归档
+      </>
+    ),
+  },
+  {
+    title: 'Think',
+    url: '/think',
+    Svg: require('@site/static/img/custom/hp-feat-think.svg').default,
+    description: (
+      <>
+        思维思考
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, url}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    <a href={ url } target='_blank' className={clsx('col col--3',styles['hpfeatCard'])}>
+      <div className={ clsx('text--center', styles['featureSvg'])}>
+        <Svg role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </div>
-    </div>
+    </a>
   );
 }
 

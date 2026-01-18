@@ -3,9 +3,34 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  height: 75vh;
+}
+
+.hpfeatCard {
+  color: var(--ifm-navbar-link-color);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .featureSvg {
   height: 200px;
   width: 200px;
+  overflow: hidden;
+  transition: all .3s ease;
+}
+
+.featureSvg svg { 
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media(min-width: 997px) {
+  .hpfeatCard:hover .featureSvg {
+    transform: scale(0.9);
+    transition: all .3s ease;
+  }
 }

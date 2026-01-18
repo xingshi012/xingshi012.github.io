@@ -61,6 +61,7 @@ const config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          blogSidebarTitle: '碎碎念',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -146,15 +147,15 @@ const config = {
             position: 'left',
             items: [
               {
-                label: '碎碎念',
+                label: 'ssn',
                 to: '/blog',
               },
               {
-                label: '文章',
+                label: 'Articles',
                 to: '/articles',
               },
               {
-                label: '思维思考',
+                label: 'Think',
                 to: '/think',
               },
             ],
@@ -219,15 +220,15 @@ const config = {
             title: 'Life',
             items: [
               {
-                label: '碎碎念',
+                label: 'ssn',
                 to: '/blog',
               },
               {
-                label: '文章',
+                label: 'Articles',
                 to: '/articles',
               },
               {
-                label: '思維思考',
+                label: 'Think',
                 to: '/think',
               },
             ],
