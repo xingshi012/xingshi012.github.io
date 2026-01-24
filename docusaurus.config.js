@@ -120,6 +120,12 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true,
       },
+      metadata: [
+        {
+          name: 'description', 
+          content: '一个树洞，倾听、记录自己的碎碎念。 | One place, to record and improve myself.'
+        }
+      ],
       docs: {
         sidebar: {
           // Show hidden sidebar button
