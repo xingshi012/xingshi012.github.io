@@ -4,15 +4,27 @@
         <title>Xingshi Blog Blog</title>
         <link>https://xingshi.blog/blog</link>
         <description>Xingshi Blog Blog</description>
-        <lastBuildDate>Sun, 18 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[使用指南]]></title>
+            <link>https://xingshi.blog/blog/use-guide</link>
+            <guid>https://xingshi.blog/blog/use-guide</guid>
+            <pubDate>Tue, 20 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[一些实用的 docusaurus 自带的使用指南]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p>一些实用的 <code>docusaurus</code> 自带的使用指南</p>
+</blockquote>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">/ blog # blog模板默认博客目录</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">/archive # blog模板默认归档目录</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  &gt; eg. /blog/archive</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">/tags # blog模板默认标签目录</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  &gt; eg. /blog/tag</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">/docs # docs模板默认文档目录</span><br></span></code></pre></div></div>]]></content:encoded>
+            <category>Useful</category>
+        </item>
+        <item>
             <title><![CDATA[开始]]></title>
             <link>https://xingshi.blog/blog/begin</link>
             <guid>https://xingshi.blog/blog/begin</guid>
-            <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 11 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[一个树洞，倾听、记录自己的碎碎念]]></description>
             <content:encoded><![CDATA[<blockquote>
 <p>一个树洞，倾听、记录自己的碎碎念</p>

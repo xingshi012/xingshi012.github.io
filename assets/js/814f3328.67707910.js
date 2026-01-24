@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkxingshi_blog=globalThis.webpackChunkxingshi_blog||[]).push([[7472],{5513(e){e.exports=JSON.parse('{"title":"\u788e\u788e\u5ff5","items":[{"title":"\u5f00\u59cb","permalink":"/blog/begin","unlisted":false,"date":"2026-01-18T00:00:00.000Z"}]}')}}]);
