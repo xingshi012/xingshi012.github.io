@@ -49,7 +49,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           // decide whether to enable breadcrumbs navigation
-          breadcrumbs: false,
+          breadcrumbs: true,
         },
         blog: {
           showReadingTime: false,
@@ -61,7 +61,13 @@ const config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-          blogSidebarTitle: '碎碎念',
+          blogSidebarTitle: 'Blog | 博客',
+          blogTitle: 'Xingshi Blog & Article',
+          blogDescription: '星矢的碎碎念 & 文章',
+          blogSidebarCount: 'ALL',
+          pageBasePath: 'page',
+          postsPerPage: 10,
+
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -69,48 +75,7 @@ const config = {
       }),
     ],
   ],
-  plugins: [
-    [
-      '@docusaurus/plugin-content-blog',
-      {
-        id: 'think',
-        showReadingTime: false,
-        feedOptions: {
-          type: ['rss', 'atom'],
-          xslt: true,
-        },
-        editUrl: undefined,
-        onInlineTags: 'warn',
-        onInlineAuthors: 'warn',
-        onUntruncatedBlogPosts: 'warn',
-        path: "./think",
-        routeBasePath: "/think",
-        blogSidebarCount: 'ALL',
-        blogSidebarTitle: '思维思考',
-        showLastUpdateTime: false
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-blog',
-      {
-        id: 'articles',
-        showReadingTime: false,
-        feedOptions: {
-          type: ['rss', 'atom'],
-          xslt: true,
-        },
-        editUrl: undefined,
-        onInlineTags: 'warn',
-        onInlineAuthors: 'warn',
-        onUntruncatedBlogPosts: 'warn',
-        path: "./articles",
-        routeBasePath: "/articles",
-        blogSidebarCount: 'ALL',
-        blogSidebarTitle: '文章',
-        showLastUpdateTime: false
-      },
-    ],
-  ],
+  plugins: [],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -149,20 +114,20 @@ const config = {
           },
           {
             type: 'dropdown',
-            label: 'Life',
+            label: 'Blog',
             position: 'left',
             items: [
               {
-                label: 'ssn',
+                label: 'Target',
                 to: '/blog',
               },
               {
-                label: 'Articles',
-                to: '/articles',
+                label: 'Archive',
+                to: '/blog/archive',
               },
               {
-                label: 'Think',
-                to: '/think',
+                label: 'Category',
+                to: '/blog/tags',
               },
             ],
           },
@@ -226,17 +191,9 @@ const config = {
             title: 'Life',
             items: [
               {
-                label: 'ssn',
+                label: 'Blog',
                 to: '/blog',
-              },
-              {
-                label: 'Articles',
-                to: '/articles',
-              },
-              {
-                label: 'Think',
-                to: '/think',
-              },
+              }
             ],
           },
           {
@@ -255,8 +212,8 @@ const config = {
                 href: 'https://github.com/xingshi012',
               },
               {
-                label: 'Telegram',
-                href: 'https://t.me/Xingshi_012',
+                label: 'Telegram Channel',
+                href: 'https://t.me/xingshi_channel',
               },
               {
                 label: 'X',
