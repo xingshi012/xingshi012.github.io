@@ -1,7 +1,9 @@
 ---
 slug: leave-school-one-year
 title: 原来已经离开校园一年了
+date: 2025-08-26
 authors: xingshi
+tags: [article]
 ---
 
 好久没有静下心来去认真敲一篇文章了，总结下吧 过去的这一年--从走出校园的日子 到现在，过的真快呀！转眼间已经过去了一年了--离开校园的温床 步入社会的"枷锁"，这一年 经历了一些事情，虽然不是什么大事 但是也是学到了一些东西，涨了些见识吧 也成长了不少吧，细细道来吧 :)
@@ -21,3 +23,7 @@ authors: xingshi
 ```
 console.log('end')
 ```
+
+**原文:**
+
+https://mp.weixin.qq.com/s/NE59wJHHApoaT35iydHgxA

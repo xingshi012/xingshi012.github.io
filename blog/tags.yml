@@ -1,9 +1,29 @@
 hello:
   label: Hello
   permalink: /hello
-  description: Hello tag description
+  description: Hello
+
+summary:
+  label: Summary
+  permalink: /summary
+  description: Year-end summary
+
+article:
+  label: Article
+  permalink: /article
+  description: some article
 
 useful:
-  label: Useful
+  label: useful
   permalink: /useful
-  description: Useful tag description
+  description: some useful tips
+
+season:
+  label: Season
+  permalink: /season
+  description: Season articles
+
+game:
+  label: Game
+  permalink: /game
+  description: About game articles
