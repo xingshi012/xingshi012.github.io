@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkxingshi_blog=globalThis.webpackChunkxingshi_blog||[]).push([[2358],{3618(l){l.exports=JSON.parse('{"tags":[{"label":"Summary","permalink":"/articles/tags/summary","description":"Summary","count":2},{"label":"Hello","permalink":"/articles/tags/hello","description":"Hello tag description","count":1}]}')}}]);
