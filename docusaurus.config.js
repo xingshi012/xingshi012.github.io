@@ -118,7 +118,7 @@ const config = {
             position: 'left',
             items: [
               {
-                label: 'Target',
+                label: 'More',
                 to: '/blog',
               },
               {
@@ -137,7 +137,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/xingshi012',
+            href: 'https://github.com/xingshi012/xingshi012.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -147,49 +147,12 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Content',
             items: [
               {
-                label: 'Learn Documents Overview ',
+                label: 'Docs ',
                 to: '/docs/intro',
               },
-              {
-                label: 'Basic frontend',
-                to: '/docs/basic-frontend/',
-              },
-              {
-                label: 'Git',
-                to: '/docs/git',
-              },
-              {
-                label: 'React',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Vue',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Golang',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Python',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Language',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Others',
-                to: '/docs/intro',
-              }
-            ],
-          },
-          {
-            title: 'Life',
-            items: [
               {
                 label: 'Blog',
                 to: '/blog',
@@ -200,31 +163,36 @@ const config = {
             title: 'For me',
             items: [
               {
-                label: 'About me',
-                href: '/',
-              },
-              {
-                label: 'mail',
-                href: 'mailto:xingshi_012@outlook.com',
+                label: 'About',
+                href: '/about',
               },
               {
                 label: 'GitHub',
                 href: 'https://github.com/xingshi012',
               },
               {
+                label: "Youtube",
+                href: 'https://www.youtube.com/@Xingshi12',
+              },
+              {
                 label: 'Telegram Channel',
                 href: 'https://t.me/xingshi_channel',
               },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
               {
-                label: 'X',
-                href: 'https://x.com/Xingshi_012',
+                label: 'Content Usage',
+                href: '/content-usage'
               },
               {
-                label: "Youtube",
-                href: 'https://www.youtube.com/@Xingshi12',
+                label: 'References',
+                href: '/references'
               }
             ],
-          }
+          },
         ],
         copyright: `
         <span>Copyright © 2025 - ${new Date().getFullYear()} Xingshi Blog.</span><br>
