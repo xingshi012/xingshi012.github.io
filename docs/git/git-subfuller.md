@@ -317,7 +317,7 @@ git commit -m "新提交"  # main 分支指针会移动
 git tag v1.0.0          # v1.0.0 永远指向当前提交
 ```
 
-Reference:
+*Reference:*
 
 https://github.com/xingshi012/learnGit
 
