@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Git 较全常用命令总结
+# Git 常用命令总结
 
 > 这次结合 `claude` 又总结了写常用命令，应该算是比较全的了
 
@@ -26,7 +26,7 @@ git clone <url>  # 克隆远程仓库
 ```
 git status  # 查看工作区状态
 git add <file>  # 添加文件到暂存区
-git add .  # 添加所有修改
+git add .  # 添加所有修改，常用
 git commit -m "提交说明"  # 提交到本地仓库
 git commit -am "提交说明"  # add 和 commit 合并（仅对已跟踪文件有效）
 ```
@@ -158,7 +158,7 @@ git restore <file>
 
 ### 回退更改
 
-`git reset` 命令会回退代码到指定位置，`--hard` 会删除commit记录和修改，**慎用**
+`git reset` 命令会回退代码到指定位置，`--hard` 会删除commit记录和修改，**慎用**\
 `git revert` 命令也是回退代码到指定位置，但是会创建新的提交，建议使用
 
 > `git revert` 把代码回退到了指定位置，如果想回退到指定的 commit id 跟上 id 即可
@@ -169,13 +169,15 @@ git reset --hard <commit-id>
 
 git revert <commit-id>
 ```
+git reset三种模式：
 
-> [!NOTE] git revert三种模式
-> ```
-> git reset --soft HEAD^ # 只移动 HEAD，保留暂存区和工作区 
-> git reset --mixed HEAD^ # 移动 HEAD，重置暂存区，保留工作区（默认） 
-> git reset --hard HEAD^ # 全部重置，修改会丢失
-> ```
+- `git reset --soft HEAD^` # 只移动 HEAD，保留暂存区和工作区 
+- `git reset --mixed HEAD^` # 移动 HEAD，重置暂存区，保留工作区（默认） 
+- `git reset --hard HEAD^` # 全部重置，修改会丢失
+
+:::info
+在 IDEA 中使用GUI可视化的 git 去执行回退代码时，会无法同步回退的代码到线上，这时候需要执行 `git push -f`
+:::
 
 ## 暂存工作
 
@@ -317,7 +319,42 @@ git commit -m "新提交"  # main 分支指针会移动
 git tag v1.0.0          # v1.0.0 永远指向当前提交
 ```
 
-*Reference:*
+## 建立本地与远程商店联系
+> 一个简易流程，建立本地的项目代码与远程GitHub仓库之间的联系
+
+```
+# clone GitHub空仓库到本地
+git clone https://github.com/xingshi012/silver-memory.git
+
+# 添加README.md文件
+echo "# silver-memory" >> README.md
+
+# 初始化本地git仓库
+git init
+
+# 添加md文件到暂存区
+git add README.md
+
+# 添加注释
+git commit -m "first commit"
+
+# 创建main分支
+git branch -M main
+# 建立本地与远程仓库的联系
+git remote add origin https://github.com/xingshi012/silver-memory.git
+
+# push代码到线上Github
+git push -u origin main
+```
+
+---
+*References:*
+
+https://git-scm.com/
+
+https://git-scm.com/book/en/v2
+
+https://github.com/xingshi012/silver-memory
 
 https://github.com/xingshi012/learnGit
 
