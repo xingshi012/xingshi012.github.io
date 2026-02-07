@@ -1,0 +1,69 @@
+---
+sidebar_position: 2
+---
+
+# HTML
+
+> 如果把前端页面比作人体，`html` 就是人体的的”骨架“
+
+HTML 是前端开发最基础的内容，所有的网页最终展示的效果都是 HTML 的 DOM 结构。
+
+HTML 的标签分为 `行内元素` `块级元素` 和 `行内块元素`，分为 `单标签` 和 `双标签` 两种。
+
+日常开发中，常用的标签有 `div标签`  `span标签`  `p标签`  `a标签`  `h系列标签`  `img标签`  `video标签` `input标签` 等等。
+
+HTML开发最好讲求语义化，比如一个网站的首页：顶部 header 可以用 `header标签` 里面用nav标签做一个导航，主体内容包在 `main标签` 里，
+然后 `main标签` 里，每一个部分可以是一个 `section标签`包裹，每个 `section标签` 里面的内容 最大的那个标题可以用 `h标签` 然后内容用 `p标签` 按钮用 `button标签`，
+这样层级写出来大概是这样的，语义化比较清晰，易于 SEO 、无障碍优化等。
+
+```
+<body>
+  <header>
+    <nav>
+      <h1>
+        <a href="#">
+          <img src="logo.png" alt="Logo" title="Logo" />
+        </a>
+      </h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Heading</h2>
+      <div>
+        <p>
+          This is some description.
+        </p>
+        <button>Get Started</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <p>Copyright </p>
+  </footer>
+</body>
+```
+
+HTML 的标签上会有一些属性，基础的属性 比如 `class` `id` 属性，可以通过 `css选择器` 去选择，然后应用一些样式，根据不同的 HTML 标签，还会有一些其他的属性，比如 `img` 标签的 `src` `alt` `title` 属性等。
+一些特殊属性，比如 `aria-label` `tabindex`，用于无障碍的，一些 data-开头的自定义属性，可以结合 `js` 去实现一些小功能的。
+
+一个自己上学期间写的第一个网页，现在看起来很凑活，不过能写出来，也还算可以了吧： [点击跳转我写的第一个网页](/my-first-webpage.html)
+
+:::tip
+** 现在的前端开发，用原生三大件的开发已经很少了，基本上都是用框架去开发，所以这些标签也基本不太会用到了，不过毕竟是前端基础的东西，这肯定是要懂得一些的。
+:::
+
+*References:*\
+https://developer.mozilla.org/en-US/docs/Web/HTML
