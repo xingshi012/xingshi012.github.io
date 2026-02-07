@@ -10,5 +10,7 @@ title: References
 - 图片压缩工具：[Squoosh](https://squoosh.app/)
 - 网站基于[Docusaurus](https://docusaurus.io/)构建
 - 网站logo、作者头像来源时间久远，现在已经找不到了，好多年前手机上存储的QQ头像
+- Blog 页面的 heading 字体：[也字工厂小石头](https://www.yefont.com/fontDetails/172)
+- Blog 页面的 body 字体：[小赖字体](https://github.com/lxgw/kose-font)
 
 **其他在文档参考的内容也会在底部 `References` 中给出。*
