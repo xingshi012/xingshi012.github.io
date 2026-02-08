@@ -276,6 +276,10 @@
   align-items: center;
 }
 
+.footer-xingshi-telgram__link {
+  color: var(--ifm-footer-link-color);
+}
+
 /* 
   footer style adjustment
   *-END-*
