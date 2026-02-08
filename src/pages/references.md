@@ -5,12 +5,28 @@ title: References
 # References
 
 本网站在构建时，用到一些互联网的资源，在此列举出来：
-- 首页columns 部分图片来源：[pixelsmarket](https://pixels.market/illustrations)
-- 网站ico制作网站：[比特虫](https://www.bitbug.net/)
+- 首页 columns 部分图片来源：[pixelsmarket](https://pixels.market/illustrations)
+- 网站 ico 制作网站：[比特虫](https://www.bitbug.net/)
 - 图片压缩工具：[Squoosh](https://squoosh.app/)
-- 网站基于[Docusaurus](https://docusaurus.io/)构建
+- 图床用自己的另一个 [GitHub仓库 blog-images](https://github.com/xingshi012/blog-images) 做的，比较简易
+- 网站基于 [Docusaurus](https://docusaurus.io/) 构建
 - 网站logo、作者头像来源时间久远，现在已经找不到了，好多年前手机上存储的QQ头像
-- Blog 页面的 heading 字体：[也字工厂小石头](https://www.yefont.com/fontDetails/172)
-- Blog 页面的 body 字体：[小赖字体](https://github.com/lxgw/kose-font)
+- [Blog 页面](/blog)的 heading 字体：[也字工厂小石头](https://www.yefont.com/fontDetails/172)
+- [Blog 页面](/blog)的 body 字体：[小赖字体](https://github.com/lxgw/kose-font)
 
-**其他在文档参考的内容也会在底部 `References` 中给出。*
+**其他在文档参考的内容也会在底部 `References` 中给出*\
+**所有资源仅供学习交流 如有侵权请联系 [星矢（Xingshi）](https://t.me/Xingshi_012)删除, 邮箱：Xingshi_012@outlook.com*
+
+---
+When building this website, some Internet resources were used, which are listed here:
+- Homepage columns section images sources: [pixelsmarket](https://pixels.market/illustrations)
+- Website ico making website: [比特虫](https://www.bitbug.net/)
+- Image compression tool: [Squoosh](https://squoosh.app/)
+- Image hosting using my own another [GitHub repository blog-images](https://github.com/xingshi012/blog-images) made, somewhat simple
+- Website built on [Docusaurus](https://docusaurus.io/)
+- Website logo, author avatar source time long ago, has been unable to find, many years ago mobile storage QQ avatar
+- [Blog page](/blog) heading font: [也字工厂小石头](https://www.yefont.com/fontDetails/172)
+- [Blog page](/blog) body font: [小赖字体](https://github.com/lxgw/kose-font)
+
+**Other content referenced in the document will also be listed in the `References` section*\
+**All resources are for learning and exchange only. If there is infringement, please contact [星矢（Xingshi）](https://t.me/Xingshi_012)to delete, email: Xingshi_012@outlook.com*
