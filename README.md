@@ -19,3 +19,5 @@ $env:GIT_USER="xingshi012"
 
 yarn deploy  
 ```
+
+http://localhost:3000/
