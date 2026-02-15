@@ -8,6 +8,8 @@ tags: [article, ai]
 
 > 大学期间一次关于 AI 的演讲，做 PPT 时写的文稿
 
+![about-ai-speech01.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-04-19/about-ai-speech01.webp?raw=true)
+
 <!-- truncate -->
 
 谈一谈关于AI的吧

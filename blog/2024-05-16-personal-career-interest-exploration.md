@@ -8,6 +8,8 @@ tags: [ssn]
 
 > 一篇很早之前写的文字，关于自己喜欢什么类型工作的
 
+![personal-career-interest-exploration01.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-05-16/personal-career-interest-exploration01.webp?raw=true)
+
 <!-- truncate -->
 
 什么是我想要的：\
