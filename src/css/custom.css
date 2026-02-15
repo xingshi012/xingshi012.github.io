@@ -235,6 +235,10 @@
   --ye-font-stone-font-family: 'yeFontStone';
 }
 
+* {
+  font-family: var(--mi-sans-font-family, sans-seif);
+}
+
 .blog-list-page .theme-layout-main *,
 .blog-tags-post-list-page .theme-layout-main *,
 .blog-authors-posts-page .theme-layout-main *,
