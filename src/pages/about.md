@@ -23,11 +23,9 @@ title: About
 
 ## Contact me | 联系我
 如果对我感兴趣的话，可以联系我：
-- Wechat： Xingshi_012
 - Email: Xingshi_012@outlook.com
 - Telegram： [@Xingshi_012](https://t.me/Xingshi_012)
 
 当然 还有一些我的社交媒体，如果你感兴趣的话，也可以关注：
-- Douyin： Xingshi_012
 - YouTube： [@Xingshi_012](https://www.youtube.com/@Xingshi12)
 - Telegram Channel： [Xingshi's channel](https://t.me/xingshi_channel)

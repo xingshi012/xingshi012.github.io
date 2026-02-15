@@ -3,7 +3,7 @@ slug: about-qiandouluo
 title: 关于钱斗罗
 date: 2021-08-31
 authors: xingshi
-tags: [game]
+tags: [game, ssn]
 unlisted: true
 ---
 
