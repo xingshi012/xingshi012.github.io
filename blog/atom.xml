@@ -177,6 +177,70 @@
         <category label="Article" term="Article"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[个人职业兴趣探索]]></title>
+        <id>https://xingshi.blog/blog/personal-career-interest-exploration</id>
+        <link href="https://xingshi.blog/blog/personal-career-interest-exploration"/>
+        <updated>2024-05-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[一篇很早之前写的文字，关于自己喜欢什么类型工作的]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>一篇很早之前写的文字，关于自己喜欢什么类型工作的</p>
+</blockquote>
+<p>什么是我想要的：<br>
+<!-- -->身体健康，心情愉悦，有一份好工作，没有啥生活压力</p>
+<p>什么是我喜欢的工作：<br>
+<!-- -->web前端工程师，数媒相关的，剪视频，摄影师？坐办公室的活</p>
+<p>我的兴趣爱好有哪些：<br>
+<!-- -->旅行，摄影？随兴而起的一些想法并付诸于行动</p>
+<p>希望获得的工作：<br>
+<!-- -->类似于企业驻外技术支持的那种工作，比如企业开发了一款软件，然后你去帮企业销售，然后帮助客户解决一些问题，天天出差，满足了自己喜欢旅游的兴趣爱好的同时，还工作挣到了钱</p>]]></content>
+        <author>
+            <name>星矢</name>
+            <uri>https://xingshi.blog</uri>
+        </author>
+        <category label="Ssn" term="Ssn"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于 AI 的一次演讲]]></title>
+        <id>https://xingshi.blog/blog/about-ai-speech</id>
+        <link href="https://xingshi.blog/blog/about-ai-speech"/>
+        <updated>2024-04-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[大学期间一次关于 AI 的演讲，做 PPT 时写的文稿]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>大学期间一次关于 AI 的演讲，做 PPT 时写的文稿</p>
+</blockquote>
+<p>谈一谈关于AI的吧</p>
+<p>这是 <a href="https://docs.google.com/presentation/d/1GIAXyPvGwZSmmVHFKyT9pYZyh_Py8rBf/edit?usp=sharing&amp;ouid=108772158160784499463&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener noreferrer" class="">PPT 链接</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="首先肯定是概念介绍">首先，肯定是概念介绍<a href="https://xingshi.blog/blog/about-ai-speech#%E9%A6%96%E5%85%88%E8%82%AF%E5%AE%9A%E6%98%AF%E6%A6%82%E5%BF%B5%E4%BB%8B%E7%BB%8D" class="hash-link" aria-label="Direct link to 首先，肯定是概念介绍" title="Direct link to 首先，肯定是概念介绍" translate="no">​</a></h2>
+<p>人工智能（Artificial Intelligence），英文缩写为AI。是新一轮科技革命和产业变革的重要驱动力量，是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门新的技术科学</p>
+<p>人工智能其实一直是咱们身边的技术，可能在十年前，他还鲜为人知，或者说只能叫得上名字来，不知道是干啥的，</p>
+<p>爱情公寓电冰箱片段，</p>
+<p>但是现在，小到手机上的语音助手，扫地机器人，大到无人驾驶汽车，都是人工智能技术的范畴</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="一些应用领域">一些应用领域：<a href="https://xingshi.blog/blog/about-ai-speech#%E4%B8%80%E4%BA%9B%E5%BA%94%E7%94%A8%E9%A2%86%E5%9F%9F" class="hash-link" aria-label="Direct link to 一些应用领域：" title="Direct link to 一些应用领域：" translate="no">​</a></h2>
+<p>农业方面，智能农业的应用场景包括智能农机、智能植保、智能灌溉、智能养殖等。利用智能技术，农业生产可以实现自动化、智能化、精细化，提升农业生产效率，降低成本，提高农产品质量和安全性，促进农业可持续发展</p>
+<p>金融领域，帮你对大量的用户数据进行分析，将数据可视化展示，当然这不只是AI还包括大数据技术智能金融是人工智能技术在金融行业中的应用，它的发展推动了金融业的数字化和智能化。AI可以应用在金融风险管理、投资决策、信用评估、客户服务等方面，提高了金融机构的效率和准确性。<br>
+<!-- -->例如，AI可以分析大量的金融数据和市场情报，预测股票、货币、商品和债券等的价格波动，为投资者提供更精准的投资建议和风险控制策略</p>
+<p>智能家居，扫地机器人，智能音箱（小度、小爱音响）通过语音来控制家里面的灯、窗帘，空调电视等等家具的使用</p>
+<p>智能医疗是将人工智能技术应用于医疗领域，通过智能化技术解决医疗领域中的各种问题，包括医疗数据分析、疾病诊断、药物研发、健康管理等方面</p>
+<p>现在AI被大家熟知我想大概是因为他的一个分支，生成式AI的爆火，22年底，人工智能对话聊天机器人ChatGPT推出，迅速在社交媒体上走红，短短5天，注册用户数就超过100万</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>生成式AI是什么呢？</p><p>生成式人工智能（GAI）是利用复杂的算法、模型和规则，从大规模数据集中学习，以创造新的原创内容的人工智能技术。这项技术能够创造文本、图片、声音、视频和代码等多种类型的内容，全面超越了传统软件的数据处理和分析能力
+用来做什么的</p><p>比如文生图，文生视频，以对话形式帮助你解答问题</p></div></div>
+<p>ChatGPT爆火之后，国内外科技大厂，以及一些手机厂商都开始了AI的研发，比如，国内的，百度的文心一言，字节跳动（抖音的母公司）的豆包，国外的有Google的Gemini，还有个比较出名的Claude</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="未来展望">未来展望<a href="https://xingshi.blog/blog/about-ai-speech#%E6%9C%AA%E6%9D%A5%E5%B1%95%E6%9C%9B" class="hash-link" aria-label="Direct link to 未来展望" title="Direct link to 未来展望" translate="no">​</a></h2>
+<p>AI发展前景一片大好，相对应的，关于AI的研发岗位也多了不少，适当增加了一些就业岗位，生活越来越便利了，比如自动驾驶的普及，解放双手，舒舒服服的想去哪就去哪</p>
+<p>但是即然有好的一方面就有弊端，AI技术的不断发展，势必会造成一些传统的岗位消失，比如咱程序员行业，可能随着生成式AI的发展，一些“码农”可能就会被淘汰了，</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="面临的风险和挑战">面临的风险和挑战<a href="https://xingshi.blog/blog/about-ai-speech#%E9%9D%A2%E4%B8%B4%E7%9A%84%E9%A3%8E%E9%99%A9%E5%92%8C%E6%8C%91%E6%88%98" class="hash-link" aria-label="Direct link to 面临的风险和挑战" title="Direct link to 面临的风险和挑战" translate="no">​</a></h2>
+<p>AI只是一个工具，不能过分依赖AI，容易让人产生懒惰心里，不思进取，
+国家可以通过利用相关法律法规来规避可能带来的风险
+使用生成式AI的话，可能会造成一些数据的泄露</p>
+<p>比如，金融行业从业者，将一些敏感数据交给AI工具，则会造成公司的损失</p>]]></content>
+        <author>
+            <name>星矢</name>
+            <uri>https://xingshi.blog</uri>
+        </author>
+        <category label="Article" term="Article"/>
+        <category label="AI" term="AI"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[文启]]></title>
         <id>https://xingshi.blog/blog/begin</id>
         <link href="https://xingshi.blog/blog/begin"/>
@@ -206,7 +270,18 @@
         <summary type="html"><![CDATA[乱七八糟汇总]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>乱七八糟汇总</p>
-</blockquote>]]></content>
+</blockquote>
+<ul>
+<li class="">
+<p><code>/blog</code>  blog模板默认博客目录</p>
+</li>
+<li class="">
+<p><code>/blog/archive</code> blog模板默认归档目录</p>
+</li>
+<li class="">
+<p><code>/blog/tags</code> blog模板默认标签目录</p>
+</li>
+</ul>]]></content>
         <author>
             <name>星矢</name>
             <uri>https://xingshi.blog</uri>
