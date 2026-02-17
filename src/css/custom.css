@@ -239,7 +239,7 @@
   font-family: var(--mi-sans-font-family, sans-seif);
 }
 
-.blog-list-page .theme-layout-main *,
+/* .blog-list-page .theme-layout-main *,
 .blog-tags-post-list-page .theme-layout-main *,
 .blog-authors-posts-page .theme-layout-main *,
 .blog-post-page .theme-layout-main * {
@@ -250,9 +250,13 @@
 .blog-tags-post-list-page .theme-layout-main h2 a,
 .blog-authors-posts-page .theme-layout-main h2 a,
 .blog-post-page div.theme-layout-main h1,
-.blog-authors-posts-page .avatar__name h1 { 
+.blog-authors-posts-page .avatar__name h1,
+.blog-list-page .theme-layout-main strong,
+.blog-tags-post-list-page .theme-layout-main strong,
+.blog-authors-posts-page .theme-layout-main strong,
+.blog-post-page .theme-layout-main strong { 
   font-family: var(--ye-font-stone-font-family, sans-seif);
-}
+} */
 
 /* 
   footer style adjustment
