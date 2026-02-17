@@ -37,3 +37,8 @@ ai:
   label: AI
   permalink: /ai
   description: About AI | 关于人工智能的文章
+
+think:
+  label: Think
+  permalink: /think
+  description: About think | 思维思考的文章
