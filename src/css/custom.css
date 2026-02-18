@@ -28,11 +28,6 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-.navbar__logo {
-  border-radius: 100px;
-  overflow: hidden;
-}
-
 @font-face {
   font-family: 'MiSans';
   src: url('/fonts/MiSans-Thin.ttf') format('truetype');
@@ -257,6 +252,11 @@
 .blog-post-page .theme-layout-main strong { 
   font-family: var(--ye-font-stone-font-family, sans-seif);
 } */
+
+.blog-post-page div.theme-layout-main h1,
+.blog-authors-posts-page .avatar__name h1 {
+  font-size: 2rem;
+}
 
 /* 
   footer style adjustment
