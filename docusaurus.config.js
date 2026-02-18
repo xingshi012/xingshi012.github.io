@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Xingshi Blog',
-  tagline: 'Dinosaurs are cool',
+  tagline: '一个树洞，倾听、记录自己的碎碎念。 | One place, to record and improve myself.',
   favicon: 'img/custom/favicon_xingshi.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -67,7 +67,6 @@ const config = {
           blogSidebarCount: 'ALL',
           pageBasePath: 'page',
           postsPerPage: 10,
-
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -83,7 +82,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/custom/avatar-xingshi.jpg',
       colorMode: {
-        respectPrefersColorScheme: true,
+        respectPrefersColorScheme: false,
       },
       metadata: [
         {
@@ -103,7 +102,7 @@ const config = {
         title: 'Xingshi Blog',
         logo: {
           alt: 'Xingshi Blog Logo',
-          src: 'img/custom/avatar-xingshi.jpg',
+          src: 'img/custom/logo.png',
         },
         items: [
           {
