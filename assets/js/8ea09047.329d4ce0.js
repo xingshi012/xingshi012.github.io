@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkxingshi_blog=globalThis.webpackChunkxingshi_blog||[]).push([[9385],{600(e){e.exports=JSON.parse('{"metadata":{"permalink":"/blog/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":13,"previousPage":"/blog","blogDescription":"\u661f\u77e2\u7684\u788e\u788e\u5ff5 & \u6587\u7ae0","blogTitle":"Xingshi Blog & Article"}}')}}]);

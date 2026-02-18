@@ -4,17 +4,35 @@
         <title>Xingshi Blog Blog</title>
         <link>https://xingshi.blog/blog</link>
         <description>Xingshi Blog Blog</description>
-        <lastBuildDate>Tue, 17 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[现阶段(2026-02-18)自己感兴趣的前端开发岗位]]></title>
+            <link>https://xingshi.blog/blog/front-end-positions-thinking-2026-02-18</link>
+            <guid>https://xingshi.blog/blog/front-end-positions-thinking-2026-02-18</guid>
+            <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[刚刚搜了下 南孚国际站官网 ，感觉自己对于前端开发和目前自己的未来职业规划又有了些小思考了呢，大概写点东西吧]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p>刚刚搜了下 <a href="https://nanfu.global/" target="_blank" rel="noopener noreferrer" class="">南孚国际站官网</a> ，感觉自己对于前端开发和目前自己的未来职业规划又有了些小思考了呢，大概写点东西吧</p>
+</blockquote>
+<p>目前也是已经工作了一年多了呢，对自己心仪的工作岗位又有了点更清晰的认知了呢，好像自己喜欢的不是传统的对接口 传数据给后端，用UI框架去构建一个千篇一律的后台管理系统前端页面的岗位</p>
+<p>自己喜欢的 更多的是有交互性 审美到位 一个精致的网站吧，自己这一年多的工作所接触的也是电商独立站的定制化开发，接触过很多审美在线 交互性很强的网站，个人也是比较喜欢这类的网站吧</p>
+<p>感觉那种后台管理平台的网站前端有些许枯燥呢，不过要是想学技术的话，估计还是传统的前端对技术的提升更多吧，先把基础打牢吧 React Vue这些主流的框架肯定是必不可少的</p>
+<p>另外试着提升自己吧 还是说要往这个专注前端页面的前端开发工程师靠拢，去尝试学习一些Canvas、svg动画、threeJS、WebGL等视觉前端技术，以及一些可能会接触的设计相关的知识</p>
+<p>后续找工作的话，还是要琢磨着去找那种能够构建一个有趣的网站的岗位吧，感觉能够搭建出一个审美在线的网站，成就感也是满满的呢</p>]]></content:encoded>
+            <category>Ssn</category>
+        </item>
         <item>
             <title><![CDATA[2026年春晚浅思 - AI机器人]]></title>
             <link>https://xingshi.blog/blog/2026-chunwan-think</link>
             <guid>https://xingshi.blog/blog/2026-chunwan-think</guid>
             <pubDate>Tue, 17 Feb 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[昨晚看了下2026年的央视春晚，感受颇深吧，科技感满满 花哨的舞美，但同时也延伸出一些感想，关于AI（人工智能）和机器人相关的，细细道来吧]]></description>
-            <content:encoded><![CDATA[<p>昨晚看了下2026年的央视春晚，感受颇深吧，科技感满满 花哨的舞美，但同时也延伸出一些感想，关于AI（人工智能）和机器人相关的，细细道来吧</p>
+            <content:encoded><![CDATA[<blockquote>
+<p>昨晚看了下2026年的央视春晚，感受颇深吧，科技感满满 花哨的舞美，但同时也延伸出一些感想，关于AI（人工智能）和机器人相关的，细细道来吧</p>
+</blockquote>
 <p>春晚，一个除夕夜八点黄金档在央视平台播出的栏目，多种艺术形式交织在一起，给人们带来欢乐的同时也弘扬了中华传统文化；AI,&nbsp;<em><u>Artificial intelligence</u></em>&nbsp;人工智能的缩写，近几年很火的一种技术，恰当的使用可以帮助人们去提升工作效率 节省重复的体力劳动</p>
 <p>今年（2026年）的春晚，在观看时首先是感到科技感满满吧：字节跳动公司的火山引擎提供的云计算 去协作完成了春晚节目里一些复杂的动画效果，四家机器人公司（松延动力 宇树科技 魔法动力 银河通用）深入春晚节目之中 体现了我国机器人领域发展成果，彰显了我国的科技硬实力在不断增强，另外许多国家或地区转播春晚 也折射出了我国在世界的话语权在愈发提升，中华传统文化正在世界范围内被宣传和接受</p>
 <p>其次呢，自然是感觉有点不好的体验呢，<strong>不知何时开始 央视春晚追求的已经不再是一个“欢乐”的代言词，转而是彰显我国科技硬实力 宣传我国传统文化的一个媒介</strong>，多了些优美的画面 但同时也少了些许“内核”吧，今年的春晚 印象中记起的两个小品： 一个是反映了短视频平台视频的一些弊端 视频平台算法的推荐机制 去给人们推送感兴趣的内容 使人们对此产生依赖 同时延伸出了一些现实的问题 挑拨男女对立之类的； 还有个小品是反映出了社会基层治理过程中的问题——一些公务员“只会说漂亮话 不会干实事”</p>
