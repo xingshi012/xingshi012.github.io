@@ -258,6 +258,21 @@
   font-size: 2rem;
 }
 
+.comment-system__section hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.blog-list-page .comment-system__section,
+.blog-authors-posts-page .comment-system__section,
+.blog-tags-post-list-page .comment-system__section {
+  display: none;
+}
+
+[data-theme="dark"] .comment-system__section .gsc-reactions-count {
+  color: #fff;
+}
+
 /* 
   footer style adjustment
   *-BEGIN-*

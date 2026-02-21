@@ -42,3 +42,8 @@ think:
   label: Think
   permalink: /think
   description: About think | 思维思考的文章
+
+giscus:
+  label: Giscus
+  permalink: /giscus
+  description: About giscus
