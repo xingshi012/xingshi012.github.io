@@ -1,9 +1,12 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
   width: 100%;
-  min-height: 85vh;
+  padding: 2rem;
+}
+
+.HPFeaturesRow {
+  display: flex;
 }
 
 .hpfeatCard {
@@ -13,24 +16,41 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  max-width: 33.333%;
 }
 
 .featureSvg {
-  min-height: 45vh;
+  height: 50%;
   width: auto;
   overflow: hidden;
   transition: all .3s ease;
 }
 
+.hpfeatCard svg,
 .featureSvg img { 
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-@media(min-width: 997px) {
+@media (hover: hover) and (pointer: fine) {
   .hpfeatCard:hover .featureSvg {
-    transform: scale(0.9);
-    transition: all .3s ease;
+    transform: scale(0.95);
+    transition: all .3s ease-in-out;
   }
+}
+
+@media (max-width: 996px) {
+  .features {
+    padding: 3rem 1rem 1rem;
+  }
+
+    .HPFeaturesRow {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hpfeatCard {
+      max-width: 80%;
+    }
 }

@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Docs',
-    image: require('@site/static/img/custom/hp-feat-doc.webp').default,
+    Svg: require('@site/static/img/custom/undraw_programming_doc.svg').default, 
     url: '/docs/intro',
     description: (
       <>
@@ -16,7 +16,7 @@ const FeatureList = [
   {
     title: 'About me',
     url: '/about',
-    image: require('@site/static/img/custom/hp-feat-me.webp').default,
+    Svg: require('@site/static/img/custom/undraw_chill-guy-avatar_me.svg').default,
     description: (
       <>
         关于我
@@ -26,7 +26,7 @@ const FeatureList = [
   {
     title: 'Blog',
     url: '/blog',
-    image: require('@site/static/img/custom/hp-feat-blog.webp').default,
+    Svg: require('@site/static/img/custom/undraw_book-writer_blog.svg').default,
     description: (
       <>
         博客文章
@@ -35,11 +35,11 @@ const FeatureList = [
   }
 ];
 
-function Feature({image, title, description, url}) {
+function Feature({Svg, image, title, description, url}) {
   return (
     <a href={ url } target='_blank' className={clsx('col',styles['hpfeatCard'])}>
       <div className={ clsx('text--center', styles['featureSvg'])}>
-        <img src={image} role="img" alt={title} />
+        <Svg role="img" aria-label={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -52,8 +52,8 @@ function Feature({image, title, description, url}) {
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
+      <div className="{styles.HPFeaturesContainer}">
+        <div className={styles.HPFeaturesRow}>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
