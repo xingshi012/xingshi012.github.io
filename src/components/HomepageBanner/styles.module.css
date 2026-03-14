@@ -38,9 +38,8 @@
 }
 
 .HPBannerButton {
-    padding: .6rem 1.5rem;
+    padding: .8rem 2.5rem;
     color: #666;
-    border: 2px solid rgb(206, 206, 206);
     box-shadow: inset 2px 2px 10px #bcbcbc, inset -2px -2px 10px #ffffff;
     border-radius: 100px;
     text-decoration: unset;
