@@ -23,7 +23,7 @@ I chose Docusaurus not only because it's built on React (giving me an opportunit
 
 ## Contact me
 If you're interested in reaching out to me:
-- Email: Xingshi_012@outlook.com
+- Email: Xingshi0816@gmail.com
 - Telegram: [@Xingshi_012](https://t.me/Xingshi_012)
 
 Also, here are some of my social media links if you're interested:

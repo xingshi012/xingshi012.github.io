@@ -23,7 +23,7 @@ title: About
 
 ## 联系我
 如果对我感兴趣的话，可以联系我：
-- Email: Xingshi_012@outlook.com
+- Email: Xingshi0816@gmail.com
 - Telegram： [@Xingshi_012](https://t.me/Xingshi_012)
 
 当然 还有一些我的社交媒体，如果你感兴趣的话，也可以关注：
