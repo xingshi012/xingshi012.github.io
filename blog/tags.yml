@@ -47,3 +47,8 @@ giscus:
   label: Giscus
   permalink: /giscus
   description: 关于 giscus 的文章
+
+i18n:
+  label: i18n
+  permalink: /i18n
+  description: 关于 i18n 国际化的文章

@@ -47,3 +47,8 @@ giscus:
   label: Giscus
   permalink: /giscus
   description: About giscus
+
+i18n:
+  label: i18n
+  permalink: /i18n
+  description: About i18n article
