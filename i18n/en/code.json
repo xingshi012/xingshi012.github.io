@@ -26,6 +26,42 @@
   "homepage.banner.description": {
     "message": "A frontend developer. This is my personal blog where I record and share interesting things from work, life, and technical documentation. It's also a tree hole to listen to and record my scattered thoughts."
   },
+  "myFirstPage.layoutTitle": {
+    "message": "Sunset"
+  },
+  "myFirstPage.layoutDescription": {
+    "message": "A short page about the sunset."
+  },
+  "myFirstPage.heading": {
+    "message": "Sunset"
+  },
+  "myFirstPage.updatedAt": {
+    "message": "Updated: October 5, 2022 Xingshi"
+  },
+  "myFirstPage.imageAlt": {
+    "message": "This image cannot be displayed properly"
+  },
+  "myFirstPage.imageTitle": {
+    "message": "This image is sourced from the Internet. It will be removed if there is any infringement."
+  },
+  "myFirstPage.paragraph1": {
+    "message": " is a Chinese word pronounced "
+  },
+  "myFirstPage.paragraph1Suffix": {
+    "message": ", referring to the sun at dusk. It can also mean the west side of a mountain, and it is sometimes used as a metaphor for one's later years. Because it appears near twilight, the sunset is usually orange-red."
+  },
+  "myFirstPage.paragraph2": {
+    "message": "  In the warm glow of the sunset, hardworking and plain people walk through hardship, setting down the heavy plows on their shoulders. The sunset grants them a sacred halo, enclosing the fatigue of the years and the weight of life, and giving them a sense of ease. The sunset gives all of itself to the world and to the earth, and only then do countless rays of霞光, beautiful landscapes, tranquil mountain villages, and diligent, simple people come into being."
+  },
+  "myFirstPage.paragraph3": {
+    "message": "  Beyond the sunset there are still mountains, and across the spring water there are still ferries."
+  },
+  "myFirstPage.paragraph4": {
+    "message": "  The shadows of people returning at dusk are stretched long by the setting sun. The traffic lights blinking at the street corner face the passing vehicles, always torn between one direction and another. The earth turns golden, and the silhouette of the parasol trees remains on the safety island. The sky gradually darkens, the lingering sun is like blood, and the hazy dimness slowly covers the whole mountain, leaving only one strip of evening glow at the horizon."
+  },
+  "myFirstPage.paragraph5": {
+    "message": "  The sunset is different from the morning sun, for it has its own unique radiance; it is also different from the scorching noon sun, for it gives up that harsh and dazzling brightness. When we look straight into the distance at dusk, we can see the sunset. At that moment, we can face it directly with our own eyes. The boundless evening glow becomes beautiful because of it, and the heart becomes difficult to fully describe."
+  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"
