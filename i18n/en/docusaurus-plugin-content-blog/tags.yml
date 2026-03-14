@@ -6,44 +6,44 @@ hello:
 summary:
   label: Summary
   permalink: /summary
-  description: 年终总结
+  description: Year-end summary
 
 article:
   label: Article
   permalink: /article
-  description: 一些文章
+  description: Some article 
 
 useful:
   label: useful
   permalink: /useful
-  description: 实用小技巧
+  description: Some useful tips 
 
 season:
   label: Season
   permalink: /season
-  description: 有关季节的文章
+  description: Some about season article
 
 game:
   label: Game
   permalink: /game
-  description: 关于游戏的文章
+  description: About game article
 
 ssn:
   label: Ssn
   permalink: /ssn
-  description: 碎碎念的文字
+  description: ssn text
 
 ai:
   label: AI
   permalink: /ai
-  description: 关于人工智能的文章
+  description: About AI article
 
 think:
   label: Think
   permalink: /think
-  description: 思维思考的文章
+  description: About think article
 
 giscus:
   label: Giscus
   permalink: /giscus
-  description: 关于 giscus 的文章
+  description: About giscus
