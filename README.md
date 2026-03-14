@@ -2,23 +2,37 @@
 
 >一个树洞，倾听、记录自己的碎碎念
 
-## Install dependencies
+## Install
 
 ```
 yarn install
 ```
-## Start local services
 
-```
-yarn start
-```
-## Other
+## Development
+
+| Use              | command      |
+| ------------------ | ---------------- |
+| Launch Chinese version (default) | `yarn start`     |
+| Launch English version | `yarn start:en`  |
+| Preview build results locally | `yarn serve`     |
+
+Local preview: http://localhost:3000/
+
+## Build
+
+| Use                        | command         |
+| -------------------------- | --------------- |
+| Build all languages        | `yarn build`    |
+| Only build English version | `yarn build:en` |
+
+## Deploy
 
 ```
 $env:GIT_USER="xingshi012"
 
-yarn deploy  
+yarn deploy
 ```
-## Local preview
 
-http://localhost:3000/
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
