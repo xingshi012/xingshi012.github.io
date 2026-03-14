@@ -1,0 +1,201 @@
+﻿---
+sidebar_position: 2
+---
+
+# Git Common Commands Summary
+
+> This time I summarized common commands with `claude`, should be fairly comprehensive
+
+## Configuration
+
+```
+git config --global user.name "name"
+git config --global user.email "email"
+git config --list  # View configuration
+```
+
+## Repository Initialization
+
+```
+git init  # Initialize local repository
+git clone <url>  # Clone remote repository
+```
+
+## Basic Operations
+
+```
+git status  # View working directory status
+git add <file>  # Add file to staging area
+git add .  # Add all changes, commonly used
+git commit -m "commit message"  # Commit to local repository
+git commit -am "commit message"  # Combine add and commit (only for tracked files)
+```
+
+## Git Branch Commands
+
+### View Local Branches
+
+```
+git branch
+```
+
+### Create Branch
+
+```
+git branch <name>
+```
+
+### Switch Branch
+
+```
+git checkout <name>
+
+# New command
+git switch <name>
+```
+
+### Create and Switch Branch
+
+```
+git checkout -b <name>
+
+# New command
+git switch -c <name>
+```
+
+### Merge Specified Branch into Current Branch
+
+```
+git merge <name>
+```
+
+### Delete Branch
+
+```
+git branch -d <name>
+```
+
+## Remote Commands
+
+### View Remote Repository
+
+```
+git remote -v
+```
+
+### Add Remote Repository
+
+```
+git remote add origin <url>
+```
+
+### Push to Remote Repository
+
+```
+git push origin <branch>
+```
+
+### Push and Establish Tracking Relationship
+
+> After establishing the connection, you can simply use `git push` locally to push to the associated remote branch, without needing the verbose `git push origin <branch>` command
+
+```
+git push -u origin <branch>
+```
+
+### Pull and Merge Remote Changes
+
+> For daily development, it's better to use `git merge` to prevent code from being overwritten
+
+```
+git pull
+```
+
+### Fetch Remote Changes Only, Without Merging
+
+> Pull the updated code from remote to local, then decide whether to merge it into your local development branch
+
+```
+git fetch
+```
+
+## View History
+
+```
+git log  # View commit history
+git log --oneline  # Concise view
+git log --graph  # Graphical view
+git diff  # View difference between working directory and staging area
+git diff HEAD  # View difference between working directory and latest commit
+```
+
+## Undo Working Directory Changes
+
+For files that have been modified but not yet staged with `git add`, use this command to revert the file, similar to pressing `Ctrl Z` to undo in the file
+
+```
+git checkout -- <file>
+
+# New command
+git restore <file>
+```
+
+### Unstage Changes
+
+Applies to files that have been staged with `git add` but not yet committed with `git commit`
+
+```
+git reset HEAD <file>
+
+# New command
+git restore --staged <file>
+
+# This only unstages the file. To also revert the file content changes, run:
+
+git restore <file>
+```
+
+### Revert Changes
+
+`git reset` will reset code to the specified position. `--hard` will delete commit history and changes, **use with caution**\
+`git revert` also reverts code to the specified position, but creates a new commit, recommended to use
+
+> `git revert` reverts code to the specified position. To revert to a specific commit id, just append the id
+
+```
+git reset --hard HEAD^
+git reset --hard <commit-id>
+
+git revert <commit-id>
+```
+
+Three modes of git reset:
+
+- `git reset --soft HEAD^` # Only move HEAD, keep staging area and working directory
+- `git reset --mixed HEAD^` # Move HEAD, reset staging area, keep working directory (default)
+- `git reset --hard HEAD^` # Reset everything, changes will be lost
+
+:::info
+When using GUI-based git in IDEA to revert code, you may be unable to sync the reverted code to remote. In this case, you need to run `git push -f`
+:::
+
+## Stash Work
+
+> Useful when developing new features on your branch and suddenly need to switch to another branch to fix a bug, but don't want to commit half-finished code to remote. Use `git stash` to temporarily store your working directory changes
+
+```
+git stash  # Stash current work
+git stash list  # View stash list
+git stash pop  # Restore stash and delete it
+git stash apply  # Restore stash but keep it
+```
+
+## Tag Management
+
+```
+git tag  # View tags
+git tag <name>  # Create tag
+git tag -a <name> -m "description"  # Create annotated tag
+git push origin <tagname>  # Push tag to remote
+git push origin --tags  # Push all tags
+```

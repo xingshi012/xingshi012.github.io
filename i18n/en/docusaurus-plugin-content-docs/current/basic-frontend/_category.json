@@ -1,0 +1,8 @@
+{
+  "label": "Basic - Frontend",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Basic frontend development documentation, such as HTML, CSS, JavaScript, etc."
+  }
+} 
