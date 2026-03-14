@@ -1,0 +1,38 @@
+{
+  "title": {
+    "message": "Xingshi Blog",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Xingshi Blog Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Search": {
+    "message": "Search",
+    "description": "Navbar item with label Search"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.More": {
+    "message": "More",
+    "description": "Navbar item with label More"
+  },
+  "item.label.Archive": {
+    "message": "Archive",
+    "description": "Navbar item with label Archive"
+  },
+  "item.label.Category": {
+    "message": "Category",
+    "description": "Navbar item with label Category"
+  }
+}
