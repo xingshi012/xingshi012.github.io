@@ -1,17 +1,19 @@
 import Heading from '@theme/Heading';
+import Translate, {translate} from '@docusaurus/Translate';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
 
 const bannerContent = [
     {
         Svg: require('@site/static/img/custom/undraw_data-at-work_banner.svg').default, 
-        btnText: 'About me',
+        btnText: translate({id: 'homepage.banner.btnText', message: 'About me'}),
         url: '/about',
         heading: (
-                <>你好！我是 <span class="gradient-text gradient-color__blue">Xingshi | 星矢</span></>
+                <><Translate id="homepage.banner.greeting">你好！我是</Translate> <span class="gradient-text gradient-color__blue"><Translate id="homepage.banner.xingshi">星矢</Translate></span></>
             ),
         description: (
                 <>
-                    一位基础的前端开发工程师，这里是我的个人博客网站，记录和分享一些工作、生活中遇到的有趣的事情和技术文档。同时也是一个树洞，用来倾听、记录自己的碎碎念。
+                    <Translate id="homepage.banner.description">一位基础的前端开发工程师，这里是我的个人博客网站，记录和分享一些工作、生活中遇到的有趣的事情和技术文档。同时也是一个树洞，用来倾听、记录自己的碎碎念。</Translate>
                 </>
             )
     }
@@ -29,10 +31,14 @@ function Content({ heading, description, btnText, url }) {
 }
 
 export default function HomepageBanner() {
+    const {i18n: {currentLocale, defaultLocale}} = useDocusaurusContext();
+    const localizedUrl = (path) => currentLocale === defaultLocale ? path : `/${currentLocale}${path}`;
+    
     const item = bannerContent[0];
     if (!item) return null;
 
     const { Svg, title, heading, description, btnText, url } = item;
+    const localeUrl = localizedUrl(url);
 
     return (
         <section className={styles.HPBanner}>
@@ -44,7 +50,7 @@ export default function HomepageBanner() {
                         heading={heading}
                         description={description}
                         btnText={btnText}
-                        url={url}
+                        url={localeUrl}
                         />
                     </div>
                     <div className={styles.HPBannerRightCol}>

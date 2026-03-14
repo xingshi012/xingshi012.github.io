@@ -4,41 +4,136 @@ sidebar_position: 2
 
 # Markdown 相关
 
-> `Markdown` 语法相关
 
-## 换行
-> 一段文字的结尾处用一个这个可以换行 `\`\
-> 类似html的 `<br>` 标签
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+
+```
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+```
+
+## 常用文本格式
+
+> 这是一段引用文本
+
+``` md
+> 这是一段引用文本
+```
+
+**这是一段加粗文本**
+
+``` md
+**这是一段加粗文本**
+```
+
+*这是一段倾斜文本*
+
+``` md
+*这是一段倾斜文本*
+```
+
+~~这是一段带删除线的文本~~
+
+``` md
+~~这是一段带删除线的文本~~
+```
+
+<ins>这是一段带下划线的文本</ins>
+
+``` md
+<ins>这是一段带下划线的文本</ins>
+```
+
+这是一段<sup>上角标 </sup>文本
+
+``` md
+这是一段<sup>上角标 </sup>文本
+```
+
+这是一段<sub>下角标 </sub>文本
+
+``` md
+这是一段<sub>下角标 </sub>文本
+```
+
+这是一个 `代码段` 文本
+
+``` md
+这是一个 `代码段` 文本
+```
+
+``` md
+// 这是一个代码段
+console.log('Hello World!');
+```
+
+## 列表和清单
+
+一个 圆点的list: 
+- 文字段落一
+- 文字段落二
+- 文字段落三
+
+``` md
+一个 圆点的list: 
+- 文字段落一
+- 文字段落二
+- 文字段落三
+```
+
+一个 数字的list: 
+1.  文字段落一
+2.  文字段落二
+3.  文字段落三
+
+``` md
+一个 数字的list: 
+1.  文字段落一
+2.  文字段落二
+3.  文字段落三
+```
+
+一个任务清单：
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+``` md
+一个任务清单：
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+```
+
+## 链接和图片
+
+这是一个[超链接](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)，跳转到 Github 的 markdown 语法介绍
+
+``` md
+这是一个[超链接](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)，跳转到 Github 的 markdown 语法介绍
+```
+
+图片：
+
+``` md
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+```
 
 
-## *斜体*
-> 文字前后各一个星号包裹文字，以实现斜体效果\
-> `*斜体*`
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
-## **粗体**
-> 文字前后各两个个星号包裹文字，以实现斜体效果\
-> `**粗体**`
-
-## list:
-列表使用 `-` 开头，以实现列表效果\
-> - 内容1
-> - 内容2
-> - 内容3
-
-列表使用 `1.` 开头，以实现有序列表效果\
-> 1. 内容1
-> 2. 内容2
-> 3. 内容3
-
-## 引用
-列表使用 `>`和一个空格 开头，以实现引用效果\
-> `> 引用内容`
-
-## 链接
-列表使用 `[]()` 包裹内容，以实现链接效果\
-> `[链接](链接地址)`\
-[点我跳转首页](/)
 
 ---
-*References:*\
+## References:
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
 https://commonmark.org/help/

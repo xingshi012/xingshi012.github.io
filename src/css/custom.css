@@ -30,43 +30,8 @@
 
 @font-face {
   font-family: 'MiSans';
-  src: url('/fonts/MiSans-Thin.ttf') format('truetype');
-  font-weight: 100;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'MiSans';
-  src: url('/fonts/MiSans-ExtraLight.ttf') format('truetype');
-  font-weight: 200;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'MiSans';
-  src: url('/fonts/MiSans-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'MiSans';
   src: url('/fonts/MiSans-Normal.ttf') format('truetype');
   font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'MiSans';
-  src: url('/fonts/MiSans-Regular.ttf') format('truetype');
-  font-weight: 500;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'MiSans';
-  src: url('/fonts/MiSans-Medium.ttf') format('truetype');
-  font-weight: 600;
   font-display: swap;
 }
 
@@ -78,160 +43,41 @@
 }
 
 @font-face {
-  font-family: 'MiSans';
-  src: url('/fonts/MiSans-Semibold.ttf') format('truetype');
-  font-weight: 800;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'MiSans';
-  src: url('/fonts/MiSans-Bold.ttf') format('truetype');
-  font-weight: 900;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'MiSans';
-  src: url('/fonts/MiSans-Heavy.ttf') format('truetype');
-  font-weight: 1000;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'XiaolaiSC';
-  src: url('/fonts/XiaolaiSC-Regular.ttf') format('truetype');
-  font-weight: 100;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'XiaolaiSC';
-  src: url('/fonts/XiaolaiSC-Regular.ttf') format('truetype');
-  font-weight: 200;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'XiaolaiSC';
-  src: url('/fonts/XiaolaiSC-Regular.ttf') format('truetype');
-  font-weight: 300;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'XiaolaiSC';
-  src: url('/fonts/XiaolaiSC-Regular.ttf') format('truetype');
+  font-family: 'JetBrainsMono';
+  src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2');
   font-weight: 400;
+  font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'XiaolaiSC';
-  src: url('/fonts/XiaolaiSC-Regular.ttf') format('truetype');
-  font-weight: 500;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'XiaolaiSC';
-  src: url('/fonts/XiaolaiSC-Regular.ttf') format('truetype');
-  font-weight: 600;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'XiaolaiSC';
-  src: url('/fonts/XiaolaiSC-Regular.ttf') format('truetype');
-  font-weight: 700;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'XiaolaiSC';
-  src: url('/fonts/XiaolaiSC-Regular.ttf') format('truetype');
-  font-weight: 900;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'XiaolaiSC';
-  src: url('/fonts/XiaolaiSC-Regular.ttf') format('truetype');
-  font-weight: 1000;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'yeFontStone';
-  src: url('/fonts/yeFontStone.ttf') format('truetype');
-  font-weight: 100;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'yeFontStone';
-  src: url('/fonts/yeFontStone.ttf') format('truetype');
-  font-weight: 200;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'yeFontStone';
-  src: url('/fonts/yeFontStone.ttf') format('truetype');
-  font-weight: 300;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'yeFontStone';
-  src: url('/fonts/yeFontStone.ttf') format('truetype');
+  font-family: 'JetBrainsMono';
+  src: url('/fonts/JetBrainsMono-Italic.woff2') format('woff2');
   font-weight: 400;
+  font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'yeFontStone';
-  src: url('/fonts/yeFontStone.ttf') format('truetype');
-  font-weight: 500;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'yeFontStone';
-  src: url('/fonts/yeFontStone.ttf') format('truetype');
-  font-weight: 600;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'yeFontStone';
-  src: url('/fonts/yeFontStone.ttf') format('truetype');
+  font-family: 'JetBrainsMono';
+  src: url('/fonts/JetBrainsMono-Bold.woff2') format('woff2');
   font-weight: 700;
+  font-style: normal;
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'yeFontStone';
-  src: url('/fonts/yeFontStone.ttf') format('truetype');
-  font-weight: 900;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'yeFontStone';
-  src: url('/fonts/yeFontStone.ttf') format('truetype');
-  font-weight: 1000;
-  font-display: swap;
-}
 
 * {
   --mi-sans-font-family: 'MiSans';
-  --xiao-lai-font-family: 'XiaolaiSC';
-  --ye-font-stone-font-family: 'yeFontStone';
+  --jetbrainsmono-font-family: 'JetBrainsMono';
 }
 
 * {
-  font-family: var(--mi-sans-font-family, sans-seif);
+  font-family: var(--mi-sans-font-family, sans-serif);
+}
+
+[lang="en-GB"] * {
+  font-family: var(--jetbrainsmono-font-family), var(--mi-sans-font-family, sans-serif);
 }
 
 /* .blog-list-page .theme-layout-main *,
@@ -261,12 +107,6 @@
 .comment-system__section hr {
   margin-top: 3rem;
   margin-bottom: 3rem;
-}
-
-.blog-list-page .comment-system__section,
-.blog-authors-posts-page .comment-system__section,
-.blog-tags-post-list-page .comment-system__section {
-  display: none;
 }
 
 [data-theme="dark"] .comment-system__section .gsc-reactions-count {

@@ -1,5 +1,7 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import Translate from '@docusaurus/Translate';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
 
 const FeatureList = [
@@ -9,7 +11,7 @@ const FeatureList = [
     url: '/docs/intro',
     description: (
       <>
-        文档笔记
+        <Translate id="homepage.features.docs.desc">文档笔记</Translate>
       </>
     ),
   },
@@ -19,7 +21,7 @@ const FeatureList = [
     Svg: require('@site/static/img/custom/undraw_chill-guy-avatar_me.svg').default,
     description: (
       <>
-        关于我
+        <Translate id="homepage.features.about.desc">关于我</Translate>
       </>
     ),
   },
@@ -29,7 +31,7 @@ const FeatureList = [
     Svg: require('@site/static/img/custom/undraw_book-writer_blog.svg').default,
     description: (
       <>
-        博客文章
+        <Translate id="homepage.features.blog.desc">博客文章</Translate>
       </>
     ),
   }
@@ -50,12 +52,15 @@ function Feature({Svg, image, title, description, url}) {
 }
 
 export default function HomepageFeatures() {
+  const {i18n: {currentLocale, defaultLocale}} = useDocusaurusContext();
+  const localizedUrl = (path) => currentLocale === defaultLocale ? path : `/${currentLocale}${path}`;
+  
   return (
     <section className={styles.features}>
       <div className="{styles.HPFeaturesContainer}">
         <div className={styles.HPFeaturesRow}>
           {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+            <Feature key={idx} {...props} url={localizedUrl(props.url)} />
           ))}
         </div>
       </div>

@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Basic frontend learn": {
+    "message": "Basic frontend learn",
+    "description": "The label for category 'Basic frontend learn' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Git learn": {
+    "message": "Git learn",
+    "description": "The label for category 'Git learn' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Others": {
+    "message": "Others",
+    "description": "The label for category 'Others' in sidebar 'tutorialSidebar'"
+  }
+}

@@ -1,0 +1,18 @@
+---
+sidebar_position: 1
+---
+
+# Learn document 
+
+> Recording the technologies I've learned, am learning, and want to learn.
+
+import DocCardList from '@theme/DocCardList';
+import {useDocsSidebar} from '@docusaurus/plugin-content-docs/client';
+
+export const FilteredDocCardList = () => {
+  const sidebar = useDocsSidebar();
+  const filteredItems = sidebar.items.filter(item => item.docId !== 'intro');
+  return <DocCardList items={filteredItems} />;
+};
+
+<FilteredDocCardList />

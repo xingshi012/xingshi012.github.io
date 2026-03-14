@@ -1,0 +1,54 @@
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello
+
+summary:
+  label: Summary
+  permalink: /summary
+  description: Year-end summary
+
+article:
+  label: Article
+  permalink: /article
+  description: Some article 
+
+useful:
+  label: useful
+  permalink: /useful
+  description: Some useful tips 
+
+season:
+  label: Season
+  permalink: /season
+  description: Some about season article
+
+game:
+  label: Game
+  permalink: /game
+  description: About game article
+
+ssn:
+  label: Ssn
+  permalink: /ssn
+  description: ssn text
+
+ai:
+  label: AI
+  permalink: /ai
+  description: About AI article
+
+think:
+  label: Think
+  permalink: /think
+  description: About think article
+
+giscus:
+  label: Giscus
+  permalink: /giscus
+  description: About giscus
+
+i18n:
+  label: i18n
+  permalink: /i18n
+  description: About i18n article

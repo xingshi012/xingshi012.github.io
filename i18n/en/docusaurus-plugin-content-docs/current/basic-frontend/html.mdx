@@ -1,0 +1,75 @@
+---
+sidebar_position: 2
+---
+
+# HTML
+
+> If the front-end page is compared to the human body, `html` is the "skeleton" of the human body.
+
+![html01.webp](https://github.com/xingshi012/blog-images/blob/main/docs/html/html01.webp?raw=true)
+
+> A few xmind mind maps written when I was learning front-end `HTML`:
+> - [初识 HTML5](https://drive.google.com/file/d/18bPjlsV3Yud9Fwg3a5GCaCaDsB3rICl_/view?usp=sharing)
+> - [HTML5元素及属性](https://drive.google.com/file/d/141-rZKM6VgTwoU2J_yZ0mVJ67I6F0E4o/view?usp=sharing)
+
+HTML is the most basic content of front-end development. The final display effect of all web pages is the DOM structure of HTML.
+
+HTML tags are divided into `inline elements`, `block-level elements` and `inline block elements`, which are divided into `single tags` and `double tags`.
+
+In daily development, commonly used tags include `div tag` `span tag` `p tag` `a tag` `h series tag` `img tag` `video tag` `input tag` and so on.
+
+It is best to focus on semantics in HTML development. For example, on the homepage of a website: the top header can be used as a navigation with the `header tag`, and the nav tag is used inside, and the main content is wrapped in the `main tag`.
+Then in the `main tag`, each section can be wrapped by a `section tag`, and the largest content in each `section tag` can use the `h tag`, and then the content can use the `p tag`, and the button can use the `button tag`.
+This level is probably written like this. The semantics are relatively clear and easy for SEO, accessibility optimization, etc.
+
+```
+<body>
+  <header>
+    <nav>
+      <h1>
+        <a href="#">
+          <img src="logo.png" alt="Logo" title="Logo" />
+        </a>
+      </h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Heading</h2>
+      <div>
+        <p>
+          This is some description.
+        </p>
+        <button>Get Started</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <p>Copyright </p>
+  </footer>
+</body>
+```
+
+There will be some attributes on HTML tags. Basic attributes such as `class` `id` attributes can be selected through `css selector`, and then some styles can be applied. According to different HTML tags, there will be some other attributes, such as `src` `alt` `title` attributes of `img` tag, etc.
+Some special attributes, such as `aria-label` and `tabindex`, are used for accessibility. Some custom attributes starting with data- can be combined with `js` to implement some small functions.
+
+This is the first webpage I wrote when I was in school. It looks awkward now, so let’s have a look at it😂: [Click to jump to the first webpage I wrote](/my-first-page)
+
+:::tip
+** In current front-end development, there are very few developers using the three major native components. They are basically developed using frameworks, so these tags are rarely used, but after all, they are basic front-end things, so you definitely need to know something about them.
+:::
+
+*References:*\
+https://developer.mozilla.org/en-US/docs/Web/HTML
