@@ -228,6 +228,15 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+
+      // Algolia search Config
+      algolia: {
+        appId: '3b2c1fc7-1daf-47d3-8c99-953cf83f74d1',
+        apiKey: 'bd74d33b28f67b1554f259b23cdc9d42',
+        indexName: 'xingshi.blog_INDEX',
+        contextualSearch: true, 
+        searchPagePath: 'search', 
+      },
     }),
 };
 
