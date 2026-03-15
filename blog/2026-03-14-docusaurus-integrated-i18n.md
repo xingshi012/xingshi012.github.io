@@ -6,6 +6,8 @@ authors: xingshi
 tags: [i18n]
 ---
 
+![2026-03-14-docusaurus-integrated-i18n01.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-14/2026-03-14-docusaurus-integrated-i18n01.webp?raw=true)
+
 > 此功能由 VScode Copilot 的 Claude 和 GPT 协作完成
 
 i18n 是给网站实现国际化翻译 从而去优化不同地区用户去访问网站体验的一种方式。\

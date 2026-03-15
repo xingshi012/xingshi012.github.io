@@ -6,6 +6,8 @@ authors: xingshi
 tags: [ssn]
 ---
 
+![2026-02-18-front-end-positions-thinking01.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-18/2026-02-18-front-end-positions-thinking01.webp?raw=true)
+
 > I just searched [Nanfu International Station Official Website](https://nanfu.global/) and I feel like I have some thoughts about front-end development and my current future career plan. I might write something.
 
 <!-- truncate -->

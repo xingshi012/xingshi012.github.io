@@ -6,6 +6,8 @@ authors: xingshi
 tags: [i18n]
 ---
 
+![2026-03-14-docusaurus-integrated-i18n01.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-14/2026-03-14-docusaurus-integrated-i18n01.webp?raw=true)
+
 > This feature was completed through collaboration between Claude and GPT in VSCode Copilot.
 
 i18n is a way to internationalize a website so users in different regions can get a better browsing experience.\
