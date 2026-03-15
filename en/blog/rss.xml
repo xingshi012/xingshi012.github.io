@@ -13,8 +13,9 @@
             <link>https://xingshi.blog/en/blog/docusaurus-integrated-i18n</link>
             <guid>https://xingshi.blog/en/blog/docusaurus-integrated-i18n</guid>
             <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[This feature was completed through collaboration between Claude and GPT in VSCode Copilot.]]></description>
-            <content:encoded><![CDATA[<blockquote>
+            <description><![CDATA[2026-03-14-docusaurus-integrated-i18n01.webp]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-14/2026-03-14-docusaurus-integrated-i18n01.webp?raw=true" alt="2026-03-14-docusaurus-integrated-i18n01.webp" class="img_ev3q"></p>
+<blockquote>
 <p>This feature was completed through collaboration between Claude and GPT in VSCode Copilot.</p>
 </blockquote>
 <p>i18n is a way to internationalize a website so users in different regions can get a better browsing experience.<br>
@@ -181,8 +182,9 @@
             <link>https://xingshi.blog/en/blog/giscus-comment-system-build</link>
             <guid>https://xingshi.blog/en/blog/giscus-comment-system-build</guid>
             <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[A comment system for giscus built on Github's Discussions under Docusaurus]]></description>
-            <content:encoded><![CDATA[<blockquote>
+            <description><![CDATA[2026-02-21-giscus-comment-system-build00.webp]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build00.webp?raw=true" alt="2026-02-21-giscus-comment-system-build00.webp" class="img_ev3q"></p>
+<blockquote>
 <p>A comment system for giscus built on Github's Discussions under Docusaurus</p>
 </blockquote>
 <p>Install <a href="https://github.com/apps/giscus" target="_blank" rel="noopener noreferrer" class="">giscus APP</a> in GitHub. This APP is built based on Github's <a href="https://docs.github.com/en/discussions" target="_blank" rel="noopener noreferrer" class="">GitHub Discussions</a></p>
@@ -190,22 +192,22 @@
 <p>Compared with the traditional use of GitHub Issues to make comments, giscus stores comments in the Discussion of the warehouse, making the hierarchy of the warehouse clearer.<br>
 <!-- -->For example, when there are bugs or new requirements in the warehouse, you can raise an Issue, and when there are comments on a blog website, they are stored in Discussion in the warehouse. Separating Issues and Discussions makes it easier to manage and view, and Discussion also has a similar meaning to comments. When used as a comment system, it is clearer and more convenient to use.</p>
 </blockquote>
-<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/giscus-comment-system-build.01.webp?raw=true" alt="giscus-comment-system-build.01.webp" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build01.webp?raw=true" alt="2026-02-21-giscus-comment-system-build01.webp" class="img_ev3q"></p>
 <p>Install the giscus React package in the project root directory</p>
 <blockquote>
 <p>Because Docusaurus is built based on React, you need to install the React giscus package</p>
 </blockquote>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">yarn add @giscus/react</span><br></span></code></pre></div></div>
-<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/giscus-comment-system-build.02.webp?raw=true" alt="giscus-comment-system-build.02.webp" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build02.webp?raw=true" alt="2026-02-21-giscus-comment-system-build02.webp" class="img_ev3q"></p>
 <p>According to the steps of <a href="https://giscus.app/zh-CN" target="_blank" rel="noopener noreferrer" class="">giscus official website</a>, fill in the warehouse address and Discussion partition (the author of giscus recommends using the announcements partition to ensure subsequent maintainability), and then <code>repo-id</code> and <code>category-id</code> will be automatically generated. Copy this code</p>
-<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/giscus-comment-system-build.03.webp?raw=true" alt="giscus-comment-system-build.03.webp" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build03.webp?raw=true" alt="2026-02-21-giscus-comment-system-build03.webp" class="img_ev3q"></p>
 <p>Create a comment component in the <code>src/components/Comments/index.js</code> directory</p>
 <blockquote>
 <p>Because it is a React project, the above code may not be usable. You need to refer to <a href="https://github.com/giscus/giscus-component?tab=readme-ov-file#documentation" target="_blank" rel="noopener noreferrer" class="">another warehouse of giscus</a> format. To change the format, remove the <code>data-</code> attribute and build the elements of the comments system in the form of components.</p>
 </blockquote>
-<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/giscus-comment-system-build.04.webp?raw=true" alt="giscus-comment-system-build.04.webp" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build04.webp?raw=true" alt="2026-02-21-giscus-comment-system-build04.webp" class="img_ev3q"></p>
 <p>In this directory <code>src/theme/BlogPostItem.js</code>, add a comment component to the bottom of the article on the blog post page.</p>
-<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/giscus-comment-system-build05.webp?raw=true" alt="giscus-comment-system-build.05.webp" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build05.webp?raw=true" alt="2026-02-21-giscus-comment-system-build05.webp" class="img_ev3q"></p>
 <p><em>Reference:</em></p>
 <p><a href="https://giscus.app/" target="_blank" rel="noopener noreferrer" class="">https://giscus.app/</a></p>
 <p><a href="https://github.com/giscus/giscus" target="_blank" rel="noopener noreferrer" class="">https://github.com/giscus/giscus</a></p>
@@ -219,8 +221,9 @@
             <link>https://xingshi.blog/en/blog/front-end-positions-thinking-2026-02-18</link>
             <guid>https://xingshi.blog/en/blog/front-end-positions-thinking-2026-02-18</guid>
             <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[I just searched Nanfu International Station Official Website and I feel like I have some thoughts about front-end development and my current future career plan. I might write something.]]></description>
-            <content:encoded><![CDATA[<blockquote>
+            <description><![CDATA[2026-02-18-front-end-positions-thinking01.webp]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-18/2026-02-18-front-end-positions-thinking01.webp?raw=true" alt="2026-02-18-front-end-positions-thinking01.webp" class="img_ev3q"></p>
+<blockquote>
 <p>I just searched <a href="https://nanfu.global/" target="_blank" rel="noopener noreferrer" class="">Nanfu International Station Official Website</a> and I feel like I have some thoughts about front-end development and my current future career plan. I might write something.</p>
 </blockquote>
 <p>I have been working for more than a year now, and I have a clearer understanding of my favorite job position. It seems that what I like is not the traditional interface of transmitting data to the backend, and using the UI framework to build a cookie-cutter front-end page of the backend management system.</p>
@@ -235,8 +238,9 @@
             <link>https://xingshi.blog/en/blog/2026-chunwan-think</link>
             <guid>https://xingshi.blog/en/blog/2026-chunwan-think</guid>
             <pubDate>Tue, 17 Feb 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[I watched the 2026 CCTV Spring Festival Gala last night, and I felt deeply about it. It was full of technology and fancy dances, but it also extended some thoughts. Let’s go into details about AI (artificial intelligence) and robots.]]></description>
-            <content:encoded><![CDATA[<blockquote>
+            <description><![CDATA[2026-02-17-2026-chunwan-think01.webp]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-17/2026-02-17-2026-chunwan-think01.webp?raw=true" alt="2026-02-17-2026-chunwan-think01.webp" class="img_ev3q"></p>
+<blockquote>
 <p>I watched the 2026 CCTV Spring Festival Gala last night, and I felt deeply about it. It was full of technology and fancy dances, but it also extended some thoughts. Let’s go into details about AI (artificial intelligence) and robots.</p>
 </blockquote>
 <p>Spring Festival Gala, a New Year's Eve 8:00 pm prime time broadcast on the CCTV platform, a variety of art forms intertwined together to bring joy to the people at the same time also promote the traditional Chinese culture; AI, <em><u>Artificial intelligence</u></em> acronym for artificial intelligence, in recent years, a very hot technology, the proper use of which can help people to enhance work efficiency Save Repetitive physical labor</p>
@@ -261,8 +265,9 @@ The progress of artificial intelligence technology also brings a lot of risks an
             <link>https://xingshi.blog/en/blog/hdl-think</link>
             <guid>https://xingshi.blog/en/blog/hdl-think</guid>
             <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[I packed up my computer today and saw an article about the Contra game written by a high school student. I felt a little touched. Let’s write something.]]></description>
-            <content:encoded><![CDATA[<blockquote>
+            <description><![CDATA[2026-01-25-hdl-think01.webp]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-01-25/2026-01-25-hdl-think01.webp?raw=true" alt="2026-01-25-hdl-think01.webp" class="img_ev3q"></p>
+<blockquote>
 <p>I packed up my computer today and saw an article about the Contra game written by a high school student. I felt a little touched. Let’s write something.</p>
 </blockquote>
 <p>I suddenly realized that I haven’t played games for a long time. Since I started working, it’s probably because I’m busy at work. When I have free time during the workday, I will go to Bilibili to watch videos, browse Tiktok, or read WeChat public account articles. During my free days, I have been working on my own blog website or visiting relatives’ houses. Now there are no games on my mobile phone, let alone the computer. I remember that the only game left was when I was in college. The more popular hybrid version of Plants vs. Zombies. I haven’t paid attention to it for a long time. The numerical value is weird. It’s hard to pass every level without cheating. It’s different from the previous classic version of Plants vs. Zombies.</p>

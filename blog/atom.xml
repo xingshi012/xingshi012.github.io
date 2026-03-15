@@ -12,8 +12,9 @@
         <id>https://xingshi.blog/blog/docusaurus-integrated-i18n</id>
         <link href="https://xingshi.blog/blog/docusaurus-integrated-i18n"/>
         <updated>2026-03-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[此功能由 VScode Copilot 的 Claude 和 GPT 协作完成]]></summary>
-        <content type="html"><![CDATA[<blockquote>
+        <summary type="html"><![CDATA[2026-03-14-docusaurus-integrated-i18n01.webp]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-14/2026-03-14-docusaurus-integrated-i18n01.webp?raw=true" alt="2026-03-14-docusaurus-integrated-i18n01.webp" class="img_ev3q"></p>
+<blockquote>
 <p>此功能由 VScode Copilot 的 Claude 和 GPT 协作完成</p>
 </blockquote>
 <p>i18n 是给网站实现国际化翻译 从而去优化不同地区用户去访问网站体验的一种方式。<br>
@@ -184,8 +185,9 @@
         <id>https://xingshi.blog/blog/giscus-comment-system-build</id>
         <link href="https://xingshi.blog/blog/giscus-comment-system-build"/>
         <updated>2026-02-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[在 Docusaurus 下 使用基于 Github 的 Discussions 构建的 giscus 的评论系统]]></summary>
-        <content type="html"><![CDATA[<blockquote>
+        <summary type="html"><![CDATA[2026-02-21-giscus-comment-system-build00.webp]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build00.webp?raw=true" alt="2026-02-21-giscus-comment-system-build00.webp" class="img_ev3q"></p>
+<blockquote>
 <p>在 Docusaurus 下 使用基于 Github 的 Discussions 构建的 giscus 的评论系统</p>
 </blockquote>
 <p>在GitHub 中安装 <a href="https://github.com/apps/giscus" target="_blank" rel="noopener noreferrer" class="">giscus APP</a>，这个 APP 是基于 Github 的 <a href="https://docs.github.com/en/discussions" target="_blank" rel="noopener noreferrer" class="">GitHub Discussions</a> 构建的</p>
@@ -193,22 +195,22 @@
 <p>相比于传统的使用 GitHub 的 Issue 来做评论，giscus 将评论存储在仓库的 Discussion 中，使得仓库的层次更清晰。<br>
 <!-- -->比如仓库里有 bug 新需求 时可以提 Issue，而有博客网站有评论时存储到仓库的 Discussion 中，把 Issue 和 Discussion 分开 更易于管理和查看，并且 Discussion 也与评论的意思相近，用作评论系统，条理更清晰 使用起来更方便</p>
 </blockquote>
-<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/giscus-comment-system-build.01.webp?raw=true" alt="giscus-comment-system-build.01.webp" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build01.webp?raw=true" alt="2026-02-21-giscus-comment-system-build01.webp" class="img_ev3q"></p>
 <p>在项目根目录安装 giscus 的 React 包</p>
 <blockquote>
 <p>因为 Docusaurus 是基于 React 构建的， 所以需要安装 React 的 giscus 包</p>
 </blockquote>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">yarn add @giscus/react</span><br></span></code></pre></div></div>
-<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/giscus-comment-system-build.02.webp?raw=true" alt="giscus-comment-system-build.02.webp" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build02.webp?raw=true" alt="2026-02-21-giscus-comment-system-build02.webp" class="img_ev3q"></p>
 <p>根据 <a href="https://giscus.app/zh-CN" target="_blank" rel="noopener noreferrer" class="">giscus官网</a> 的步骤，填写仓库地址和 Discussion 分区(giscus 作者推荐用 announcements 分区 为保证后续可维护性)，之后会自动生成 <code>repo-id</code> 和 <code>category-id</code>，复制出来这段代码</p>
-<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/giscus-comment-system-build.03.webp?raw=true" alt="giscus-comment-system-build.03.webp" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build03.webp?raw=true" alt="2026-02-21-giscus-comment-system-build03.webp" class="img_ev3q"></p>
 <p>在 <code>src/components/Comments/index.js</code> 目录创建一个评论组件</p>
 <blockquote>
 <p>因为是 React 项目，所以上面这个代码不一定能用，需要参考 <a href="https://github.com/giscus/giscus-component?tab=readme-ov-file#documentation" target="_blank" rel="noopener noreferrer" class="">giscus的另一个仓库</a> 格式 去改下格式 就是去掉 <code>data-</code> 的属性，以组件的形式去构建 comments system 的元素</p>
 </blockquote>
-<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/giscus-comment-system-build.04.webp?raw=true" alt="giscus-comment-system-build.04.webp" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build04.webp?raw=true" alt="2026-02-21-giscus-comment-system-build04.webp" class="img_ev3q"></p>
 <p>在这个目录 <code>src/theme/BlogPostItem.js</code> 下 blog post 页面给文章底部加上 comment 评论组件</p>
-<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/giscus-comment-system-build05.webp?raw=true" alt="giscus-comment-system-build.05.webp" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build05.webp?raw=true" alt="2026-02-21-giscus-comment-system-build05.webp" class="img_ev3q"></p>
 <p><em>Reference:</em></p>
 <p><a href="https://giscus.app/" target="_blank" rel="noopener noreferrer" class="">https://giscus.app/</a></p>
 <p><a href="https://github.com/giscus/giscus" target="_blank" rel="noopener noreferrer" class="">https://github.com/giscus/giscus</a></p>
@@ -226,8 +228,9 @@
         <id>https://xingshi.blog/blog/front-end-positions-thinking-2026-02-18</id>
         <link href="https://xingshi.blog/blog/front-end-positions-thinking-2026-02-18"/>
         <updated>2026-02-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[刚刚搜了下 南孚国际站官网 ，感觉自己对于前端开发和目前自己的未来职业规划又有了些小思考了呢，大概写点东西吧]]></summary>
-        <content type="html"><![CDATA[<blockquote>
+        <summary type="html"><![CDATA[2026-02-18-front-end-positions-thinking01.webp]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-18/2026-02-18-front-end-positions-thinking01.webp?raw=true" alt="2026-02-18-front-end-positions-thinking01.webp" class="img_ev3q"></p>
+<blockquote>
 <p>刚刚搜了下 <a href="https://nanfu.global/" target="_blank" rel="noopener noreferrer" class="">南孚国际站官网</a> ，感觉自己对于前端开发和目前自己的未来职业规划又有了些小思考了呢，大概写点东西吧</p>
 </blockquote>
 <p>目前也是已经工作了一年多了呢，对自己心仪的工作岗位又有了点更清晰的认知了呢，好像自己喜欢的不是传统的对接口 传数据给后端，用UI框架去构建一个千篇一律的后台管理系统前端页面的岗位</p>
@@ -246,8 +249,9 @@
         <id>https://xingshi.blog/blog/2026-chunwan-think</id>
         <link href="https://xingshi.blog/blog/2026-chunwan-think"/>
         <updated>2026-02-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[昨晚看了下2026年的央视春晚，感受颇深吧，科技感满满 花哨的舞美，但同时也延伸出一些感想，关于AI（人工智能）和机器人相关的，细细道来吧]]></summary>
-        <content type="html"><![CDATA[<blockquote>
+        <summary type="html"><![CDATA[2026-02-17-2026-chunwan-think01.webp]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-17/2026-02-17-2026-chunwan-think01.webp?raw=true" alt="2026-02-17-2026-chunwan-think01.webp" class="img_ev3q"></p>
+<blockquote>
 <p>昨晚看了下2026年的央视春晚，感受颇深吧，科技感满满 花哨的舞美，但同时也延伸出一些感想，关于AI（人工智能）和机器人相关的，细细道来吧</p>
 </blockquote>
 <p>春晚，一个除夕夜八点黄金档在央视平台播出的栏目，多种艺术形式交织在一起，给人们带来欢乐的同时也弘扬了中华传统文化；AI,&nbsp;<em><u>Artificial intelligence</u></em>&nbsp;人工智能的缩写，近几年很火的一种技术，恰当的使用可以帮助人们去提升工作效率 节省重复的体力劳动</p>
@@ -276,8 +280,9 @@
         <id>https://xingshi.blog/blog/hdl-think</id>
         <link href="https://xingshi.blog/blog/hdl-think"/>
         <updated>2026-01-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[今天收拾电脑，看到了一个高中写的关于魂斗罗游戏的一篇文章，有了点小感触 写点东西吧]]></summary>
-        <content type="html"><![CDATA[<blockquote>
+        <summary type="html"><![CDATA[2026-01-25-hdl-think01.webp]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-01-25/2026-01-25-hdl-think01.webp?raw=true" alt="2026-01-25-hdl-think01.webp" class="img_ev3q"></p>
+<blockquote>
 <p>今天收拾电脑，看到了一个高中写的关于魂斗罗游戏的一篇文章，有了点小感触 写点东西吧</p>
 </blockquote>
 <p>突然发现已经好久没玩游戏了呢，自从工作了以后，大概是因为工作忙碌的缘故吧 工作日闲下来也会去B站看看视频、刷刷抖音或看看微信的公众号文章的，休息日闲下来 最近这段时间的话是在捣鼓自己的博客网站了 或者去亲戚家串门的，现在手机上已经一个游戏都没有了呢，电脑上就更不用说了，记得留下的唯一一个游戏还是当时大学的时候 比较火的那个植物大战僵尸杂交版呢，也好久没关注了，数值怪 感觉很难不开挂去过每一关，和之前的经典版的植物大战僵尸不太一样了呢</p>
