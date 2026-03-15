@@ -8,7 +8,7 @@ title: About
 
 ## About me
 
-Hi! I'm Xingshi (星矢), the English name comes from the pronunciation of my Chinese name "xingshuai". I'm currently a frontend developer, mainly working on `Shopify` related development, and a "programmer" who is trying to learn the `React` tech stack.
+Hi! I'm Xingshi. I'm currently a frontend developer, mainly working on `Shopify` related development, and a "programmer" who is trying to learn the `React` tech stack.
 
 I don't have many impressive hobbies — I don't play games. In my free time, I enjoy doing things I like: going for walks on days off, tinkering with my website, listening to music, etc. I'm kind of a slightly boring person, but I particularly love having spontaneous ideas and then going out to do them.
 
