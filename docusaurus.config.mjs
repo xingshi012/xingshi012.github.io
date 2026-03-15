@@ -65,7 +65,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: './sidebars.mjs',
           // decide whether to enable breadcrumbs navigation
           breadcrumbs: true,
         },
@@ -79,9 +79,6 @@ const config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-          blogSidebarTitle: 'Blog | 博客',
-          blogTitle: 'Xingshi Blog & Article',
-          blogDescription: '星矢的碎碎念 & 文章',
           blogSidebarCount: 'ALL',
           pageBasePath: 'page',
           postsPerPage: 10,
@@ -154,14 +151,15 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/xingshi012/xingshi012.github.io',
-            label: 'GitHub',
-            position: 'right',
-          },
-          {
             type: 'localeDropdown',
             position: 'right',
           },
+          {
+            href: 'https://github.com/xingshi012/xingshi012.github.io',
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
+          }
         ],
       },
       footer: {
@@ -230,13 +228,13 @@ const config = {
       },
 
       // Algolia search Config
-      algolia: {
+      /*algolia: {
         appId: '3b2c1fc7-1daf-47d3-8c99-953cf83f74d1',
         apiKey: 'bd74d33b28f67b1554f259b23cdc9d42',
         indexName: 'xingshi.blog_INDEX',
         contextualSearch: true, 
         searchPagePath: 'search', 
-      },
+      },*/
     }),
 };
 
