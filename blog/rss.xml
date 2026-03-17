@@ -4,10 +4,40 @@
         <title>Xingshi Blog Blog</title>
         <link>https://xingshi.blog/blog</link>
         <description>Xingshi Blog Blog</description>
-        <lastBuildDate>Sat, 14 Mar 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[Chrome启用左侧垂直侧边栏]]></title>
+            <link>https://xingshi.blog/blog/chrome-enable-left-vertical-sidebar</link>
+            <guid>https://xingshi.blog/blog/chrome-enable-left-vertical-sidebar</guid>
+            <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[chrome-enable-left-vertical-sidebar-cover-cn.webp]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-17/chrome-enable-left-vertical-sidebar-cover-cn.webp?raw=true" alt="chrome-enable-left-vertical-sidebar-cover-cn.webp" class="img_ev3q"></p>
+<blockquote>
+<p>本功能目前（2026-03-17）还处于试验阶段 不如默认模式稳定 还不是很完善，体验可能不是很完美</p>
+</blockquote>
+<p>更新 chrome 浏览器到最新版本</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-17/chrome-enable-left-vertical-sidebar01.webp?raw=true" alt="chrome-enable-left-vertical-sidebar01.webp" class="img_ev3q"></p>
+<p>在地址栏键入 <code>chrome://flags</code></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-17/chrome-enable-left-vertical-sidebar02.webp?raw=true" alt="chrome-enable-left-vertical-sidebar02.webp" class="img_ev3q"></p>
+<p>搜索 <code>Vertical Tabs</code> 启用 并重启浏览器</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-17/chrome-enable-left-vertical-sidebar03.webp?raw=true" alt="chrome-enable-left-vertical-sidebar03.webp" class="img_ev3q"></p>
+<p><strong>在顶部标签栏空白处鼠标右键：</strong></p>
+<p>点击 <code>将标签栏移至侧边</code></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-17/chrome-enable-left-vertical-sidebar04.webp?raw=true" alt="chrome-enable-left-vertical-sidebar04.webp" class="img_ev3q"></p>
+<p>或者在此地址 <code>chrome://settings/appearance</code></p>
+<p>去选择 <code>标签栏位置</code> 为 <code>侧边</code></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-17/chrome-enable-left-vertical-sidebar05.webp?raw=true" alt="chrome-enable-left-vertical-sidebar05.webp" class="img_ev3q"></p>
+<p>就可以了！</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-17/chrome-enable-left-vertical-sidebar06.webp?raw=true" alt="chrome-enable-left-vertical-sidebar06.webp" class="img_ev3q"></p>
+<p><strong>目前尚且属于测试模式 功能可能不是很完善</strong></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reference">Reference<a href="https://xingshi.blog/blog/chrome-enable-left-vertical-sidebar#reference" class="hash-link" aria-label="Reference的直接链接" title="Reference的直接链接" translate="no">​</a></h2>
+<p><a href="https://x.com/howie_serious/status/2032060989647298939" target="_blank" rel="noopener noreferrer" class="">https://x.com/howie_serious/status/2032060989647298939</a>
+<a href="https://www.bram.us/2026/01/16/chrome-145-adds-experimental-support-for-vertical-tabs/" target="_blank" rel="noopener noreferrer" class="">https://www.bram.us/2026/01/16/chrome-145-adds-experimental-support-for-vertical-tabs/</a></p>]]></content:encoded>
+            <category>Chrome</category>
+        </item>
         <item>
             <title><![CDATA[Docusaurus下集成i18n国际化]]></title>
             <link>https://xingshi.blog/blog/docusaurus-integrated-i18n</link>
@@ -479,26 +509,16 @@
             <category>Article</category>
         </item>
         <item>
-            <title><![CDATA[乱七八糟]]></title>
-            <link>https://xingshi.blog/blog/other</link>
-            <guid>https://xingshi.blog/blog/other</guid>
+            <title><![CDATA[开始]]></title>
+            <link>https://xingshi.blog/blog/start</link>
+            <guid>https://xingshi.blog/blog/start</guid>
             <pubDate>Thu, 01 Jan 2004 00:00:00 GMT</pubDate>
-            <description><![CDATA[乱七八糟汇总]]></description>
+            <description><![CDATA[你好世界！]]></description>
             <content:encoded><![CDATA[<blockquote>
-<p>乱七八糟汇总</p>
+<p>你好世界！</p>
 </blockquote>
-<ul>
-<li class="">
-<p><code>/blog</code>  blog模板默认博客目录</p>
-</li>
-<li class="">
-<p><code>/blog/archive</code> blog模板默认归档目录</p>
-</li>
-<li class="">
-<p><code>/blog/tags</code> blog模板默认标签目录</p>
-</li>
-</ul>]]></content:encoded>
-            <category>useful</category>
+<p>来到了这个世界。</p>]]></content:encoded>
+            <category>Hello</category>
         </item>
     </channel>
 </rss>
