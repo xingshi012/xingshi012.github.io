@@ -52,3 +52,8 @@ i18n:
   label: i18n
   permalink: /i18n
   description: 关于 i18n 国际化的文章
+
+chrome:
+  label: Chrome
+  permalink: /chrome
+  description: 关于 Chrome 浏览器的文章
