@@ -31,7 +31,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'algolia-site-verification',
-        content: 'A7F9CE589501D1D2',
+        content: 'FF49B727EDA65FC4',
       },
     },
   ],
@@ -229,8 +229,8 @@ const config = {
 
       // Algolia search Config
       /*algolia: {
-        appId: '3b2c1fc7-1daf-47d3-8c99-953cf83f74d1',
-        apiKey: 'bd74d33b28f67b1554f259b23cdc9d42',
+        appId: '6VW10MZ6PN',
+        apiKey: 'a1d4ef2190e7586daf871e7d6dcb85a3',
         indexName: 'xingshi.blog_INDEX',
         contextualSearch: true, 
         searchPagePath: 'search', 
