@@ -230,7 +230,7 @@ const config = {
       // Algolia search Config
       algolia: {
         appId: '6VW10MZ6PN',
-        apiKey: 'a1d4ef2190e7586daf871e7d6dcb85a3',
+        apiKey: 'bd74d33b28f67b1554f259b23cdc9d42',
         indexName: 'XINGSHI.BLOG_INDEX',
         contextualSearch: true, 
         searchPagePath: 'search', 
