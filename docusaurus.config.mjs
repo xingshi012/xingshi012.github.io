@@ -228,13 +228,13 @@ const config = {
       },
 
       // Algolia search Config
-      /*algolia: {
+      algolia: {
         appId: '6VW10MZ6PN',
         apiKey: 'a1d4ef2190e7586daf871e7d6dcb85a3',
-        indexName: 'xingshi.blog_INDEX',
+        indexName: 'XINGSHI.BLOG_INDEX',
         contextualSearch: true, 
         searchPagePath: 'search', 
-      },*/
+      },
     }),
 };
 
