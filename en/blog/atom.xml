@@ -2,11 +2,92 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xingshi.blog/en/blog</id>
     <title>Xingshi Blog Blog</title>
-    <updated>2026-03-17T00:00:00.000Z</updated>
+    <updated>2026-03-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xingshi.blog/en/blog"/>
     <subtitle>Xingshi Blog Blog</subtitle>
     <icon>https://xingshi.blog/en/img/custom/favicon_xingshi.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Docusaurus connects to aloglia to implement search function]]></title>
+        <id>https://xingshi.blog/en/blog/docusaurus-algolia-search</id>
+        <link href="https://xingshi.blog/en/blog/docusaurus-algolia-search"/>
+        <updated>2026-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[docusaurus-algolia-search-cover-en.webp]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search-cover-en.webp" alt="docusaurus-algolia-search-cover-en.webp" class="img_ev3q"></p>
+<p><a href="https://docsearch.algolia.com/" target="_blank" rel="noopener noreferrer" class="">DocSearch</a> is a product of <a href="https://www.algolia.com/" target="_blank" rel="noopener noreferrer" class="">algolia</a> that uses search functions for free for developer documents or technical blogs. It regularly crawls the content of its own website through crawlers and connects to algolia's own API to implement search functions. Here are some detailed steps to connect to algolia's search functions:)</p>
+<blockquote>
+<p>This document introduces how to access algolia’s DocSearch for developer documentation or technical blogs.</p>
+<p>Free for all developers, but you must ensure that your website meets <a href="https://docsearch.algolia.com/docs/who-can-apply/" target="_blank" rel="noopener noreferrer" class="">official requirements</a></p>
+<p>My site current version:</p>
+<ul>
+<li class="">Docusaurus version：3.9</li>
+<li class="">DocSearch v4</li>
+</ul>
+<p>Due to timeliness issues, subsequent technical iterations, adjustments to the DocSearch search function and other , the content demonstrated in this document may not be valid.</p>
+<p>In addition</p>
+<p><strong>This document is only a basic search function for accessing DocSearch. It does not include Ask AI advanced functions and custom components to optimize the Search component. If needed, you can check the <a href="https://docusaurus.io/docs/search#ask-ai" target="_blank" rel="noopener noreferrer" class="">Docusaurus</a> and <a href="https://docsearch.algolia.com/docs/v4/askai" target="_blank" rel="noopener noreferrer" class="">DocSearch</a> official documents to learn more.</strong></p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="application-and-registration">Application and registration<a href="https://xingshi.blog/en/blog/docusaurus-algolia-search#application-and-registration" class="hash-link" aria-label="Direct link to Application and registration" title="Direct link to Application and registration" translate="no">​</a></h2>
+<p>First, you need to click on the <a href="https://docsearch.algolia.com/apply" target="_blank" rel="noopener noreferrer" class="">Aloglia DocSearch application website</a> to register an algolia account and fill in some information about your website domain name.</p>
+<p>After configuration, you can view your Applications <a href="https://dashboard.algolia.com/account/applications" target="_blank" rel="noopener noreferrer" class="">here</a> (can be understood as a project, and subsequent information related to your own crawler will be configured in this single Application)</p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search01.webp" alt="docusaurus-algolia-search01.webp" class="img_ev3q"></p>
+<p>You can enter a single Application and click on the <code>DocSearch Setup</code> in the lower left corner to understand the review progress of your current Application.</p>
+<blockquote>
+<p>After initializing the Application, you need to go through the following stages before you can access algolia's DocSearch to implement the search function:</p>
+<ul>
+<li class="">Add Domain</li>
+<li class="">Crawl website</li>
+<li class="">Implement DocSearch</li>
+</ul>
+</blockquote>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search02.webp" alt="docusaurus-algolia-search02.webp" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="domain-review">Domain review<a href="https://xingshi.blog/en/blog/docusaurus-algolia-search#domain-review" class="hash-link" aria-label="Direct link to Domain review" title="Direct link to Domain review" translate="no">​</a></h2>
+<p>After configuring the domain name according to the instructions here, you need to wait for about two working days. Algolia will review whether your website meets the DocSearch requirements.</p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search03.webp" alt="docusaurus-algolia-search03.webp" class="img_ev3q"></p>
+<p>After the review is successful, algolia will send an email to your mailbox. Just go and start the configuration.</p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search04.webp" alt="docusaurus-algolia-search04.webp" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="configuration">Configuration<a href="https://xingshi.blog/en/blog/docusaurus-algolia-search#configuration" class="hash-link" aria-label="Direct link to Configuration" title="Direct link to Configuration" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="verify-domain-ownership">Verify domain ownership<a href="https://xingshi.blog/en/blog/docusaurus-algolia-search#verify-domain-ownership" class="hash-link" aria-label="Direct link to Verify domain ownership" title="Direct link to Verify domain ownership" translate="no">​</a></h3>
+<p>First of all, you will definitely be asked to choose a method and fill in one of the following contents into your website to confirm that this website belongs to you.</p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search05.webp" alt="docusaurus-algolia-search05.webp" class="img_ev3q"></p>
+<blockquote>
+<p>What I use here is <code>Meta Tag</code>. Just add the following content below <code> baseUrl: '/'</code>, in the <code>docusaurus.config.js</code> file of the project, which is a more convenient way.</p>
+<p>Of course, you can also study and use several other methods (I didn’t study it clearly, so I used the simplest method)</p>
+</blockquote>
+<blockquote>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search06.webp" alt="docusaurus-algolia-search06.webp" class="img_ev3q"></p>
+</blockquote>
+<div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">headTags</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      tagName</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> 'meta'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      attributes</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        name</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> 'algolia-site-verification'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        content</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> 'FF49B727EDA65FC4'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="configure-crawler">Configure crawler<a href="https://xingshi.blog/en/blog/docusaurus-algolia-search#configure-crawler" class="hash-link" aria-label="Direct link to Configure crawler" title="Direct link to Configure crawler" translate="no">​</a></h3>
+<p>After the previous domain name review is passed, you will come to the second step <code>Crawl website</code></p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search07.webp" alt="docusaurus-algolia-search07.webp" class="img_ev3q"></p>
+<p>Then the third step <code>Implement DocSearch</code></p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search08.webp" alt="docusaurus-algolia-search08.webp" class="img_ev3q"></p>
+<p>After completion, you may need to verify the domain name again. Repeat the <a href="https://xingshi.blog/en/blog/docusaurus-algolia-search#verify-domain-ownership" class="">above operations</a>.</p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search09.webp" alt="docusaurus-algolia-search09.webp" class="img_ev3q"></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="docsearch-information-related-to-docusaurus-configuration">DocSearch information related to Docusaurus configuration<a href="https://xingshi.blog/en/blog/docusaurus-algolia-search#docsearch-information-related-to-docusaurus-configuration" class="hash-link" aria-label="Direct link to DocSearch information related to Docusaurus configuration" title="Direct link to DocSearch information related to Docusaurus configuration" translate="no">​</a></h3>
+<p>After the above domain name is repeatedly verified, you can configure DocSearch information locally.</p>
+<p>At <a href="https://dashboard.algolia.com/account/api-keys" target="_blank" rel="noopener noreferrer" class="">this address</a> check your <code>Application ID</code> and <code>Search API Key</code> configuration in the <code>docusaurus.config.js</code> file</p>
+<p>Just deploy the website again</p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search10.webp" alt="docusaurus-algolia-search10.webp" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="effect-preview">Effect preview<a href="https://xingshi.blog/en/blog/docusaurus-algolia-search#effect-preview" class="hash-link" aria-label="Direct link to Effect preview" title="Direct link to Effect preview" translate="no">​</a></h2>
+<p>As shown in the picture, if the input content can be searched, it means success.</p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search11.webp" alt="docusaurus-algolia-search11.webp" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="problems-encountered">Problems encountered<a href="https://xingshi.blog/en/blog/docusaurus-algolia-search#problems-encountered" class="hash-link" aria-label="Direct link to Problems encountered" title="Direct link to Problems encountered" translate="no">​</a></h2>
+<ul>
+<li class="">When reviewing the domain, if the first review fails, you can create a new Application and submit your domain again. Review the following. I repeated it twice before I succeeded.</li>
+<li class="">Be sure to pay attention to <code>Application ID</code> and <code>Search API Key</code> and don’t configure it incorrectly.</li>
+<li class="">Because what this website only wants is a basic search function, it has not studied advanced operations such as Ask AI, and there is no relevant space to explain the relevant content. If necessary, you can check the official documents of <a href="https://docusaurus.io/docs/search#ask-ai" target="_blank" rel="noopener noreferrer" class="">Docusaurus</a> and <a href="https://docsearch.algolia.com/docs/v4/askai" target="_blank" rel="noopener noreferrer" class="">DocSearch</a> to learn more.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reference">Reference<a href="https://xingshi.blog/en/blog/docusaurus-algolia-search#reference" class="hash-link" aria-label="Direct link to Reference" title="Direct link to Reference" translate="no">​</a></h2>
+<p><a href="https://docusaurus.io/docs/search#using-algolia-docsearch" target="_blank" rel="noopener noreferrer" class="">https://docusaurus.io/docs/search#using-algolia-docsearch</a></p>
+<p><a href="https://docsearch.algolia.com/docs/what-is-docsearch/" target="_blank" rel="noopener noreferrer" class="">https://docsearch.algolia.com/docs/what-is-docsearch/</a></p>]]></content>
+        <author>
+            <name>Xingshi</name>
+            <uri>https://xingshi.blog</uri>
+        </author>
+        <category label="algolia" term="algolia"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chrome enable left vertical sidebar]]></title>
         <id>https://xingshi.blog/en/blog/chrome-enable-left-vertical-sidebar</id>

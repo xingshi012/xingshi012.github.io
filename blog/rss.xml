@@ -4,10 +4,85 @@
         <title>Xingshi Blog Blog</title>
         <link>https://xingshi.blog/blog</link>
         <description>Xingshi Blog Blog</description>
-        <lastBuildDate>Tue, 17 Mar 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[Docusaurus 接入 aloglia 实现搜索功能]]></title>
+            <link>https://xingshi.blog/blog/docusaurus-algolia-search</link>
+            <guid>https://xingshi.blog/blog/docusaurus-algolia-search</guid>
+            <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[docusaurus-algolia-search-cover-cn.webp]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search-cover-cn.webp" alt="docusaurus-algolia-search-cover-cn.webp" class="img_ev3q"></p>
+<p><a href="https://docsearch.algolia.com/" target="_blank" rel="noopener noreferrer" class="">DocSearch</a> 是 <a href="https://www.algolia.com/" target="_blank" rel="noopener noreferrer" class="">algolia</a> 旗下一个面向开发者文档或技术博客免费使用搜索功能的一个产品，通过爬虫定期爬取自己网站的内容，接入 algolia 自家的 API 实现搜索功能，以下是一些详细接入 algolia 搜索功能的步骤 :)</p>
+<blockquote>
+<p>此文档介绍的是接入 algolia 面向开发者文档或技术博客的 DocSearch</p>
+<p>对所有开发者都是免费的，但是要保证自己的网站符合 <a href="https://docsearch.algolia.com/docs/who-can-apply/" target="_blank" rel="noopener noreferrer" class="">官方的要求</a></p>
+<p>我网站当前的版本：</p>
+<ul>
+<li class="">Docusaurus version：3.9</li>
+<li class="">DocSearch v4</li>
+</ul>
+<p>由于时效性问题 后续可能会受技术迭代、DocSearch 搜索功能的调整等其他原因，此文档所演示的内容可能会失效</p>
+<p>另外</p>
+<p><strong>此文档只是基础的接入 DocSearch 的搜索功能，不包含 Ask AI 进阶功能和自定义组件对 Search 组件进行优化等，如有需要 可以查看 <a href="https://docusaurus.io/docs/search#ask-ai" target="_blank" rel="noopener noreferrer" class="">Docusaurus</a> 和 <a href="https://docsearch.algolia.com/docs/v4/askai" target="_blank" rel="noopener noreferrer" class="">DocSearch</a> 官方文档去了解</strong></p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="申请与注册">申请与注册<a href="https://xingshi.blog/blog/docusaurus-algolia-search#%E7%94%B3%E8%AF%B7%E4%B8%8E%E6%B3%A8%E5%86%8C" class="hash-link" aria-label="申请与注册的直接链接" title="申请与注册的直接链接" translate="no">​</a></h2>
+<p>首先需要点击 <a href="https://docsearch.algolia.com/apply" target="_blank" rel="noopener noreferrer" class="">Aloglia DocSearch 申请网址</a> 去注册一个 algolia 账号，以及填写一些有关自己网站域名相关的信息</p>
+<p>配置好后 可以在 <a href="https://dashboard.algolia.com/account/applications" target="_blank" rel="noopener noreferrer" class="">这里</a> 查看自己的 Applications（可以理解为一个项目 后续自己的爬虫相关的信息就会在这单个 Application 中进行配置）</p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search01.webp" alt="docusaurus-algolia-search01.webp" class="img_ev3q"></p>
+<p>可以进到单个 Application 中，点击左下角的这个<code>DocSearch Setup</code> 去了解你当前这个 Application 审核进度</p>
+<blockquote>
+<p>初始化 Application 后，需要经过下面几个阶段 才可以接入 algolia 的 DocSearch 以实现搜索功能：</p>
+<ul>
+<li class="">Add Domain</li>
+<li class="">Crawl website</li>
+<li class="">Implement DocSearch</li>
+</ul>
+</blockquote>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search02.webp" alt="docusaurus-algolia-search02.webp" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="域名审核阶段">域名审核阶段<a href="https://xingshi.blog/blog/docusaurus-algolia-search#%E5%9F%9F%E5%90%8D%E5%AE%A1%E6%A0%B8%E9%98%B6%E6%AE%B5" class="hash-link" aria-label="域名审核阶段的直接链接" title="域名审核阶段的直接链接" translate="no">​</a></h2>
+<p>在这里按照指引配置了域名后，需要等待大概两个工作日的时间，algolia 会审核你的网站是否符合 DocSearch 要求</p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search03.webp" alt="docusaurus-algolia-search03.webp" class="img_ev3q"></p>
+<p>审核成功后 algolia 会发送一个邮件到你的邮箱，去开始配置就可以了</p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search04.webp" alt="docusaurus-algolia-search04.webp" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="配置阶段">配置阶段<a href="https://xingshi.blog/blog/docusaurus-algolia-search#%E9%85%8D%E7%BD%AE%E9%98%B6%E6%AE%B5" class="hash-link" aria-label="配置阶段的直接链接" title="配置阶段的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="验证域名归属">验证域名归属<a href="https://xingshi.blog/blog/docusaurus-algolia-search#%E9%AA%8C%E8%AF%81%E5%9F%9F%E5%90%8D%E5%BD%92%E5%B1%9E" class="hash-link" aria-label="验证域名归属的直接链接" title="验证域名归属的直接链接" translate="no">​</a></h3>
+<p>首先肯定会让你任选一种方式，将下面这些内容中的一项 填写到你的网站里，以确认此网站归你所有</p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search05.webp" alt="docusaurus-algolia-search05.webp" class="img_ev3q"></p>
+<blockquote>
+<p>这里我用的就是 <code>Meta Tag</code> 在项目的 <code>docusaurus.config.js</code> 文件的 <code> baseUrl: '/',</code> 下方加上如下内容即可，算是一种比较方便的方式</p>
+<p>当然 也可以研究去使用其他几种方式（我没研究明白 所以用了最简单的一种方式 ）
+<img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search06.webp" alt="docusaurus-algolia-search06.webp" class="img_ev3q"></p>
+</blockquote>
+<div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">headTags</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      tagName</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> 'meta'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      attributes</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        name</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> 'algolia-site-verification'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        content</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> 'FF49B727EDA65FC4'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="配置爬虫">配置爬虫<a href="https://xingshi.blog/blog/docusaurus-algolia-search#%E9%85%8D%E7%BD%AE%E7%88%AC%E8%99%AB" class="hash-link" aria-label="配置爬虫的直接链接" title="配置爬虫的直接链接" translate="no">​</a></h3>
+<p>前面的域名审核通过后，会来到第二步骤 <code>Crawl website</code></p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search07.webp" alt="docusaurus-algolia-search07.webp" class="img_ev3q"></p>
+<p>然后第三步 <code>Implement DocSearch</code></p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search08.webp" alt="docusaurus-algolia-search08.webp" class="img_ev3q"></p>
+<p>完成之后 可能会需要再次验证域名，重复 <a href="https://xingshi.blog/blog/docusaurus-algolia-search#%E9%AA%8C%E8%AF%81%E5%9F%9F%E5%90%8D%E5%BD%92%E5%B1%9E" class="">上面的操作</a> 即可</p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search09.webp" alt="docusaurus-algolia-search09.webp" class="img_ev3q"></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="docusaurus-配置相关-docsearch-信息">Docusaurus 配置相关 DocSearch 信息<a href="https://xingshi.blog/blog/docusaurus-algolia-search#docusaurus-%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3-docsearch-%E4%BF%A1%E6%81%AF" class="hash-link" aria-label="Docusaurus 配置相关 DocSearch 信息的直接链接" title="Docusaurus 配置相关 DocSearch 信息的直接链接" translate="no">​</a></h3>
+<p>上面的域名重复验证后，就可以在本地去配置 DocSearch 的信息了</p>
+<p>在 <a href="https://dashboard.algolia.com/account/api-keys" target="_blank" rel="noopener noreferrer" class="">这个地址</a> 查看自己的 <code>Application ID</code> 和 <code>Search API Key</code> 配置到 <code>docusaurus.config.js</code> 文件里</p>
+<p>重新 deploy 网站就可以了</p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search10.webp" alt="docusaurus-algolia-search10.webp" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="效果预览">效果预览<a href="https://xingshi.blog/blog/docusaurus-algolia-search#%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88" class="hash-link" aria-label="效果预览的直接链接" title="效果预览的直接链接" translate="no">​</a></h2>
+<p>如图 输入内容能搜索出来，就是成功了</p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search11.webp" alt="docusaurus-algolia-search11.webp" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="遇到的问题">遇到的问题<a href="https://xingshi.blog/blog/docusaurus-algolia-search#%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98" class="hash-link" aria-label="遇到的问题的直接链接" title="遇到的问题的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">审核域名时，如果一次审核没通过，可以重新创一个 Application 再次提交下自己的域名 重新审核以下，我就是重复了两次 才成功的</li>
+<li class="">一定要看好 <code>Application ID</code> 和 <code>Search API Key</code> 不要配置错了</li>
+<li class="">因为本网站想要的只是一个基础的搜索功能，所以没研究 Ask AI 等进阶操作 也就没有相关篇幅讲解相关内容，如有需要可以查看 <a href="https://docusaurus.io/docs/search#ask-ai" target="_blank" rel="noopener noreferrer" class="">Docusaurus</a> 和 <a href="https://docsearch.algolia.com/docs/v4/askai" target="_blank" rel="noopener noreferrer" class="">DocSearch</a> 官方文档去了解</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reference">Reference<a href="https://xingshi.blog/blog/docusaurus-algolia-search#reference" class="hash-link" aria-label="Reference的直接链接" title="Reference的直接链接" translate="no">​</a></h2>
+<p><a href="https://docusaurus.io/docs/search#using-algolia-docsearch" target="_blank" rel="noopener noreferrer" class="">https://docusaurus.io/docs/search#using-algolia-docsearch</a></p>
+<p><a href="https://docsearch.algolia.com/docs/what-is-docsearch/" target="_blank" rel="noopener noreferrer" class="">https://docsearch.algolia.com/docs/what-is-docsearch/</a></p>]]></content:encoded>
+            <category>algolia</category>
+        </item>
         <item>
             <title><![CDATA[Chrome启用左侧垂直侧边栏]]></title>
             <link>https://xingshi.blog/blog/chrome-enable-left-vertical-sidebar</link>
