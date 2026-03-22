@@ -57,3 +57,7 @@ chrome:
   label: Chrome
   permalink: /chrome
   description: About Chrome brower article
+algolia:
+  label: algolia
+  permalink: /algolia
+  description: About algolia article
