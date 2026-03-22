@@ -5,8 +5,15 @@
   padding: 2rem;
 }
 
-.HPFeaturesRow {
+.HPFeaturesContainer {
   display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.HPFeaturesRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .hpfeatCard {
@@ -16,14 +23,14 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  max-width: 33.333%;
+  padding: 0;
 }
 
 .featureSvg {
-  height: 50%;
   width: auto;
   overflow: hidden;
   transition: all .3s ease;
+  max-height: 20rem;
 }
 
 .hpfeatCard svg,
@@ -31,6 +38,14 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.itemContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -43,14 +58,16 @@
 @media (max-width: 996px) {
   .features {
     padding: 3rem 1rem 1rem;
+    justify-content: center;
   }
 
-    .HPFeaturesRow {
-        flex-direction: column;
-        align-items: center;
-    }
+  .HPFeaturesRow {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1.5rem;
+  }
 
-    .hpfeatCard {
-      max-width: 80%;
-    }
+  .hpfeatCard {
+    max-width: 80%;
+  }
 }

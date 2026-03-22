@@ -7,7 +7,7 @@
 # Generated files
 .docusaurus
 .cache-loader
-.obsidian
+docusaurus.config.js.bak
 
 # Misc
 .DS_Store

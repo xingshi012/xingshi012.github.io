@@ -4,11 +4,14 @@ title: 个人职业兴趣探索
 date: 2024-05-16
 authors: xingshi
 tags: [ssn]
+image: https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-05-16/personal-career-interest-exploration01.webp?raw=true
+description: 一篇很早之前写的文字，关于自己喜欢什么类型工作的
 ---
 
-> 一篇很早之前写的文字，关于自己喜欢什么类型工作的
 
 ![personal-career-interest-exploration01.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-05-16/personal-career-interest-exploration01.webp?raw=true)
+
+> 一篇很早之前写的文字，关于自己喜欢什么类型工作的
 
 <!-- truncate -->
 

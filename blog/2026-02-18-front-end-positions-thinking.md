@@ -4,6 +4,8 @@ title: 现阶段(2026-02-18)自己感兴趣的前端开发岗位
 date: 2026-02-18
 authors: xingshi
 tags: [ssn]
+image: https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-18/2026-02-18-front-end-positions-thinking01.webp?raw=true
+description: 刚刚搜了下 南孚国际站官网 ，感觉自己对于前端开发和目前自己的未来职业规划又有了些小思考了呢，大概写点东西吧
 ---
 
 ![2026-02-18-front-end-positions-thinking01.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-18/2026-02-18-front-end-positions-thinking01.webp?raw=true)

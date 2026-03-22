@@ -4,7 +4,8 @@ title: Docusaurus 接入 aloglia 实现搜索功能
 date: 2026-03-21
 authors: xingshi
 tags: [algolia]
-
+image: https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search-cover-cn.webp
+description: DocSearch 是 algolia 旗下一个面向开发者文档或技术博客免费使用搜索功能的一个产品，通过爬虫定期爬取自己网站的内容，接入 algolia 自家的 API 实现搜索功能，以下是一些详细接入 algolia 搜索功能的步骤 :)
 ---
 
 ![docusaurus-algolia-search-cover-cn.webp](https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search-cover-cn.webp)

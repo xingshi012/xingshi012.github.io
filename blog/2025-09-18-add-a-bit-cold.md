@@ -4,6 +4,8 @@ title: 增添些许凉意
 date: 2025-09-18
 authors: xingshi
 tags: [article]
+image: https://github.com/xingshi012/blog-images/blob/main/blogs/2025/2025-09-18/add-a-bit-cold.01.webp?raw=true
+description: 今晚结束一天的工作，关闭电脑 走到厨房准备做饭的时候，一股冷风铺上身来，看了眼手机的天气  气温已经来到了20度--穿着半袖和短裤的我已经感到了些许凉意，原来夏已去 秋将至了呀。
 ---
 
 ![add-a-bit-cold.01.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2025/2025-09-18/add-a-bit-cold.01.webp?raw=true)

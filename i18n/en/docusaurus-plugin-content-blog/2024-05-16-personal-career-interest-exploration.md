@@ -4,6 +4,8 @@ title: Personal career interest exploration
 date: 2024-05-16
 authors: xingshi
 tags: [ssn]
+image: https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-05-16/personal-career-interest-exploration01.webp?raw=true
+description: "An article I wrote a long time ago about what type of work I like"
 ---
 
 > An article I wrote a long time ago about what type of work I like

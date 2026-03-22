@@ -3,6 +3,8 @@ slug: chrome-enable-left-vertical-sidebar
 title: Chrome启用左侧垂直侧边栏
 authors: xingshi
 tags: [chrome]
+image: https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-17/chrome-enable-left-vertical-sidebar-cover-cn.webp?raw=true
+description: 本功能目前（2026-03-17）还处于试验阶段 不如默认模式稳定 还不是很完善，体验可能不是很完美
 ---
 
 

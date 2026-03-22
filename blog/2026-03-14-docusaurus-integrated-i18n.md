@@ -4,6 +4,8 @@ title: Docusaurus下集成i18n国际化
 date: 2026-03-14
 authors: xingshi
 tags: [i18n]
+image: https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-14/2026-03-14-docusaurus-integrated-i18n01.webp?raw=true
+description: i18n 是给网站实现国际化翻译 从而去优化不同地区用户去访问网站体验的一种方式。这次我把自己的博客从单语言改成了 `zh-Hans` + `en` 两套内容，默认语言是中文 可以下拉语言选择框去选择展示英文，这里记录一下完整过程 :)
 ---
 
 ![2026-03-14-docusaurus-integrated-i18n01.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-14/2026-03-14-docusaurus-integrated-i18n01.webp?raw=true)

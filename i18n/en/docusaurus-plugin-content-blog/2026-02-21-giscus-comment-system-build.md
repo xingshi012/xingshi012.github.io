@@ -4,6 +4,8 @@ title: Giscus comment system build in Docusaurus
 date: 2026-02-21
 authors: xingshi
 tags: [giscus]
+image: https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build00.webp?raw=true
+description: "A comment system for giscus built on Github's Discussions under Docusaurus"
 ---
 
 ![2026-02-21-giscus-comment-system-build00.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build00.webp?raw=true)

@@ -43,7 +43,7 @@ function Feature({Svg, image, title, description, url}) {
       <div className={ clsx('text--center', styles['featureSvg'])}>
         <Svg role="img" aria-label={title} />
       </div>
-      <div className="text--center padding-horiz--md">
+      <div className={styles.itemContent}>
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </div>
@@ -57,7 +57,10 @@ export default function HomepageFeatures() {
   
   return (
     <section className={styles.features}>
-      <div className="{styles.HPFeaturesContainer}">
+      <div className={ clsx('container', styles['HPFeaturesContainer'])}>
+        <h2 className={clsx('text--center', styles['HPFeaturesHeader'])}>
+          <Translate id="homepage.features.title">关于本站</Translate>
+        </h2>
         <div className={styles.HPFeaturesRow}>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} url={localizedUrl(props.url)} />
