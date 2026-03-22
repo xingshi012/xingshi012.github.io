@@ -13,7 +13,7 @@
             <link>https://xingshi.blog/en/blog/docusaurus-algolia-search</link>
             <guid>https://xingshi.blog/en/blog/docusaurus-algolia-search</guid>
             <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[docusaurus-algolia-search-cover-en.webp]]></description>
+            <description><![CDATA[DocSearch is a product of algolia hat uses search functions for free for developer documents or technical blogs. It regularly crawls the content of its own website through crawlers and connects to algolia's own API to implement search functions. Here are some detailed steps to connect to algolia's search functions:)]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search-cover-en.webp" alt="docusaurus-algolia-search-cover-en.webp" class="img_ev3q"></p>
 <p><a href="https://docsearch.algolia.com/" target="_blank" rel="noopener noreferrer" class="">DocSearch</a> is a product of <a href="https://www.algolia.com/" target="_blank" rel="noopener noreferrer" class="">algolia</a> that uses search functions for free for developer documents or technical blogs. It regularly crawls the content of its own website through crawlers and connects to algolia's own API to implement search functions. Here are some detailed steps to connect to algolia's search functions:)</p>
 <blockquote>
@@ -21,7 +21,7 @@
 <p>Free for all developers, but you must ensure that your website meets <a href="https://docsearch.algolia.com/docs/who-can-apply/" target="_blank" rel="noopener noreferrer" class="">official requirements</a></p>
 <p>My site current version:</p>
 <ul>
-<li class="">Docusaurus version：3.9</li>
+<li class="">Docusaurus version: 3.9</li>
 <li class="">DocSearch v4</li>
 </ul>
 <p>Due to timeliness issues, subsequent technical iterations, adjustments to the DocSearch search function and other , the content demonstrated in this document may not be valid.</p>
@@ -90,7 +90,7 @@
             <link>https://xingshi.blog/en/blog/chrome-enable-left-vertical-sidebar</link>
             <guid>https://xingshi.blog/en/blog/chrome-enable-left-vertical-sidebar</guid>
             <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[chrome-enable-left-vertical-sidebar-cover-en.webp]]></description>
+            <description><![CDATA[This function is currently (2026-03-17) still in the experimental stage. It is not as stable as the default mode and maybe not perfect yet. ]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-17/chrome-enable-left-vertical-sidebar-cover-en.webp?raw=true" alt="chrome-enable-left-vertical-sidebar-cover-en.webp" class="img_ev3q"></p>
 <blockquote>
 <p>This function is currently (2026-03-17) still in the experimental stage. It is not as stable as the default mode and maybe not perfect yet.</p>
@@ -120,7 +120,7 @@ Or in this address <code>chrome://settings/appearance</code></p>
             <link>https://xingshi.blog/en/blog/docusaurus-integrated-i18n</link>
             <guid>https://xingshi.blog/en/blog/docusaurus-integrated-i18n</guid>
             <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[2026-03-14-docusaurus-integrated-i18n01.webp]]></description>
+            <description><![CDATA[i18n is a way to internationalize a website so users in different regions can get a better browsing experience. This time, I migrated my blog from a single-language setup to a dual-language setup: `zh-Hans` + `en`. The default language is Chinese, and you can switch to English via the language dropdown. Here is the full process :) ]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-14/2026-03-14-docusaurus-integrated-i18n01.webp?raw=true" alt="2026-03-14-docusaurus-integrated-i18n01.webp" class="img_ev3q"></p>
 <blockquote>
 <p>This feature was completed through collaboration between Claude and GPT in VSCode Copilot.</p>
@@ -289,7 +289,7 @@ Or in this address <code>chrome://settings/appearance</code></p>
             <link>https://xingshi.blog/en/blog/giscus-comment-system-build</link>
             <guid>https://xingshi.blog/en/blog/giscus-comment-system-build</guid>
             <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[2026-02-21-giscus-comment-system-build00.webp]]></description>
+            <description><![CDATA[A comment system for giscus built on Github's Discussions under Docusaurus ]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build00.webp?raw=true" alt="2026-02-21-giscus-comment-system-build00.webp" class="img_ev3q"></p>
 <blockquote>
 <p>A comment system for giscus built on Github's Discussions under Docusaurus</p>
@@ -328,7 +328,7 @@ Or in this address <code>chrome://settings/appearance</code></p>
             <link>https://xingshi.blog/en/blog/front-end-positions-thinking-2026-02-18</link>
             <guid>https://xingshi.blog/en/blog/front-end-positions-thinking-2026-02-18</guid>
             <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[2026-02-18-front-end-positions-thinking01.webp]]></description>
+            <description><![CDATA[I just searched Nanfu International Station Official Website and I feel like I have some thoughts about front-end development and my current future career plan. I might write something. ]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-18/2026-02-18-front-end-positions-thinking01.webp?raw=true" alt="2026-02-18-front-end-positions-thinking01.webp" class="img_ev3q"></p>
 <blockquote>
 <p>I just searched <a href="https://nanfu.global/" target="_blank" rel="noopener noreferrer" class="">Nanfu International Station Official Website</a> and I feel like I have some thoughts about front-end development and my current future career plan. I might write something.</p>
@@ -345,7 +345,7 @@ Or in this address <code>chrome://settings/appearance</code></p>
             <link>https://xingshi.blog/en/blog/2026-chunwan-think</link>
             <guid>https://xingshi.blog/en/blog/2026-chunwan-think</guid>
             <pubDate>Tue, 17 Feb 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[2026-02-17-2026-chunwan-think01.webp]]></description>
+            <description><![CDATA[I watched the 2026 CCTV Spring Festival Gala last night, and I felt deeply about it. It was full of technology and fancy dances, but it also extended some thoughts. Let’s go into details about AI (artificial intelligence) and robots. ]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-17/2026-02-17-2026-chunwan-think01.webp?raw=true" alt="2026-02-17-2026-chunwan-think01.webp" class="img_ev3q"></p>
 <blockquote>
 <p>I watched the 2026 CCTV Spring Festival Gala last night, and I felt deeply about it. It was full of technology and fancy dances, but it also extended some thoughts. Let’s go into details about AI (artificial intelligence) and robots.</p>
@@ -372,12 +372,12 @@ The progress of artificial intelligence technology also brings a lot of risks an
             <link>https://xingshi.blog/en/blog/hdl-think</link>
             <guid>https://xingshi.blog/en/blog/hdl-think</guid>
             <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[2026-01-25-hdl-think01.webp]]></description>
+            <description><![CDATA[I packed up my computer today and saw an article about the Contra game written by a high school student. I felt a little touched. Let’s write something. ]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-01-25/2026-01-25-hdl-think01.webp?raw=true" alt="2026-01-25-hdl-think01.webp" class="img_ev3q"></p>
 <blockquote>
 <p>I packed up my computer today and saw an article about the Contra game written by a high school student. I felt a little touched. Let’s write something.</p>
 </blockquote>
-<p>I suddenly realized that I haven’t played games for a long time. Since I started working, it’s probably because I’m busy at work. When I have free time during the workday, I will go to Bilibili to watch videos, browse Tiktok, or read WeChat public account articles. During my free days, I have been working on my own blog website or visiting relatives’ houses. Now there are no games on my mobile phone, let alone the computer. I remember that the only game left was when I was in college. The more popular hybrid version of Plants vs. Zombies. I haven’t paid attention to it for a long time. The numerical value is weird. It’s hard to pass every level without cheating. It’s different from the previous classic version of Plants vs. Zombies.</p>
+<p>I suddenly realized that I haven’t played games for a long time. Since I started working, it’s probably because I’m busy at work. When I have free time during the workday, I will go to Bilibili to watch videos, browse Tiktok, or read WeChat public account articles. During my free days, I have been working on my own blog website or visiting relatives' houses. Now there are no games on my mobile phone, let alone the computer. I remember that the only game left was when I was in college. The more popular hybrid version of Plants vs. Zombies. I haven’t paid attention to it for a long time. The numerical value is weird. It’s hard to pass every level without cheating. It’s different from the previous classic version of Plants vs. Zombies.</p>
 <p>When I saw that article, I remembered that the college entrance examination was about to take place. In order to "kick Internet addiction" to prepare for the college entrance examination, I uninstalled all the games on my mobile phone at that time. In fact, it was nothing. After all, in high school, to be honest, I didn't study seriously. Afterwards, I took the college entrance examination. It was natural. But now that I can work and be engaged in the industry I like, I am a little lucky.</p>
 <p>The game "Contra: Return" probably originated in 2017. I played Contra when I was a child. I remember that I had a game CD at home and plugged in the game controller to play it. Later, when a mobile game came out, I quickly registered it. It is probably the game I have played for the longest time. It was a nurturing game. I was busy with school at the time. I didn’t have much time to play. I logged in and played for some time during the winter and summer vacations of junior high school and high school. I think I should really pick it up when I go to college. I am no longer so busy with studies, and I have time to do tasks every day. I also received my favorite weapons, Shenglong and Dragon Cannon, but my fate with it ended there.</p>
 <p>I remember that when I went to Qingdao in May 24, I deleted the game because my mobile phone had no memory to take photos. It has been almost two years in the blink of an eye. In fact, there is still a lot of reluctance to let go. I remember the Xinghai Competition on Monday night at 8 o'clock, the legion competition on Tuesday and Thursday, the "Fighting Aliens" on Wednesday, etc. I have almost forgotten the specific legion tasks, but I remember that in addition to going to class every day, Basically, I was tinkering with Contra. I really love this game, but after I got a little money in my pocket, I discovered that the outside world is actually much more interesting than the mobile phone. I can encounter all kinds of interesting things, meet all kinds of people, and see different beautiful scenery in different places. Suddenly I realized that the saying "the world is so big, I want to see it" seems to be reasonable. This virtual world can certainly kill time and bring fun, but how can the people or things encountered in the real world not be fun?</p>
@@ -391,7 +391,7 @@ The progress of artificial intelligence technology also brings a lot of risks an
             <link>https://xingshi.blog/en/blog/summary-for-2025</link>
             <guid>https://xingshi.blog/en/blog/summary-for-2025</guid>
             <pubDate>Wed, 31 Dec 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Time flies so fast, and in the blink of an eye, this year is coming to an end. This year is a dull year without causing any ripples, but it is also a year with some unforgettable moments. Let me summarize this year:]]></description>
+            <description><![CDATA[Time flies so fast, and in the blink of an eye, this year is coming to an end. This year is a dull year without causing any ripples]]></description>
             <content:encoded><![CDATA[<iframe width="100%" height="450" src="https://www.youtube.com/embed/H7luEkUT1Oo" title="2025年终总结 | 2025 year-end summary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 <p>Time flies so fast, and in the blink of an eye, this year is coming to an end. This year is a dull year without causing any ripples, but it is also a year with some unforgettable moments. Let me summarize this year:</p>
 <p>I spent most of this year in Tianjin. It was also the first time that I lived alone in a strange city. It was quite an unforgettable year. On the first day of this year, I went to Century Bell Square in Tianjin. It was my first time to join in such a crowd of people. In addition to the atmosphere and liveliness, the most profound feeling was that people follow the crowd. There are really many people! The stretch from the South Square of Tianjin Station to the Century Clock is packed with people. In fact, it’s not that interesting at all. It’s just that people get together and count down to tens and shout Happy New Year. But this experience is still very satisfying. It’s really lively when there are so many people.</p>
@@ -420,7 +420,7 @@ The progress of artificial intelligence technology also brings a lot of risks an
             <link>https://xingshi.blog/en/blog/autumn</link>
             <guid>https://xingshi.blog/en/blog/autumn</guid>
             <pubDate>Sun, 02 Nov 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Autumn has not yet arrived, and winter is getting stronger. This year’s autumn feels like it has come and gone quickly. The most impressive thing is that it rained for nearly half a month in October. One autumn rain and one cold. This year’s autumn has not encountered the crisp autumn weather, and I have begun to feel the leaves are falling and yellowing, with a feeling of desolation, sadness and coldness. It will be the beginning of winter in a few days. This autumn is passing so fast.]]></description>
+            <description><![CDATA[Autumn has not yet arrived, and winter is getting stronger. This year’s autumn feels like it has come and gone quickly. The most impressive thing is that it rained for nearly half a month in October. One autumn rain and one cold. This year’s autumn has not encountered the crisp autumn weather, and I have begun to feel the leaves are falling and yellowing, with a feeling of desolation, sadness and coldness. It will be the beginning of winter in a few days. This autumn is passing so fast. ]]></description>
             <content:encoded><![CDATA[<iframe width="100%" height="450" src="https://www.youtube.com/embed/YZh5z8AjeBo" title="秋 | Autumn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 <p>Autumn has not yet arrived, and winter is getting stronger. This year’s autumn feels like it has come and gone quickly. The most impressive thing is that it rained for nearly half a month in October. One autumn rain and one cold. This year’s autumn has not encountered the crisp autumn weather, and I have begun to feel the leaves are falling and yellowing, with a feeling of desolation, sadness and coldness. It will be the beginning of winter in a few days. This autumn is passing so fast.</p>
 <p>The blooming flowers in spring are full of vitality, the heat of summer and the coolness of evening have all been experienced, but autumn is coming to an end, and I haven’t felt the strong autumn feeling yet, but when I look up and look out the window at the gradually withered leaves - it turns out that autumn has already quietly arrived, and I certainly have some feelings about autumn.</p>
@@ -434,7 +434,7 @@ The progress of artificial intelligence technology also brings a lot of risks an
             <link>https://xingshi.blog/en/blog/add-a-bit-cold</link>
             <guid>https://xingshi.blog/en/blog/add-a-bit-cold</guid>
             <pubDate>Thu, 18 Sep 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[add-a-bit-cold.01.webp]]></description>
+            <description><![CDATA[I ended my day's work tonight and shut down my computer. When I walked to the kitchen to prepare for cooking, I felt a cold breeze blowing over my body. I looked at the weather on my phone and saw that the temperature had reached 20 degrees. I was already feeling a little chilly wearing half-sleeves and shorts. It turned out that summer was over and autumn was coming. ]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2025/2025-09-18/add-a-bit-cold.01.webp?raw=true" alt="add-a-bit-cold.01.webp" class="img_ev3q"></p>
 <p>I ended my day's work tonight and shut down my computer. When I walked to the kitchen to prepare for cooking, I felt a cold breeze blowing over my body. I looked at the weather on my phone and saw that the temperature had reached 20 degrees. I was already feeling a little chilly wearing half-sleeves and shorts. It turned out that summer was over and autumn was coming.</p>
 <p>At this time last year, I was still immersed in free time - completing practical training tasks in the school's training base. At that time, it was just ordinary. Now looking back, it was really an unforgettable experience. From Monday to Friday, I was just learning some skills I like (of course, without the constraints of the teacher) Most of the time may be spent "catching fish" (hhh). On Saturdays and Sundays, I am more casual. I usually ride a bicycle to the surrounding markets to buy some fruits, and then go to Jialejia (a large local supermarket chain in Weifang City) in the city or district to buy some bread and milk for breakfast. It is quite a good memory.</p>
@@ -454,7 +454,7 @@ The progress of artificial intelligence technology also brings a lot of risks an
             <link>https://xingshi.blog/en/blog/leave-school-one-year</link>
             <guid>https://xingshi.blog/en/blog/leave-school-one-year</guid>
             <pubDate>Tue, 26 Aug 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[leave-school-one-year01.webp]]></description>
+            <description><![CDATA[Its been a long time since I calmed down and typed an article seriously. Let me sum it up. The past year - from the days when I walked out of campus to now]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2025/2025-08-26/leave-school-one-year01.webp?raw=true" alt="leave-school-one-year01.webp" class="img_ev3q"></p>
 <p>It’s been a long time since I calmed down and typed an article seriously. Let me sum it up. The past year - from the days when I walked out of campus to now, has passed so fast! A year has passed in the blink of an eye - leaving the hotbed of campus and entering the "shackles" of society. I have experienced some things this year. Although they are not big things, I have also learned some things and gained some knowledge. I have also grown a lot. Let's talk about it in detail :)</p>
 <p>In July last year, I officially walked out of campus and started a year of practical training. During the internship phase, first came the practical training phase. The first training unit I found was a bit unpleasant. It was not very satisfactory in Qingdao. I stayed there for a month and said bye.</p>
@@ -473,7 +473,7 @@ The progress of artificial intelligence technology also brings a lot of risks an
             <link>https://xingshi.blog/en/blog/summary-for-2024</link>
             <guid>https://xingshi.blog/en/blog/summary-for-2024</guid>
             <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[summary-for-2024-01.webp]]></description>
+            <description><![CDATA[2024 is almost over, so lets summarize the year Originally wanted to cut the video This is the 31st time is too late to write an article to summarize it]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-12-31/summary-for-2024-01.webp?raw=true" alt="summary-for-2024-01.webp" class="img_ev3q"></p>
 <p>2024 is almost over, so let's summarize the year</p>
 <p>Originally wanted to cut the video This is the 31st time is too late to write an article to summarize it, this year for us a little different significance, we are also from the identity of the student metamorphosis into the workplace, although still in the internship is not really the end of the identity of the student, but after all, the work is also considered to be entering the community, right.</p>
@@ -500,7 +500,7 @@ The progress of artificial intelligence technology also brings a lot of risks an
             <link>https://xingshi.blog/en/blog/summer</link>
             <guid>https://xingshi.blog/en/blog/summer</guid>
             <pubDate>Sun, 19 May 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[When you think of summer, what comes to your mind?]]></description>
+            <description><![CDATA[When you think of summer, what comes to your mind? It’s the vast sea, the unbearably hot sun, a barbecue with friends gathering together, the feeling of leisurely walking on a path in the evening summer breeze, or many other things. ]]></description>
             <content:encoded><![CDATA[<iframe width="100%" height="450" src="https://www.youtube.com/embed/sofxAPGyhPc" title="夏 | Summer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 <p>When you think of summer, what comes to your mind?</p>
 <p>It’s the vast sea, the unbearably hot sun, a barbecue with friends gathering together, the feeling of leisurely walking on a path in the evening summer breeze, or many other things.</p>
@@ -514,7 +514,7 @@ The progress of artificial intelligence technology also brings a lot of risks an
             <link>https://xingshi.blog/en/blog/personal-career-interest-exploration</link>
             <guid>https://xingshi.blog/en/blog/personal-career-interest-exploration</guid>
             <pubDate>Thu, 16 May 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[An article I wrote a long time ago about what type of work I like]]></description>
+            <description><![CDATA[An article I wrote a long time ago about what type of work I like ]]></description>
             <content:encoded><![CDATA[<blockquote>
 <p>An article I wrote a long time ago about what type of work I like</p>
 </blockquote>
@@ -534,7 +534,7 @@ The progress of artificial intelligence technology also brings a lot of risks an
             <link>https://xingshi.blog/en/blog/about-ai-speech</link>
             <guid>https://xingshi.blog/en/blog/about-ai-speech</guid>
             <pubDate>Fri, 19 Apr 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[A speech on AI during college, a manuscript written while doing PPT]]></description>
+            <description><![CDATA[A speech on AI during college, a manuscript written while doing PPT ]]></description>
             <content:encoded><![CDATA[<blockquote>
 <p>A speech on AI during college, a manuscript written while doing PPT</p>
 </blockquote>
@@ -572,7 +572,7 @@ Using generative AI may cause some data leakage</p>
             <link>https://xingshi.blog/en/blog/begin</link>
             <guid>https://xingshi.blog/en/blog/begin</guid>
             <pubDate>Mon, 11 Mar 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[begin01.webp]]></description>
+            <description><![CDATA[I had nothing to do, so I registered a public account to record the trivial matters in study, work and life. The trivial things were described in simple words, which is the origin of the name of this public account. ]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-03-11/begin01.webp?raw=true" alt="begin01.webp" class="img_ev3q"></p>
 <p>I had nothing to do, so I registered a public account to record the trivial matters in study, work and life. The trivial things were described in simple words, which is the origin of the name of this public account.</p>
 <p>In the age of science and technology, the ways and means of obtaining information have become more and more diverse, and the clutter is becoming more and more fascinating. If you read too much, you will easily be immersed in it, unable to extricate yourself, or lose yourself. With the blessing of big data technology, the video platform's algorithm for recommending videos is calculated in advance. The more you watch, the more videos you like will be recommended to you. If you watch too many videos, you will get bored. I don't like this. I am a person who likes to explore things by myself. If I am interested in a certain topic, I will collect relevant information myself to meet my needs. Watching too many videos will have side effects.</p>

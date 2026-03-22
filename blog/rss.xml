@@ -13,7 +13,7 @@
             <link>https://xingshi.blog/blog/docusaurus-algolia-search</link>
             <guid>https://xingshi.blog/blog/docusaurus-algolia-search</guid>
             <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[docusaurus-algolia-search-cover-cn.webp]]></description>
+            <description><![CDATA[DocSearch 是 algolia 旗下一个面向开发者文档或技术博客免费使用搜索功能的一个产品，通过爬虫定期爬取自己网站的内容，接入 algolia 自家的 API 实现搜索功能，以下是一些详细接入 algolia 搜索功能的步骤 :)]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search-cover-cn.webp" alt="docusaurus-algolia-search-cover-cn.webp" class="img_ev3q"></p>
 <p><a href="https://docsearch.algolia.com/" target="_blank" rel="noopener noreferrer" class="">DocSearch</a> 是 <a href="https://www.algolia.com/" target="_blank" rel="noopener noreferrer" class="">algolia</a> 旗下一个面向开发者文档或技术博客免费使用搜索功能的一个产品，通过爬虫定期爬取自己网站的内容，接入 algolia 自家的 API 实现搜索功能，以下是一些详细接入 algolia 搜索功能的步骤 :)</p>
 <blockquote>
@@ -88,7 +88,7 @@
             <link>https://xingshi.blog/blog/chrome-enable-left-vertical-sidebar</link>
             <guid>https://xingshi.blog/blog/chrome-enable-left-vertical-sidebar</guid>
             <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[chrome-enable-left-vertical-sidebar-cover-cn.webp]]></description>
+            <description><![CDATA[本功能目前（2026-03-17）还处于试验阶段 不如默认模式稳定 还不是很完善，体验可能不是很完美]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-17/chrome-enable-left-vertical-sidebar-cover-cn.webp?raw=true" alt="chrome-enable-left-vertical-sidebar-cover-cn.webp" class="img_ev3q"></p>
 <blockquote>
 <p>本功能目前（2026-03-17）还处于试验阶段 不如默认模式稳定 还不是很完善，体验可能不是很完美</p>
@@ -118,7 +118,7 @@
             <link>https://xingshi.blog/blog/docusaurus-integrated-i18n</link>
             <guid>https://xingshi.blog/blog/docusaurus-integrated-i18n</guid>
             <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[2026-03-14-docusaurus-integrated-i18n01.webp]]></description>
+            <description><![CDATA[i18n 是给网站实现国际化翻译 从而去优化不同地区用户去访问网站体验的一种方式。这次我把自己的博客从单语言改成了 `zh-Hans` + `en` 两套内容，默认语言是中文 可以下拉语言选择框去选择展示英文，这里记录一下完整过程 :)]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-14/2026-03-14-docusaurus-integrated-i18n01.webp?raw=true" alt="2026-03-14-docusaurus-integrated-i18n01.webp" class="img_ev3q"></p>
 <blockquote>
 <p>此功能由 VScode Copilot 的 Claude 和 GPT 协作完成</p>
@@ -287,7 +287,7 @@
             <link>https://xingshi.blog/blog/giscus-comment-system-build</link>
             <guid>https://xingshi.blog/blog/giscus-comment-system-build</guid>
             <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[2026-02-21-giscus-comment-system-build00.webp]]></description>
+            <description><![CDATA[在 Docusaurus 下 使用基于 Github 的 Discussions 构建的 giscus 的评论系统]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build00.webp?raw=true" alt="2026-02-21-giscus-comment-system-build00.webp" class="img_ev3q"></p>
 <blockquote>
 <p>在 Docusaurus 下 使用基于 Github 的 Discussions 构建的 giscus 的评论系统</p>
@@ -326,7 +326,7 @@
             <link>https://xingshi.blog/blog/front-end-positions-thinking-2026-02-18</link>
             <guid>https://xingshi.blog/blog/front-end-positions-thinking-2026-02-18</guid>
             <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[2026-02-18-front-end-positions-thinking01.webp]]></description>
+            <description><![CDATA[刚刚搜了下 南孚国际站官网 ，感觉自己对于前端开发和目前自己的未来职业规划又有了些小思考了呢，大概写点东西吧]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-18/2026-02-18-front-end-positions-thinking01.webp?raw=true" alt="2026-02-18-front-end-positions-thinking01.webp" class="img_ev3q"></p>
 <blockquote>
 <p>刚刚搜了下 <a href="https://nanfu.global/" target="_blank" rel="noopener noreferrer" class="">南孚国际站官网</a> ，感觉自己对于前端开发和目前自己的未来职业规划又有了些小思考了呢，大概写点东西吧</p>
@@ -343,7 +343,7 @@
             <link>https://xingshi.blog/blog/2026-chunwan-think</link>
             <guid>https://xingshi.blog/blog/2026-chunwan-think</guid>
             <pubDate>Tue, 17 Feb 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[2026-02-17-2026-chunwan-think01.webp]]></description>
+            <description><![CDATA[昨晚看了下2026年的央视春晚，感受颇深吧，科技感满满 花哨的舞美，但同时也延伸出一些感想，关于AI（人工智能）和机器人相关的，细细道来吧]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-17/2026-02-17-2026-chunwan-think01.webp?raw=true" alt="2026-02-17-2026-chunwan-think01.webp" class="img_ev3q"></p>
 <blockquote>
 <p>昨晚看了下2026年的央视春晚，感受颇深吧，科技感满满 花哨的舞美，但同时也延伸出一些感想，关于AI（人工智能）和机器人相关的，细细道来吧</p>
@@ -370,7 +370,7 @@
             <link>https://xingshi.blog/blog/hdl-think</link>
             <guid>https://xingshi.blog/blog/hdl-think</guid>
             <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[2026-01-25-hdl-think01.webp]]></description>
+            <description><![CDATA[今天收拾电脑，看到了一个高中写的关于魂斗罗游戏的一篇文章，有了点小感触 写点东西吧]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-01-25/2026-01-25-hdl-think01.webp?raw=true" alt="2026-01-25-hdl-think01.webp" class="img_ev3q"></p>
 <blockquote>
 <p>今天收拾电脑，看到了一个高中写的关于魂斗罗游戏的一篇文章，有了点小感触 写点东西吧</p>
@@ -432,7 +432,7 @@
             <link>https://xingshi.blog/blog/add-a-bit-cold</link>
             <guid>https://xingshi.blog/blog/add-a-bit-cold</guid>
             <pubDate>Thu, 18 Sep 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[add-a-bit-cold.01.webp]]></description>
+            <description><![CDATA[今晚结束一天的工作，关闭电脑 走到厨房准备做饭的时候，一股冷风铺上身来，看了眼手机的天气  气温已经来到了20度--穿着半袖和短裤的我已经感到了些许凉意，原来夏已去 秋将至了呀。]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2025/2025-09-18/add-a-bit-cold.01.webp?raw=true" alt="add-a-bit-cold.01.webp" class="img_ev3q"></p>
 <p>今晚结束一天的工作，关闭电脑 走到厨房准备做饭的时候，一股冷风铺上身来，看了眼手机的天气  气温已经来到了20度--穿着半袖和短裤的我已经感到了些许凉意，原来夏已去 秋将至了呀。</p>
 <p>去年这个时候，自己还沉浸在自由的时光里--在学校的实训基地里完成实训任务，当时只道是寻常 如今回想起来，那还真是一段难忘的经历，周一到周五的日子就是学点自己喜欢的技术(当然没有了老师的约束 大部分的时光可能都是在"摸鱼"hhh)，周六日的自己就比较随心了，一般就是骑着单车去周边的集市去买点水果，然后是去市里或区里的佳乐家(潍坊市本土的一个大型连锁超市) 去买点面包和牛奶来当早餐，颇是一段美好的回忆。</p>
@@ -452,7 +452,7 @@
             <link>https://xingshi.blog/blog/leave-school-one-year</link>
             <guid>https://xingshi.blog/blog/leave-school-one-year</guid>
             <pubDate>Tue, 26 Aug 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[leave-school-one-year01.webp]]></description>
+            <description><![CDATA[好久没有静下心来去认真敲一篇文章了，总结下吧 过去的这一年--从走出校园的日子 到现在，过的真快呀！转眼间已经过去了一年了--离开校园的温床 步入社会的"枷锁"，这一年 经历了一些事情，虽然不是什么大事 但是也是学到了一些东西，涨了些见识吧 也成长了不少吧，细细道来吧 :)]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2025/2025-08-26/leave-school-one-year01.webp?raw=true" alt="leave-school-one-year01.webp" class="img_ev3q"></p>
 <p>好久没有静下心来去认真敲一篇文章了，总结下吧 过去的这一年--从走出校园的日子 到现在，过的真快呀！转眼间已经过去了一年了--离开校园的温床 步入社会的"枷锁"，这一年 经历了一些事情，虽然不是什么大事 但是也是学到了一些东西，涨了些见识吧 也成长了不少吧，细细道来吧 :)</p>
 <p>去年的7月份 正式走出了校园，开始了一年的实训 实习阶段，先是实训阶段 找的第一家实训单位有点不愉快吧 搁青岛 不大如意 待了一个月就 say bye 了</p>
@@ -471,7 +471,7 @@
             <link>https://xingshi.blog/blog/summary-for-2024</link>
             <guid>https://xingshi.blog/blog/summary-for-2024</guid>
             <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[summary-for-2024-01.webp]]></description>
+            <description><![CDATA[2024年就要过去了，总结下这一年吧 本来是想剪视频的 这都31号了 时间也来不及了 写篇文章总结下吧，这一年 对咱来说有点不一样的意义吧，咱也是从学生身份蜕变为职场人士了，虽然目前尚且处于实习还没真正的结束学生身份 ，但是毕竟工作了 也算是步入社会了吧。]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-12-31/summary-for-2024-01.webp?raw=true" alt="summary-for-2024-01.webp" class="img_ev3q"></p>
 <p>2024年就要过去了，总结下这一年吧</p>
 <p>本来是想剪视频的 这都31号了 时间也来不及了 写篇文章总结下吧，这一年 对咱来说有点不一样的意义吧，咱也是从学生身份蜕变为职场人士了，虽然目前尚且处于实习还没真正的结束学生身份 ，但是毕竟工作了 也算是步入社会了吧。</p>
@@ -498,7 +498,7 @@
             <link>https://xingshi.blog/blog/summer</link>
             <guid>https://xingshi.blog/blog/summer</guid>
             <pubDate>Sun, 19 May 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[谈到夏天，你想到的会是什么呢?]]></description>
+            <description><![CDATA[谈到夏天，你想到的会是什么呢? 是浩瀚无垠的大海、是炽热难耐的烈日、是三五好友聚在一起吃着的烧烤、是傍晚夏风吹拂，悠闲地走在小路上的那种感觉，亦或是其余的种种。]]></description>
             <content:encoded><![CDATA[<iframe width="100%" height="450" src="https://www.youtube.com/embed/sofxAPGyhPc" title="夏 | Summer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 <p>谈到夏天，你想到的会是什么呢?</p>
 <p>是浩瀚无垠的大海、是炽热难耐的烈日、是三五好友聚在一起吃着的烧烤、是傍晚夏风吹拂，悠闲地走在小路上的那种感觉，亦或是其余的种种。</p>
@@ -513,10 +513,10 @@
             <guid>https://xingshi.blog/blog/personal-career-interest-exploration</guid>
             <pubDate>Thu, 16 May 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[一篇很早之前写的文字，关于自己喜欢什么类型工作的]]></description>
-            <content:encoded><![CDATA[<blockquote>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-05-16/personal-career-interest-exploration01.webp?raw=true" alt="personal-career-interest-exploration01.webp" class="img_ev3q"></p>
+<blockquote>
 <p>一篇很早之前写的文字，关于自己喜欢什么类型工作的</p>
 </blockquote>
-<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-05-16/personal-career-interest-exploration01.webp?raw=true" alt="personal-career-interest-exploration01.webp" class="img_ev3q"></p>
 <p>什么是我想要的：<br>
 <!-- -->身体健康，心情愉悦，有一份好工作，没有啥生活压力</p>
 <p>什么是我喜欢的工作：<br>
@@ -533,10 +533,10 @@
             <guid>https://xingshi.blog/blog/about-ai-speech</guid>
             <pubDate>Fri, 19 Apr 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[大学期间一次关于 AI 的演讲，做 PPT 时写的文稿]]></description>
-            <content:encoded><![CDATA[<blockquote>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-04-19/about-ai-speech01.webp?raw=true" alt="about-ai-speech01.webp" class="img_ev3q"></p>
+<blockquote>
 <p>大学期间一次关于 AI 的演讲，做 PPT 时写的文稿</p>
 </blockquote>
-<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-04-19/about-ai-speech01.webp?raw=true" alt="about-ai-speech01.webp" class="img_ev3q"></p>
 <p>谈一谈关于AI的吧</p>
 <p>这是 <a href="https://docs.google.com/presentation/d/1GIAXyPvGwZSmmVHFKyT9pYZyh_Py8rBf/edit?usp=sharing&amp;ouid=108772158160784499463&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener noreferrer" class="">PPT 链接</a></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="首先肯定是概念介绍">首先，肯定是概念介绍<a href="https://xingshi.blog/blog/about-ai-speech#%E9%A6%96%E5%85%88%E8%82%AF%E5%AE%9A%E6%98%AF%E6%A6%82%E5%BF%B5%E4%BB%8B%E7%BB%8D" class="hash-link" aria-label="首先，肯定是概念介绍的直接链接" title="首先，肯定是概念介绍的直接链接" translate="no">​</a></h2>
@@ -570,7 +570,7 @@
             <link>https://xingshi.blog/blog/begin</link>
             <guid>https://xingshi.blog/blog/begin</guid>
             <pubDate>Mon, 11 Mar 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[begin01.webp]]></description>
+            <description><![CDATA[闲来无事，注册了一个公众号，来记录学习工作生活中的琐事，繁琐的事用简单的话语描述出来，便是这个公众号名字的由来了]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-03-11/begin01.webp?raw=true" alt="begin01.webp" class="img_ev3q"></p>
 <p>闲来无事，注册了一个公众号，来记录学习工作生活中的琐事，繁琐的事用简单的话语描述出来，便是这个公众号名字的由来了</p>
 <p>科技时代，获取信息的途径和方式变得越来越多元，乱花渐欲迷人眼，看得多了便容易沉浸其中无法自拔，或是迷失了自己。在大数据技术的加持下，视频平台推荐视频的算法都是提前算好的，你越是看越是给你推荐你喜欢的，视频看得多了就会厌倦，这点我不太钟意，本人是一个喜欢自己去探索事物的人，对某个话题感兴趣，便会自己去搜集相关信息，以满足自己的需求，刷的视频多了反倒起了副作用</p>
