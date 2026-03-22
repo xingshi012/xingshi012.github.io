@@ -4,6 +4,8 @@ title: Docusaurus connects to aloglia to implement search function
 date: 2026-03-21
 authors: xingshi
 tags: [algolia]
+image: https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search-cover-en.webp
+description: "DocSearch is a product of algolia hat uses search functions for free for developer documents or technical blogs. It regularly crawls the content of its own website through crawlers and connects to algolia's own API to implement search functions. Here are some detailed steps to connect to algolia's search functions:)"
 ---
 
 ![docusaurus-algolia-search-cover-en.webp](https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search-cover-en.webp)
@@ -17,7 +19,7 @@ tags: [algolia]
 >  Free for all developers, but you must ensure that your website meets [official requirements](https://docsearch.algolia.com/docs/who-can-apply/)
 >
 > My site current version: 
-> - Docusaurus version：3.9
+> - Docusaurus version: 3.9
 > - DocSearch v4
 >
 > Due to timeliness issues, subsequent technical iterations, adjustments to the DocSearch search function and other , the content demonstrated in this document may not be valid.

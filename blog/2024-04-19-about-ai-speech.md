@@ -4,11 +4,13 @@ title: 关于 AI 的一次演讲
 date: 2024-04-19
 authors: xingshi
 tags: [article, ai]
+image: https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-04-19/about-ai-speech01.webp?raw=true
+description: 大学期间一次关于 AI 的演讲，做 PPT 时写的文稿
 ---
 
-> 大学期间一次关于 AI 的演讲，做 PPT 时写的文稿
-
 ![about-ai-speech01.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-04-19/about-ai-speech01.webp?raw=true)
+
+> 大学期间一次关于 AI 的演讲，做 PPT 时写的文稿
 
 <!-- truncate -->
 

@@ -4,6 +4,9 @@ title: Integrating i18n in Docusaurus
 date: 2026-03-14
 authors: xingshi
 tags: [i18n]
+image: https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-14/2026-03-14-docusaurus-integrated-i18n01.webp?raw=true
+description: "i18n is a way to internationalize a website so users in different regions can get a better browsing experience. This time, I migrated my blog from a single-language setup to a dual-language setup: `zh-Hans` + `en`. The default language is Chinese, and you can switch to English via the language dropdown. Here is the full process :)
+"
 ---
 
 ![2026-03-14-docusaurus-integrated-i18n01.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-14/2026-03-14-docusaurus-integrated-i18n01.webp?raw=true)

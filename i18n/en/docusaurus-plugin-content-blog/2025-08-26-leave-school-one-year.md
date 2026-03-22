@@ -4,6 +4,8 @@ title: Leave school one year
 date: 2025-08-26
 authors: xingshi
 tags: [article]
+image: https://github.com/xingshi012/blog-images/blob/main/blogs/2025/2025-08-26/leave-school-one-year01.webp?raw=true
+description: Its been a long time since I calmed down and typed an article seriously. Let me sum it up. The past year - from the days when I walked out of campus to now
 ---
 
 ![leave-school-one-year01.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2025/2025-08-26/leave-school-one-year01.webp?raw=true)

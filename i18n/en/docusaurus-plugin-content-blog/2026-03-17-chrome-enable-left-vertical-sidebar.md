@@ -3,6 +3,8 @@ slug: chrome-enable-left-vertical-sidebar
 title: Chrome enable left vertical sidebar
 authors: xingshi
 tags: [chrome]
+image: https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-17/chrome-enable-left-vertical-sidebar-cover-en.webp?raw=true
+description: "This function is currently (2026-03-17) still in the experimental stage. It is not as stable as the default mode and maybe not perfect yet. "
 ---
 
 ![chrome-enable-left-vertical-sidebar-cover-en.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-03-17/chrome-enable-left-vertical-sidebar-cover-en.webp?raw=true)

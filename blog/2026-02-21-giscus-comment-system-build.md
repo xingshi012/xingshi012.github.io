@@ -4,6 +4,8 @@ title: Docusaurus下giscus评论系统构建
 date: 2026-02-21
 authors: xingshi
 tags: [giscus]
+image: https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build00.webp?raw=true
+description: 在 Docusaurus 下 使用基于 Github 的 Discussions 构建的 giscus 的评论系统
 ---
 
 ![2026-02-21-giscus-comment-system-build00.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-21/2026-02-21-giscus-comment-system-build00.webp?raw=true)
