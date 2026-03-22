@@ -5,13 +5,14 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import blogRecentPostsPlugin from './src/plugins/blogRecentPostsPlugin.js';
+import footerCopyright from './src/config/footerCopyright.js';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Xingshi Blog',
-  tagline: '一个树洞，倾听、记录自己的碎碎念。 | One place, to record and improve myself.',
   favicon: 'img/custom/favicon_xingshi.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -66,7 +67,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // decide whether to enable breadcrumbs navigation
           breadcrumbs: true,
         },
         blog: {
@@ -89,22 +89,15 @@ const config = {
       }),
     ],
   ],
-  plugins: [],
+  plugins: [blogRecentPostsPlugin],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/custom/avatar-xingshi.jpg',
       colorMode: {
         respectPrefersColorScheme: false,
       },
-      metadata: [
-        {
-          name: 'description', 
-          content: '一个树洞，倾听、记录自己的碎碎念。 | One place, to record and improve myself.'
-        }
-      ],
       docs: {
         sidebar: {
           // Show hidden sidebar button
@@ -213,20 +206,12 @@ const config = {
             ],
           },
         ],
-        copyright: `
-        <small>Copyright © 2025 - ${new Date().getFullYear()} Xingshi Blog and <a href="https://t.me/Xingshi_012" class="footer-xingshi-telgram__link">Xingshi</a>.</small><br>
-        <small style="display: flex; align-items: center; justify-content: center;">
-          Built with &nbsp; <a href="https://docusaurus.io/" target="_blank" class="footer-docusaurus__link">Docusaurus
-          <img src="/img/logo.svg" alt="Docusaurus" title="Docusaurus" style="width: 20px; height: 20px;" />
-          </a>.
-        </small>
-        `,
+        copyright: footerCopyright,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-
       // Algolia search Config
       algolia: {
         appId: '6VW10MZ6PN',
