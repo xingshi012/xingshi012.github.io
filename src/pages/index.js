@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import {translate} from '@docusaurus/Translate';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HomepageBanner from '@site/src/components/HomepageBanner';
+import HomepageBlogPosts from '@site/src/components/HomepageBlogPosts';
 import styles from './index.module.css';
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <HomepageBanner/>
       <main>
         <HomepageFeatures />
+        <HomepageBlogPosts />
       </main>
     </Layout>
   );

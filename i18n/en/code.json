@@ -5,6 +5,9 @@
   "homepage.description": {
     "message": "One place, to record and improve myself."
   },
+  "homepage.features.title": {
+    "message": "About This Site"
+  },
   "homepage.features.docs.desc": {
     "message": "Documentation & Notes"
   },
@@ -25,6 +28,15 @@
   },
   "homepage.banner.description": {
     "message": "A frontend developer. This is my personal blog where I record and share interesting things from work, life, and technical documentation. It's also a tree hole to listen to and record my scattered thoughts."
+  },
+  "homepage.blogPosts.title": {
+    "message": "Latest Blog"
+  },
+  "homepage.blogPosts.viewMore": {
+    "message": "View More"
+  },
+  "homepage.blogPosts.readMore": {
+    "message": "Read More"
   },
   "myFirstPage.layoutTitle": {
     "message": "Sunset"
