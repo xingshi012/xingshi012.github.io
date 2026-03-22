@@ -17,10 +17,6 @@
     gap: 1rem;
 }
 
-.BlogPostCard {
-    background: #fafafa;
-}
-
 .card,
 .card:hover {
     text-decoration: unset;

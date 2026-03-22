@@ -5,7 +5,7 @@ date: 2026-03-21
 authors: xingshi
 tags: [algolia]
 image: https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search-cover-en.webp
-description: "DocSearch is a product of algolia hat uses search functions for free for developer documents or technical blogs. It regularly crawls the content of its own website through crawlers and connects to algolia's own API to implement search functions. Here are some detailed steps to connect to algolia's search functions:)"
+description: "DocSearch is a product of algolia that uses search functions for free for developer documents or technical blogs. It regularly crawls the content of its own website through crawlers and connects to algolia's own API to implement search functions. Here are some detailed steps to connect to algolia's search functions:)"
 ---
 
 ![docusaurus-algolia-search-cover-en.webp](https://raw.githubusercontent.com/xingshi012/blog-images/a1a6b6dd4b9ded1c5fb2354838eadc7bc0f948e2/blogs/2026/2026-03-21/docusaurus-algolia-search-cover-en.webp)

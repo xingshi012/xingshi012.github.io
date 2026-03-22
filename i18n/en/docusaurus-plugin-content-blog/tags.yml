@@ -56,7 +56,7 @@ i18n:
 chrome:
   label: Chrome
   permalink: /chrome
-  description: About Chrome brower article
+  description: About Chrome browser article
 algolia:
   label: algolia
   permalink: /algolia

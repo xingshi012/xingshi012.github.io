@@ -5,7 +5,7 @@ date: 2026-02-18
 authors: xingshi
 tags: [ssn]
 image: https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-18/2026-02-18-front-end-positions-thinking01.webp?raw=true
-description: "I just searched Nanfu International Station Official Website and I feel like I have some thoughts about front-end development and my current future career plan. I might write something."
+description: "I just searched Nanfu International Station Official Website and I feel like I have some thoughts about front-end development and my current future career plan. I might write something."
 ---
 
 ![2026-02-18-front-end-positions-thinking01.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-18/2026-02-18-front-end-positions-thinking01.webp?raw=true)

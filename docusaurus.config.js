@@ -139,11 +139,6 @@ const config = {
             ],
           },
           {
-            href: 'https://www.google.com/search?q=site%3Axingshi.blog',
-            label: 'Search',
-            position: 'right',
-          },
-          {
             type: 'localeDropdown',
             position: 'right',
           },

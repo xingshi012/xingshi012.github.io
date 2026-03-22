@@ -5,7 +5,7 @@ date: 2025-09-18
 authors: xingshi
 tags: [article]
 image: https://github.com/xingshi012/blog-images/blob/main/blogs/2025/2025-09-18/add-a-bit-cold.01.webp?raw=true
-description: "I ended my day's work tonight and shut down my computer. When I walked to the kitchen to prepare for cooking, I felt a cold breeze blowing over my body. I looked at the weather on my phone and saw that the temperature had reached 20 degrees. I was already feeling a little chilly wearing half-sleeves and shorts. It turned out that summer was over and autumn was coming."
+description: "I ended my day's work tonight and shut down my computer. When I walked to the kitchen to prepare for cooking, I felt a cold breeze blowing over my body. I looked at the weather on my phone and saw that the temperature had reached 20 degrees. I was already feeling a little chilly wearing half-sleeves and shorts. It turned out that summer was over and autumn was coming."
 ---
 
 ![add-a-bit-cold.01.webp](https://github.com/xingshi012/blog-images/blob/main/blogs/2025/2025-09-18/add-a-bit-cold.01.webp?raw=true)

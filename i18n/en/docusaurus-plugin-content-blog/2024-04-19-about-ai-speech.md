@@ -5,7 +5,7 @@ date: 2024-04-19
 authors: xingshi
 tags: [article, ai]
 image: https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-04-19/about-ai-speech01.webp?raw=true
-description: "A speech on AI during college, a manuscript written while doing PPT"
+description: "A speech on AI during college, a manuscript written while doing PPT"
 ---
 
 > A speech on AI during college, a manuscript written while doing PPT
