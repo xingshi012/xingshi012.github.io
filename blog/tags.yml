@@ -4,32 +4,32 @@ hello:
   description: Hello
 
 summary:
-  label: Summary
+  label: 总结
   permalink: /summary
   description: 年终总结
 
 article:
-  label: Article
+  label: 文章
   permalink: /article
   description: 一些文章
 
 useful:
-  label: useful
+  label: 实用
   permalink: /useful
   description: 实用小技巧
 
 season:
-  label: Season
+  label: 季节
   permalink: /season
   description: 有关季节的文章
 
 game:
-  label: Game
+  label: 游戏
   permalink: /game
   description: 关于游戏的文章
 
 ssn:
-  label: Ssn
+  label: 碎碎念
   permalink: /ssn
   description: 碎碎念的文字
 
@@ -39,7 +39,7 @@ ai:
   description: 关于人工智能的文章
 
 think:
-  label: Think
+  label: 思维思考
   permalink: /think
   description: 思维思考的文章
 
@@ -49,7 +49,7 @@ giscus:
   description: 关于 giscus 的文章
 
 i18n:
-  label: i18n
+  label: i18n国际化
   permalink: /i18n
   description: 关于 i18n 国际化的文章
 

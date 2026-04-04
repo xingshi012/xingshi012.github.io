@@ -336,6 +336,57 @@
 .blog-authors-posts-page hr {
   display: none;
 }
+
+/* Adjust tags page */
+.blog-tags-list-page aside:has(.thin-scrollbar) {
+  display: none;
+}
+
+.blog-tags-list-page .theme-layout-main {
+  justify-content: center;
+}
+
+.blog-tags-list-page main {
+  --ifm-col-width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.blog-tags-list-page main h1 {
+  text-align: center;
+}
+
+.blog-tags-list-page main h2,
+.blog-tags-list-page main article hr,
+.blog-tags-list-page main article a:before,
+.blog-tags-list-page main article a:after {
+  display: none;
+}
+
+.blog-tags-list-page main article a {
+  border: 1px solid var(--docusaurus-tag-list-border);
+  border-radius: 100px;
+}
+
+.blog-tags-list-page main article ul,
+.blog-tags-list-page main article li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-tags-list-page main section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+}
+
+.blog-tags-list-page main article li {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
 /* 
   Blog page style adjustment
   *-END-*
