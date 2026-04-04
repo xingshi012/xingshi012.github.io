@@ -280,7 +280,7 @@
 <p><a href="https://www.unicode.org/cldr/charts/48/supplemental/language_plural_rules.html" target="_blank" rel="noopener noreferrer" class="">https://www.unicode.org/cldr/charts/48/supplemental/language_plural_rules.html</a></p>
 <p><a href="https://developer.mozilla.org/en-US/docs/Glossary/Internationalization" target="_blank" rel="noopener noreferrer" class="">https://developer.mozilla.org/en-US/docs/Glossary/Internationalization</a></p>
 <p><a href="https://en.wikipedia.org/wiki/Language_localisation" target="_blank" rel="noopener noreferrer" class="">https://en.wikipedia.org/wiki/Language_localisation</a></p>]]></content:encoded>
-            <category>i18n</category>
+            <category>i18n国际化</category>
         </item>
         <item>
             <title><![CDATA[Docusaurus下giscus评论系统构建]]></title>
@@ -336,7 +336,7 @@
 <p>感觉那种后台管理平台的网站前端有些许枯燥呢，不过要是想学技术的话，估计还是传统的前端对技术的提升更多吧，先把基础打牢吧 React Vue这些主流的框架肯定是必不可少的</p>
 <p>另外试着提升自己吧 还是说要往这个专注前端页面的前端开发工程师靠拢，去尝试学习一些Canvas、svg动画、threeJS、WebGL等视觉前端技术，以及一些可能会接触的设计相关的知识</p>
 <p>后续找工作的话，还是要琢磨着去找那种能够构建一个有趣的网站的岗位吧，感觉能够搭建出一个审美在线的网站，成就感也是满满的呢</p>]]></content:encoded>
-            <category>Ssn</category>
+            <category>碎碎念</category>
         </item>
         <item>
             <title><![CDATA[2026年春晚浅思 - AI机器人]]></title>
@@ -362,8 +362,8 @@
 <hr>
 <p><strong>原文：</strong></p>
 <p><a href="https://mp.weixin.qq.com/s/3z8VLBu7-gZ2ooF9HZ6aTA" target="_blank" rel="noopener noreferrer" class="">https://mp.weixin.qq.com/s/3z8VLBu7-gZ2ooF9HZ6aTA</a></p>]]></content:encoded>
-            <category>Article</category>
-            <category>Think</category>
+            <category>文章</category>
+            <category>思维思考</category>
         </item>
         <item>
             <title><![CDATA[魂斗罗思考]]></title>
@@ -381,8 +381,8 @@
 <p>记得好像是24年五月份去青岛玩的时候，当时手机拍照没了存储，就把这个游戏删掉了，这转眼间也已经差不多两年了吧，其实还是有很多不舍的，记得当时 周一晚八点的星海竞技、周二四的军团争霸、周三的“打异形”等等，具体的军团任务已经忘得差不多了，不过记得当时每天除了上课 基本上就是捣鼓魂斗罗了，真的很热爱这个游戏，但是兜里有了点小钱之后，发现其实外面的世界远比手机有意思的多了，可以遇到各种有趣的事情、见到形形色色的人、看到各地不同的优美景色，突然发现那句“世界这么大，我想去看看” 好像不无道理呢，真的这个虚拟世界固然能够消磨时间、带来乐趣，但是真实世界所遇的人或事，又何尝没有乐趣呢？</p>
 <p>其实这工作了一年有余的时间了，说实在的，自己的爱好 好像也就仅限在休息日出去溜达溜达，做一些自己喜欢的、想做的事情了，还是说要培养个有意义的兴趣呢，当然 coding 算是一个，希望继续保持吧，然后多写些有意思的、有意义的文章，拓宽自己的技术栈吧</p>
 <p>之于游戏的缘分估计也将近了吧，毕竟已经有一年多没玩游戏了呢</p>]]></content:encoded>
-            <category>Game</category>
-            <category>Article</category>
+            <category>游戏</category>
+            <category>文章</category>
         </item>
         <item>
             <title><![CDATA[2025年终总结]]></title>
@@ -410,8 +410,8 @@
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">console.log('End');</span><br></span></code></pre></div></div>
 <p><strong>原文:</strong></p>
 <p><a href="https://mp.weixin.qq.com/s/iLJjpirMta4WiD-a1QpJjg" target="_blank" rel="noopener noreferrer" class="">https://mp.weixin.qq.com/s/iLJjpirMta4WiD-a1QpJjg</a></p>]]></content:encoded>
-            <category>Summary</category>
-            <category>Article</category>
+            <category>总结</category>
+            <category>文章</category>
         </item>
         <item>
             <title><![CDATA[秋 | Autumn]]></title>
@@ -424,8 +424,8 @@
 <p>春季的花开 生机盎然，夏日的炎热 与傍晚的凉爽，都已经历， 但是秋季快要结束了，还没感受到浓浓的秋意呢，但是 抬头看向窗外 渐渐枯黄的树叶--原来秋早已悄然降临，之于秋 自己固然有些许自己的感受的</p>
 <p>秋季是丰收的季节，秋高气爽 这个季节和春季一样，没有夏季的炎热也没有冬季的寒冷，算是一年之中相对美好的两个季节吧，学生时代的秋季 大都在校园里度过，伴随着学过的知识，一同消散在脑海中了，近两年才逐渐对秋季有了些许记忆，大概是开始工作了之后，自己有了属于自己的空间，去独立思考一些事情了吧，去年的秋季 还在实训阶段，过的好不快活 自由 同时也在学着技术，今年的秋季 转眼已经工作了将近一年了，时光飞逝，但也在手机里留下些许映像，翻看着手机的相册，每一张照片 每一段视频，都有着独属于他的意义，每张照片和每段视频，也就共同勾勒出了自己对于秋季的印象，一个有着丰收喜悦 但也带着萧瑟悲寥寒冷的季节，一个承接了夏日的炎热 同时也在准备迎接着冬季寒冷的季节</p>
 <p>时光飞逝，自己转眼也度过了二十一个春秋，时光的印记刻在自己的身上，曾经那个懵懂的小孩，也已经漫步在陌生的城市，有了一份自己心仪的工作 开始为自己的未来打拼的小大人了呢，伴随着岁月的脚步与秋季的凉风，共同踏向属于自己的未来</p>]]></content:encoded>
-            <category>Season</category>
-            <category>Article</category>
+            <category>季节</category>
+            <category>文章</category>
         </item>
         <item>
             <title><![CDATA[增添些许凉意]]></title>
@@ -445,7 +445,7 @@
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">console.log('End')</span><br></span></code></pre></div></div>
 <p><strong>原文:</strong></p>
 <p><a href="https://mp.weixin.qq.com/s/arsDro9Q046s0zTqd5FxIw" target="_blank" rel="noopener noreferrer" class="">https://mp.weixin.qq.com/s/arsDro9Q046s0zTqd5FxIw</a></p>]]></content:encoded>
-            <category>Article</category>
+            <category>文章</category>
         </item>
         <item>
             <title><![CDATA[原来已经离开校园一年了]]></title>
@@ -464,7 +464,7 @@
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">console.log('end')</span><br></span></code></pre></div></div>
 <p><strong>原文:</strong></p>
 <p><a href="https://mp.weixin.qq.com/s/NE59wJHHApoaT35iydHgxA" target="_blank" rel="noopener noreferrer" class="">https://mp.weixin.qq.com/s/NE59wJHHApoaT35iydHgxA</a></p>]]></content:encoded>
-            <category>Article</category>
+            <category>文章</category>
         </item>
         <item>
             <title><![CDATA[2024年终总结]]></title>
@@ -490,8 +490,8 @@
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">console.log('This article is end')</span><br></span></code></pre></div></div>
 <p><strong>原文:</strong></p>
 <p><a href="https://mp.weixin.qq.com/s/BYvsqVJ8VJB55xeab0JpBw" target="_blank" rel="noopener noreferrer" class="">https://mp.weixin.qq.com/s/BYvsqVJ8VJB55xeab0JpBw</a></p>]]></content:encoded>
-            <category>Summary</category>
-            <category>Article</category>
+            <category>总结</category>
+            <category>文章</category>
         </item>
         <item>
             <title><![CDATA[夏 | Summer]]></title>
@@ -504,8 +504,8 @@
 <p>是浩瀚无垠的大海、是炽热难耐的烈日、是三五好友聚在一起吃着的烧烤、是傍晚夏风吹拂，悠闲地走在小路上的那种感觉，亦或是其余的种种。</p>
 <p>对我而言，夏天是一个令我向往的季节，相比于以雪为一大特色的冬日、万物复苏，生机勃勃为主旋律的春天、金秋十月，农忙时节的秋季，夏日的海与烧烤算是令我十分钟情的一面吧。当然，春天的干燥、秋日的悲凉、冬季的严寒，夏天的炎热与多雨也算是他的点滴缺点了，但这挡不住我对夏季的喜爱，大概是因为学生时代的夏季都有长达两个月假期的缘故吧，在夏天有充足的时间去追逐大海、去畅饮冷饮、去做自己想做的事情，而且夏季的白天是一年当中最长的，这意味着我们有更长的时间去追逐自己想做事情，去锻炼身体、去放松身心、去享受一顿美味的佳肴。</p>
 <p>夏天，是一个炎热的季节 也是一个闲适的季节，白天的炎热抵不住傍晚夏风吹拂的凉爽，挡不住闲暇时光，走在田间小路，吹着晚风，想着开心或是些许难忘事的那种感觉，也冲不散吃一顿烧烤，喝一杯冷饮或啤酒的那种愉快的心情，晚风吹拂，带着愉悦的心情，进入梦乡。</p>]]></content:encoded>
-            <category>Season</category>
-            <category>Article</category>
+            <category>季节</category>
+            <category>文章</category>
         </item>
         <item>
             <title><![CDATA[个人职业兴趣探索]]></title>
@@ -525,7 +525,7 @@
 <!-- -->旅行，摄影？随兴而起的一些想法并付诸于行动</p>
 <p>希望获得的工作：<br>
 <!-- -->类似于企业驻外技术支持的那种工作，比如企业开发了一款软件，然后你去帮企业销售，然后帮助客户解决一些问题，天天出差，满足了自己喜欢旅游的兴趣爱好的同时，还工作挣到了钱</p>]]></content:encoded>
-            <category>Ssn</category>
+            <category>碎碎念</category>
         </item>
         <item>
             <title><![CDATA[关于 AI 的一次演讲]]></title>
@@ -562,7 +562,7 @@
 国家可以通过利用相关法律法规来规避可能带来的风险
 使用生成式AI的话，可能会造成一些数据的泄露</p>
 <p>比如，金融行业从业者，将一些敏感数据交给AI工具，则会造成公司的损失</p>]]></content:encoded>
-            <category>Article</category>
+            <category>文章</category>
             <category>AI</category>
         </item>
         <item>
@@ -581,7 +581,7 @@
 <p><strong>原文:</strong></p>
 <p><a href="https://mp.weixin.qq.com/s/Tet8u8NXCckLJ5kYQjijCA" target="_blank" rel="noopener noreferrer" class="">https://mp.weixin.qq.com/s/Tet8u8NXCckLJ5kYQjijCA</a></p>]]></content:encoded>
             <category>Hello</category>
-            <category>Article</category>
+            <category>文章</category>
         </item>
         <item>
             <title><![CDATA[开始]]></title>

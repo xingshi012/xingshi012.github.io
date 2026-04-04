@@ -291,7 +291,7 @@
             <name>星矢</name>
             <uri>https://xingshi.blog</uri>
         </author>
-        <category label="i18n" term="i18n"/>
+        <category label="i18n国际化" term="i18n国际化"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Docusaurus下giscus评论系统构建]]></title>
@@ -355,7 +355,7 @@
             <name>星矢</name>
             <uri>https://xingshi.blog</uri>
         </author>
-        <category label="Ssn" term="Ssn"/>
+        <category label="碎碎念" term="碎碎念"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[2026年春晚浅思 - AI机器人]]></title>
@@ -385,8 +385,8 @@
             <name>星矢</name>
             <uri>https://xingshi.blog</uri>
         </author>
-        <category label="Article" term="Article"/>
-        <category label="Think" term="Think"/>
+        <category label="文章" term="文章"/>
+        <category label="思维思考" term="思维思考"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[魂斗罗思考]]></title>
@@ -408,8 +408,8 @@
             <name>星矢</name>
             <uri>https://xingshi.blog</uri>
         </author>
-        <category label="Game" term="Game"/>
-        <category label="Article" term="Article"/>
+        <category label="游戏" term="游戏"/>
+        <category label="文章" term="文章"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[2025年终总结]]></title>
@@ -441,8 +441,8 @@
             <name>星矢</name>
             <uri>https://xingshi.blog</uri>
         </author>
-        <category label="Summary" term="Summary"/>
-        <category label="Article" term="Article"/>
+        <category label="总结" term="总结"/>
+        <category label="文章" term="文章"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[秋 | Autumn]]></title>
@@ -459,8 +459,8 @@
             <name>星矢</name>
             <uri>https://xingshi.blog</uri>
         </author>
-        <category label="Season" term="Season"/>
-        <category label="Article" term="Article"/>
+        <category label="季节" term="季节"/>
+        <category label="文章" term="文章"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[增添些许凉意]]></title>
@@ -484,7 +484,7 @@
             <name>星矢</name>
             <uri>https://xingshi.blog</uri>
         </author>
-        <category label="Article" term="Article"/>
+        <category label="文章" term="文章"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[原来已经离开校园一年了]]></title>
@@ -507,7 +507,7 @@
             <name>星矢</name>
             <uri>https://xingshi.blog</uri>
         </author>
-        <category label="Article" term="Article"/>
+        <category label="文章" term="文章"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[2024年终总结]]></title>
@@ -537,8 +537,8 @@
             <name>星矢</name>
             <uri>https://xingshi.blog</uri>
         </author>
-        <category label="Summary" term="Summary"/>
-        <category label="Article" term="Article"/>
+        <category label="总结" term="总结"/>
+        <category label="文章" term="文章"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[夏 | Summer]]></title>
@@ -555,8 +555,8 @@
             <name>星矢</name>
             <uri>https://xingshi.blog</uri>
         </author>
-        <category label="Season" term="Season"/>
-        <category label="Article" term="Article"/>
+        <category label="季节" term="季节"/>
+        <category label="文章" term="文章"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[个人职业兴趣探索]]></title>
@@ -580,7 +580,7 @@
             <name>星矢</name>
             <uri>https://xingshi.blog</uri>
         </author>
-        <category label="Ssn" term="Ssn"/>
+        <category label="碎碎念" term="碎碎念"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[关于 AI 的一次演讲]]></title>
@@ -621,7 +621,7 @@
             <name>星矢</name>
             <uri>https://xingshi.blog</uri>
         </author>
-        <category label="Article" term="Article"/>
+        <category label="文章" term="文章"/>
         <category label="AI" term="AI"/>
     </entry>
     <entry>
@@ -644,7 +644,7 @@
             <uri>https://xingshi.blog</uri>
         </author>
         <category label="Hello" term="Hello"/>
-        <category label="Article" term="Article"/>
+        <category label="文章" term="文章"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[开始]]></title>
