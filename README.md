@@ -38,6 +38,13 @@ or Linux/macOS
 GIT_USER=xingshi012 npm run deploy
 ```
 
+## Chore 
+
+```
+yarn add --dev --exact @docusaurus/module-type-aliases@3.10.2 @docusaurus/types@3.10.2
+npm install --package-lock-only --ignore-scripts
+```
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
