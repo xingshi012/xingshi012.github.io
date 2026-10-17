@@ -61,3 +61,8 @@ algolia:
   label: algolia
   permalink: /algolia
   description: 关于 algolia 的文章
+
+cycling:
+  label: Cycling
+  permalink: /cycling
+  description: 关于骑车子的文章
