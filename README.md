@@ -28,9 +28,14 @@ Local preview: http://localhost:3000/
 ## Deploy
 
 ```
+Windows
 $env:GIT_USER="xingshi012"
 
 yarn deploy
+
+or Linux/macOS
+
+GIT_USER=xingshi012 npm run deploy
 ```
 
 ## License
