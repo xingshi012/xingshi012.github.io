@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkxingshi_blog=globalThis.webpackChunkxingshi_blog||[]).push([[1903],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"\u661f\u77e2\u535a\u5ba2 & \u6587\u7ae0","authorsListPath":"/blog/authors"}')}}]);
