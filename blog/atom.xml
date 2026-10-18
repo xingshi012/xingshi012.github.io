@@ -357,27 +357,6 @@
         <category label="Giscus" term="Giscus"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[现阶段(2026-02-18)自己感兴趣的前端开发岗位]]></title>
-        <id>https://xingshi.blog/blog/front-end-positions-thinking-2026-02-18</id>
-        <link href="https://xingshi.blog/blog/front-end-positions-thinking-2026-02-18"/>
-        <updated>2026-02-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[刚刚搜了下 南孚国际站官网 ，感觉自己对于前端开发和目前自己的未来职业规划又有了些小思考了呢，大概写点东西吧]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2026/2026-02-18/2026-02-18-front-end-positions-thinking01.webp?raw=true" alt="2026-02-18-front-end-positions-thinking01.webp" class="img_ev3q"></p>
-<blockquote>
-<p>刚刚搜了下 <a href="https://nanfu.global/" target="_blank" rel="noopener noreferrer" class="">南孚国际站官网</a> ，感觉自己对于前端开发和目前自己的未来职业规划又有了些小思考了呢，大概写点东西吧</p>
-</blockquote>
-<p>目前也是已经工作了一年多了呢，对自己心仪的工作岗位又有了点更清晰的认知了呢，好像自己喜欢的不是传统的对接口 传数据给后端，用UI框架去构建一个千篇一律的后台管理系统前端页面的岗位</p>
-<p>自己喜欢的 更多的是有交互性 审美到位 一个精致的网站吧，自己这一年多的工作所接触的也是电商独立站的定制化开发，接触过很多审美在线 交互性很强的网站，个人也是比较喜欢这类的网站吧</p>
-<p>感觉那种后台管理平台的网站前端有些许枯燥呢，不过要是想学技术的话，估计还是传统的前端对技术的提升更多吧，先把基础打牢吧 React Vue这些主流的框架肯定是必不可少的</p>
-<p>另外试着提升自己吧 还是说要往这个专注前端页面的前端开发工程师靠拢，去尝试学习一些Canvas、svg动画、threeJS、WebGL等视觉前端技术，以及一些可能会接触的设计相关的知识</p>
-<p>后续找工作的话，还是要琢磨着去找那种能够构建一个有趣的网站的岗位吧，感觉能够搭建出一个审美在线的网站，成就感也是满满的呢</p>]]></content>
-        <author>
-            <name>星矢</name>
-            <uri>https://xingshi.blog</uri>
-        </author>
-        <category label="碎碎念" term="碎碎念"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[2026年春晚浅思 - AI机器人]]></title>
         <id>https://xingshi.blog/blog/2026-chunwan-think</id>
         <link href="https://xingshi.blog/blog/2026-chunwan-think"/>
@@ -577,30 +556,6 @@
         </author>
         <category label="季节" term="季节"/>
         <category label="文章" term="文章"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[个人职业兴趣探索]]></title>
-        <id>https://xingshi.blog/blog/personal-career-interest-exploration</id>
-        <link href="https://xingshi.blog/blog/personal-career-interest-exploration"/>
-        <updated>2024-05-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[一篇很早之前写的文字，关于自己喜欢什么类型工作的]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://github.com/xingshi012/blog-images/blob/main/blogs/2024/2024-05-16/personal-career-interest-exploration01.webp?raw=true" alt="personal-career-interest-exploration01.webp" class="img_ev3q"></p>
-<blockquote>
-<p>一篇很早之前写的文字，关于自己喜欢什么类型工作的</p>
-</blockquote>
-<p>什么是我想要的：<br>
-<!-- -->身体健康，心情愉悦，有一份好工作，没有啥生活压力</p>
-<p>什么是我喜欢的工作：<br>
-<!-- -->web前端工程师，数媒相关的，剪视频，摄影师？坐办公室的活</p>
-<p>我的兴趣爱好有哪些：<br>
-<!-- -->旅行，摄影？随兴而起的一些想法并付诸于行动</p>
-<p>希望获得的工作：<br>
-<!-- -->类似于企业驻外技术支持的那种工作，比如企业开发了一款软件，然后你去帮企业销售，然后帮助客户解决一些问题，天天出差，满足了自己喜欢旅游的兴趣爱好的同时，还工作挣到了钱</p>]]></content>
-        <author>
-            <name>星矢</name>
-            <uri>https://xingshi.blog</uri>
-        </author>
-        <category label="碎碎念" term="碎碎念"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[关于 AI 的一次演讲]]></title>
